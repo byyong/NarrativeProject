@@ -1,8 +1,25 @@
 source,target,value
-Barry,Elvis,2
-Frodo,Elvis,2
-Frodo,Sarah,2
-Barry,Alice,2
-Elvis,Sarah,2
-Elvis,Alice,2
-Sarah,Alice,4
+No Sign of Mental Illness,Attacking,1227
+No Sign of Mental Illness,Not Attacking,533
+No Sign of Mental Illness,Undetermined,142
+Signs of Mental Illness,Attacking,384
+Signs of Mental Illness,Not Attacking,233
+Signs of Mental Illness,Undetermined,16
+Attacking,Asian,22
+Attacking,Black,404
+Attacking,Hispanic,244
+Attacking,Native American,17
+Attacking,Other/Unknown,125
+Attacking,White,799
+Not Attacking,Asian,16
+Not Attacking,Black,175
+Not Attacking,Hispanic,141
+Not Attacking,Native American,13
+Not Attacking,Other/Unknown,70
+Not Attacking,White,351
+Unknown Whether Attacking,Asian,1
+Unknown Whether Attacking,Black,39
+Unknown Whether Attacking,Hispanic,38
+Unknown Whether Attacking,Native American,1
+Unknown Whether Attacking,Other/Unknown,28
+Unknown Whether Attacking,White,51
