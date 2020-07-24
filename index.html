@@ -3,7 +3,7 @@
  <head>
  <meta charset="utf-8">
  <title>D3 Page Template</title>
- <script type="text/javascript" src="https://byyong.github.io/NarrativeProject//d3.js"></script>
+ <script type="text/javascript" src="https://byyong.github.io/NarrativeProject/d3.js"></script>
  </head>
  <body>
  <script type="text/javascript">
@@ -23,7 +23,7 @@
 						.attr("height", h);
 
 			//Load in GeoJSON data
-			d3.json("us-states.json", function(json) {
+			d3.json("https://byyong.github.io/NarrativeProject/us-states.json", function(json) {
 				
 				//Bind data and create one path per GeoJSON feature
 				svg.selectAll("path")
