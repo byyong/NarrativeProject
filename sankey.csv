@@ -1,10 +1,10 @@
 source,target,value
 No Sign of Mental Illness,Attacking,1227
 No Sign of Mental Illness,Not Attacking,533
-No Sign of Mental Illness,Undetermined,142
+No Sign of Mental Illness,Unknown Whether Attacking,142
 Signs of Mental Illness,Attacking,384
 Signs of Mental Illness,Not Attacking,233
-Signs of Mental Illness,Undetermined,16
+Signs of Mental Illness,Unknown Whether Attacking,16
 Attacking,Asian,22
 Attacking,Black,404
 Attacking,Hispanic,244
