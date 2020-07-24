@@ -32,12 +32,12 @@
 	<body>
 		<script type="text/javascript">
 
-			//Width and height
+		//Width and height
 			var w = 800;
 			var h = 300;
 			var padding = 40;
 			
-			var dataset, xScale, yScale, xAxis, yAxis, line, dangerLine;  //Empty, for now
+			var dataset, xScale, yScale, xAxis, yAxis, area, dangerArea;  //Empty, for now
 
 			//For converting Dates to strings
 			var formatTime = d3.timeFormat("%Y");
@@ -84,33 +84,35 @@
 						   .scale(yScale)
 						   .ticks(10);
 
-				//Define line generators
-				line = d3.line()
-							.defined(function(d) { return d.average >= 0 && d.average <= 350; })
+				//Define area generators
+				area = d3.area()
+							.defined(function(d) { return d.average >= 0; })
 							.x(function(d) { return xScale(d.date); })
-							.y(function(d) { return yScale(d.average); });
+							.y0(function() { return yScale.range()[0]; })
+							.y1(function(d) { return yScale(d.average); });
 
-				dangerLine = d3.line()
+				dangerArea = d3.area()
 							.defined(function(d) { return d.average >= 350; })
 							.x(function(d) { return xScale(d.date); })
-							.y(function(d) { return yScale(d.average); });
-				
+							.y0(function() { return yScale(350); })
+							.y1(function(d) { return yScale(d.average); });
+
 				//Create SVG element
 				var svg = d3.select("body")
 							.append("svg")
 							.attr("width", w)
 							.attr("height", h);
 
-				//Create lines
+				//Create areas
 				svg.append("path")
 					.datum(dataset)
-					.attr("class", "line")
-					.attr("d", line);
+					.attr("class", "area")
+					.attr("d", area);
 
 				svg.append("path")
 					.datum(dataset)
-					.attr("class", "line danger")
-					.attr("d", dangerLine);
+					.attr("class", "area danger")
+					.attr("d", dangerArea);
 
 				//Create axes
 				svg.append("g")
@@ -140,6 +142,7 @@
 
 
 			});
+			
 			
  </script>
  </body>
