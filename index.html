@@ -1,29 +1,42 @@
 <!DOCTYPE html>
-<style> .chart rect { fill: steelblue } </style>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3: Loading GeoJSON data and generating SVG paths</title>
+		<script type="text/javascript" src="d3.js"></script>
+		<style type="text/css">
+			/* No style rules here yet */		
+		</style>
+	</head>
+	<body>
+		<script type="text/javascript">
 
-<html><body>
-<p>Here are the magic numbers from Lost: <span id="data"></span></p>
+			//Width and height
+			var w = 500;
+			var h = 300;
 
-<svg class="chart" width="120" height="500">
-    <rect id="bar-1"></rect>
-    <rect id="bar-2"></rect>
-    <rect id="bar-3"></rect>
-    <rect id="bar-4"></rect>
-    <rect id="bar-5"></rect>
-</svg>
+			//Define path generator, using the Albers USA projection
+			var path = d3.geoPath()
+				 		 .projection(d3.geoAlbersUsa());
 
-<script>
-var data = [4.8,15,16,23,42];
-document.getElementById("data").innerHTML = data;
+			//Create SVG element
+			var svg = d3.select("body")
+						.append("svg")
+						.attr("width", w)
+						.attr("height", h);
 
-for (var i=0; i < data.length; i++) {
-	var id = "bar-" + (i+1);
-	var rectobj = document.getElementById(id);
-    rectobj.setAttribute("width",19);
-    rectobj.setAttribute("height",10*data[i]);
-    rectobj.setAttribute("x",20*i);
-    rectobj.setAttribute("y",+420 - rectobj.getAttribute("height"));
-}
-</script>
-
-</body></html>
+			//Load in GeoJSON data
+			d3.json("us-states.json", function(json) {
+				
+				//Bind data and create one path per GeoJSON feature
+				svg.selectAll("path")
+				   .data(json.features)
+				   .enter()
+				   .append("path")
+				   .attr("d", path);
+		
+			});
+			
+		</script>
+	</body>
+</html>
