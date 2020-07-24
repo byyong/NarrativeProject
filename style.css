@@ -1,0 +1,331 @@
+/*
+www.jblearning.com
+*/
+
+img
+{  border-style: none;
+}
+/*images*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #464032;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #221D1D;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+h4 {
+	font-size: 26px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+a {
+	text-decoration: none;
+	background-color: none;
+	color: none;
+}
+
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Header */
+
+#header {
+	width: 960px;
+	height: 50px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+
+/* Search */
+
+#search {
+	float: right;
+	width: 280px;
+	height: 60px;
+	padding: 20px 0px 0px 0px;
+	background: #E9E3CB;
+	border-bottom: 4px solid #FFFFFF;
+}
+
+#search form {
+	height: 41px;
+	margin: 0;
+	padding: 10px 0 0 20px;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search-text {
+	width: 170px;
+	padding: 6px 5px 2px 5px;
+	border: none;
+	background: #FFFFFF;
+	text-transform: lowercase;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	color: #464032;
+}
+
+#search-submit {
+	width: 50px;
+	height: 23px;
+	border: 1px solid #525252;
+	background: #525252;
+	font-weight: bold;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+/* Menu */
+
+#menu {
+	width: 940px;
+	height: 34px;
+	margin: 0 auto;
+	padding: 0;
+	background: #F0F8FF;
+}
+
+#menu ul {
+	margin: 0px 0px 0px 10px;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	height: 24px;
+	margin-bottom: 10px;
+	padding: 10px 20px 0px 20px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	background: #8FBC8F;
+	text-decoration: none;
+}
+
+#menu .current_page_item a {
+	background: #8FBC8F;
+	color: #FFFFFF;
+}
+
+/* Page */
+
+#page {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#page-bgtop {
+	padding: 20px 0px;
+}
+
+
+
+/* Content */
+
+#content {
+	float: right;
+	width: 840px;
+	padding: 0px 0px 0px 0px;
+}
+
+.post {
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.newpost{
+	
+	padding: 0px 0px 0px 20px;
+}
+
+
+
+.post .title {
+	margin-bottom: 10px;
+	padding: 12px 0px;
+	color: #000000;
+}
+
+.post .title a {
+	font-size: 18px;
+	color: #221D1D;
+	border: none;
+}
+
+.post .meta {
+	height: 30px;
+	border-bottom: 1px solid #DBDBDB;
+	background: #F4F4F4;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.post .meta .date {
+	float: left;
+	height: 24px;
+	padding: 3px 15px;
+	color: #464032;
+}
+
+.post .meta .posted {
+	float: right;
+	height: 24px;
+	padding: 3px 15px;
+	color: #464032;
+}
+
+.post .meta a {
+	color: #464032;
+}
+
+.post .entry {
+	padding: 0px 0px 0px 0px;
+	padding-bottom: 20px;
+	text-align: left;
+}
+
+.links {
+	padding-top: 20px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #A8645A;
+}
+
+
+
+/* Chart */
+
+
+
+.chart {
+	fill: steelblue;
+}
+
+
+/* Footer */
+
+#footer {
+	width: 940px;
+	height: 80px;
+	margin: 0 auto;
+	padding: 0px 0 0px 0;
+	border-top: 4px solid #EBE6D1;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 10px;
+	line-height: normal;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #444444;
+}
+
+#footer a {
+	margin: 0;
+	padding-top: 10px;
+	line-height: normal;
+	font-size: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #444444;
+
+}
+#wrapper #page #page-bgtop #page-bgbtm #content .post .title {
+	font-size: 12em;
+}
+#wrapper #page #page-bgtop #page-bgbtm #content .post .title {
+	font-size: x-small;
+}
+#wrapper #page #page-bgtop #page-bgbtm #content .post .title {
+	font-size: medium;
+}
+
+/* new styles for charts*/
+.node rect {
+	cursor: move;
+	fill-opacity: .9;
+	shape-rendering: crispEdges;
+  }
+  
+  .node text {
+	pointer-events: none;
+	text-shadow: 0 1px 0 #fff;
+  }
+  
+  .link {
+	fill: none;
+	stroke: #000;
+	stroke-opacity: .2;
+  }
+  
+  .link:hover {
+	stroke-opacity: .5;
+  }
