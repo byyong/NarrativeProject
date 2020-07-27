@@ -1,1017 +1,2033 @@
 percent_completed_hs,poverty_rate,City,Abbrev,State,Count,Category
-80.7,23.1,Phoenix,AZ,Arizona,31,>=10
-76.7,22.5,Houston,TX,Texas,26,>=10
-82.3,22.3,Chicago,IL,Illinois,25,>=10
-73.2,28.3,Miami,FL,Florida,20,>=10
-88.5,21.7,Columbus,OH,Ohio,17,>=10
-87.5,18,Austin,TX,Texas,16,>=10
-84.2,25.3,Tucson,AZ,Arizona,14,>=10
-84.9,21.3,Indianapolis,IN,Indiana,14,>=10
-89,19.2,Albuquerque,NM,New Mexico,14,>=10
-79.6,19.8,Bakersfield,CA,California,13,>=10
-86.9,20.2,Tulsa,OK,Oklahoma,12,>=10
-89.3,18,Washington,DC,District of Columbia,11,>=10
-88.2,17.7,Jacksonville,FL,Florida,11,>=10
-75.2,29.8,Fresno,CA,California,11,>=10
-86.1,17.3,Denver,CO,Colorado,11,>=10
-88.4,16.8,Charlotte,NC,North Carolina,11,>=10
-82,26.4,Philadelphia,PA,Pennsylvania,9,<10
-89.5,20.2,Orlando,FL,Florida,9,<10
-74.5,24,Dallas,TX,Texas,9,<10
-85.7,18.3,Reno,NV,Nevada,8,<10
-88,16.7,Omaha,NE,Nebraska,8,<10
-82.5,23.7,Baltimore,MD,Maryland,8,<10
-74.9,25.3,Stockton,CA,California,7,<10
-91.3,18,Portland,OR,Oregon,7,<10
-80.4,20.4,Oakland,CA,California,7,<10
-87,21,Norfolk,VA,Virginia,7,<10
-82.1,28.7,Milwaukee,WI,Wisconsin,7,<10
-83.6,21.7,Glendale,AZ,Arizona,7,<10
-89,24.6,Atlanta,GA,Georgia,7,<10
-91,9,Westminster,CO,Colorado,6,<10
-91.7,21.6,Tempe,AZ,Arizona,6,<10
-93.4,13.5,Seattle,WA,Washington,6,<10
-87.5,16.5,Mesa,AZ,Arizona,6,<10
-79.5,26,Hemet,CA,California,6,<10
-86.5,15.3,Aurora,CO,Colorado,6,<10
-86.6,21.8,Tampa,FL,Florida,5,<10
-83.4,22,Sacramento,CA,California,5,<10
-72.3,29.7,Newark,NJ,New Jersey,5,<10
-81.2,20.5,Modesto,CA,California,5,<10
-83.7,27.6,Memphis,TN,Tennessee,5,<10
-87,20.7,Kingman,AZ,Arizona,5,<10
-91.2,13.1,Fairbanks,AK,Alaska,5,<10
-78.3,40.3,Detroit,MI,Michigan,5,<10
-85.8,30.5,Cincinnati,OH,Ohio,5,<10
-85.2,21.5,Boston,MA,Massachusetts,5,<10
-84.7,17.5,Arlington,TX,Texas,5,<10
-75.8,16.5,Anaheim,CA,California,5,<10
-87.5,17.3,Wichita,KS,Kansas,4,<10
-89.3,10.6,Weatherford,TX,Texas,4,<10
-89.7,14.8,Vancouver,WA,Washington,4,<10
-87.6,18,Tacoma,WA,Washington,4,<10
-88.3,25.7,Springfield,MO,Missouri,4,<10
-91.6,19.9,Spokane,WA,Washington,4,<10
-83.2,25.5,Richmond,VA,Virginia,4,<10
-85.3,25,Pueblo,CO,Colorado,4,<10
-70.6,18.1,Ontario,CA,California,4,<10
-73.3,35,North,SC,South Carolina,4,<10
-79.9,20.2,Lynn,MA,Massachusetts,4,<10
-79.7,15.1,Irving,TX,Texas,4,<10
+90.2,18.2,Huntsville,AL,<All States>,4,<10
+85.1,30.9,Birmingham,AL,<All States>,3,<10
+93.5,12.7,Homewood,AL,<All States>,2,<10
+76.8,16.9,Clanton,AL,<All States>,2,<10
+85.2,13.4,Westover,AL,<All States>,1,<10
+86.2,15.3,Tuscumbia,AL,<All States>,1,<10
+87.3,25.1,Tuscaloosa,AL,<All States>,1,<10
+82.5,29.8,Sylacauga,AL,<All States>,1,<10
+77.8,41.9,Selma,AL,<All States>,1,<10
+85.4,11.2,Saraland,AL,<All States>,1,<10
+76.8,25.6,Piedmont,AL,<All States>,1,<10
+83.5,11.7,Oxford,AL,<All States>,1,<10
+77.4,25.9,Opp,AL,<All States>,1,<10
+83.7,23,Opelika,AL,<All States>,1,<10
+85.5,24.1,Montgomery,AL,<All States>,1,<10
+82.3,36.7,Monroeville,AL,<All States>,1,<10
+86.9,23.3,Mobile,AL,<All States>,1,<10
+91.3,11.6,Millbrook,AL,<All States>,1,<10
+86.6,15.4,Meridianville,AL,<All States>,1,<10
+85.8,24.7,Jackson,AL,<All States>,1,<10
+95.2,6,Hoover,AL,<All States>,1,<10
+78.3,29.4,Gadsden,AL,<All States>,1,<10
+81.5,25.3,Eufaula,AL,<All States>,1,<10
+73.7,28.8,Dadeville,AL,<All States>,1,<10
+92.2,6.6,Clay,AL,<All States>,1,<10
+77.6,28.3,Ashville,AL,<All States>,1,<10
+87.6,16.7,Arab,AL,<All States>,1,<10
+69.1,29.1,Abbeville,AL,<All States>,1,<10
+91.2,13.1,Fairbanks,AK,<All States>,5,<10
+93,8.2,Anchorage,AK,<All States>,3,<10
+91.8,11.7,Wasilla,AK,<All States>,2,<10
+89.7,10.9,Kenai,AK,<All States>,1,<10
+90.2,14.8,Houston,AK,<All States>,1,<10
+84.6,11.7,Barrow,AK,<All States>,1,<10
+80.7,23.1,Phoenix,AZ,<All States>,31,>=10
+84.2,25.3,Tucson,AZ,<All States>,14,>=10
+83.6,21.7,Glendale,AZ,<All States>,7,<10
+91.7,21.6,Tempe,AZ,<All States>,6,<10
+87.5,16.5,Mesa,AZ,<All States>,6,<10
+87,20.7,Kingman,AZ,<All States>,5,<10
+96.2,9.5,Scottsdale,AZ,<All States>,3,<10
+91.3,24.2,Flagstaff,AZ,<All States>,3,<10
+89.2,18,Eagar,AZ,<All States>,3,<10
+79,18.6,Avondale,AZ,<All States>,3,<10
+92.8,15.5,Prescott,AZ,<All States>,2,<10
+95.6,6.6,Gilbert,AZ,<All States>,2,<10
+91.5,10,Chandler,AZ,<All States>,2,<10
+77.5,18.4,Yuma,AZ,<All States>,1,<10
+79.6,30.1,Winslow,AZ,<All States>,1,<10
+80.1,24,Wilhoit,AZ,<All States>,1,<10
+92.9,9.8,Surprise,AZ,<All States>,1,<10
+51,31.5,Somerton,AZ,<All States>,1,<10
+87.8,22.5,Pima,AZ,<All States>,1,<10
+80.4,15.4,Parker,AZ,<All States>,1,<10
+94.3,6.8,Morenci,AZ,<All States>,1,<10
+91.7,8.1,Maricopa,AZ,<All States>,1,<10
+94.1,5.8,Marana,AZ,<All States>,1,<10
+87.7,21.2,Kearny,AZ,<All States>,1,<10
+92.1,8.8,Goodyear,AZ,<All States>,1,<10
+75.6,16.8,Florence,AZ,<All States>,1,<10
+84.3,14.8,Buckeye,AZ,<All States>,1,<10
+87.3,29.1,Bisbee,AZ,<All States>,1,<10
+91.7,24,Fayetteville,AR,<All States>,2,<10
+87,11.4,Benton,AR,<All States>,2,<10
+74.4,23,Strong,AR,<All States>,1,<10
+71.7,23.3,Springdale,AR,<All States>,1,<10
+90.4,10.2,Sheridan,AR,<All States>,1,<10
+85.8,14,Perryville,AR,<All States>,1,<10
+88.8,18.5,Mena,AR,<All States>,1,<10
+89.3,10.9,Marion,AR,<All States>,1,<10
+80.7,32.6,Manila,AR,<All States>,1,<10
+89.1,23.7,Jonesboro,AR,<All States>,1,<10
+92.3,11.4,Farmington,AR,<All States>,1,<10
+82.3,29.9,England,AR,<All States>,1,<10
+85.2,23.6,Dover,AR,<All States>,1,<10
+92.4,11.4,Cabot,AR,<All States>,1,<10
+95.9,7.7,Austin,AR,<All States>,1,<10
+79.6,19.8,Bakersfield,CA,<All States>,13,>=10
+75.2,29.8,Fresno,CA,<All States>,11,>=10
+74.9,25.3,Stockton,CA,<All States>,7,<10
+80.4,20.4,Oakland,CA,<All States>,7,<10
+79.5,26,Hemet,CA,<All States>,6,<10
+83.4,22,Sacramento,CA,<All States>,5,<10
+81.2,20.5,Modesto,CA,<All States>,5,<10
+75.8,16.5,Anaheim,CA,<All States>,5,<10
+70.6,18.1,Ontario,CA,<All States>,4,<10
+92,24.9,Chico,CA,<All States>,4,<10
+91.4,7,Temecula,CA,<All States>,3,<10
+91.4,7.5,Sunnyvale,CA,<All States>,3,<10
+80.9,9.5,Napa,CA,<All States>,3,<10
+73.7,19.5,Indio,CA,<All States>,3,<10
+92.3,6.1,Fremont,CA,<All States>,3,<10
+72.5,16.1,Fontana,CA,<All States>,3,<10
+60.1,26.6,Compton,CA,<All States>,3,<10
+73.2,13.9,Citrus,CA,<All States>,3,<10
+77.7,17.6,Azusa,CA,<All States>,3,<10
+83.3,12.5,Whittier,CA,<All States>,2,<10
+76.9,17.8,Vista,CA,<All States>,2,<10
+82.7,21.3,Visalia,CA,<All States>,2,<10
+87.4,18.3,Vallejo,CA,<All States>,2,<10
+90.6,9.8,Ripon,CA,<All States>,2,<10
+67.4,19.7,Rialto,CA,<All States>,2,<10
+90.6,18.8,Redding,CA,<All States>,2,<10
+95.2,4.4,Pleasanton,CA,<All States>,2,<10
+74.2,21.3,Palmdale,CA,<All States>,2,<10
+84.2,13.2,Orange,CA,<All States>,2,<10
+87.7,7.9,Newark,CA,<All States>,2,<10
+81.4,23.5,Lancaster,CA,<All States>,2,<10
+72.5,22.4,Inglewood,CA,<All States>,2,<10
+80.1,13.4,Hayward,CA,<All States>,2,<10
+88.3,24.5,Dunsmuir,CA,<All States>,2,<10
+77.7,11.6,Chino,CA,<All States>,2,<10
+91.7,4.8,Cerritos,CA,<All States>,2,<10
+93.4,16.6,Carmichael,CA,<All States>,2,<10
+79.8,33.7,Barstow,CA,<All States>,2,<10
+86.9,15.4,Antioch,CA,<All States>,2,<10
+84.4,34.3,Yreka,CA,<All States>,1,<10
+86.8,4.1,Windsor,CA,<All States>,1,<10
+73.6,14.1,Winchester,CA,<All States>,1,<10
+56.3,19.7,Watsonville,CA,<All States>,1,<10
+51.1,32.7,Wasco,CA,<All States>,1,<10
+93,6.7,Walnut,CA,<All States>,1,<10
+66.2,12.5,Valinda,CA,<All States>,1,<10
+88.4,10.7,Vacaville,CA,<All States>,1,<10
+83.5,13.6,Tustin,CA,<All States>,1,<10
+81.2,17.5,Turlock,CA,<All States>,1,<10
+93.5,7,Torrance,CA,<All States>,1,<10
+75.6,22,Tehachapi,CA,<All States>,1,<10
+92.8,11.1,Solvang,CA,<All States>,1,<10
+100,3.7,Smartsville,CA,<All States>,1,<10
+57.9,21.7,Shafter,CA,<All States>,1,<10
+62,24.3,Selma,CA,<All States>,1,<10
+75.8,18.7,Seaside,CA,<All States>,1,<10
+98.2,3.6,Saratoga,CA,<All States>,1,<10
+92.9,7.8,Santee,CA,<All States>,1,<10
+87.3,15.4,San Diego,CA,<All States>,1,<10
+59.5,20.2,Salinas,CA,<All States>,1,<10
+66.2,19.3,Rosemead,CA,<All States>,1,<10
+95.8,8.6,Rocklin,CA,<All States>,1,<10
+78.5,18.8,Riverside,CA,<All States>,1,<10
+90.4,14.3,Redlands,CA,<All States>,1,<10
+93,6,Poway,CA,<All States>,1,<10
+66.9,30.9,Porterville,CA,<All States>,1,<10
+67.5,22.1,Pomona,CA,<All States>,1,<10
+65.6,16.6,Oxnard,CA,<All States>,1,<10
+69.6,18.8,Olivehurst,CA,<All States>,1,<10
+73.5,14.3,Norwalk,CA,<All States>,1,<10
+76,19.8,Newman,CA,<All States>,1,<10
+82.1,27.7,Needles,CA,<All States>,1,<10
+94.3,9.1,Monterey,CA,<All States>,1,<10
+71.7,14,Montebello,CA,<All States>,1,<10
+70.1,16.9,Montclair,CA,<All States>,1,<10
+74.5,31.9,Merced,CA,<All States>,1,<10
+41.2,30.1,Maywood,CA,<All States>,1,<10
+83.1,15.3,Marina,CA,<All States>,1,<10
+58.2,27.6,Madera,CA,<All States>,1,<10
+52.8,25.3,Lynwood,CA,<All States>,1,<10
+74.7,21.3,Lompoc,CA,<All States>,1,<10
+80.4,17.4,Lodi,CA,<All States>,1,<10
+93,9.1,Lincoln,CA,<All States>,1,<10
+84.6,15.6,Lemoore,CA,<All States>,1,<10
+87.9,7.9,Lakewood,CA,<All States>,1,<10
+100,1.2,Ladera,CA,<All States>,1,<10
+96.3,12.3,Irvine,CA,<All States>,1,<10
+94.5,1.9,Inyokern,CA,<All States>,1,<10
+75,20.7,Highland,CA,<All States>,1,<10
+69,31.9,Highgrove,CA,<All States>,1,<10
+77.2,24.8,Hesperia,CA,<All States>,1,<10
+73.8,20.1,Hawthorne,CA,<All States>,1,<10
+84.4,14.6,Glendale,CA,<All States>,1,<10
+77,15.1,Gilroy,CA,<All States>,1,<10
+81.8,15,Gardena,CA,<All States>,1,<10
+86.6,16.8,Fullerton,CA,<All States>,1,<10
+85.6,13.2,Fairfield,CA,<All States>,1,<10
+86.5,24.5,Eureka,CA,<All States>,1,<10
+73.6,18.7,Escondido,CA,<All States>,1,<10
+94.4,8.1,Encinitas,CA,<All States>,1,<10
+96.9,11.9,Emeryville,CA,<All States>,1,<10
+76.1,11.4,Downey,CA,<All States>,1,<10
+58.6,28.6,Dinuba,CA,<All States>,1,<10
+55.5,17.3,Delhi,CA,<All States>,1,<10
+55,30.3,Delano,CA,<All States>,1,<10
+79,34.4,Cottonwood,CA,<All States>,1,<10
+75.3,29.6,Corning,CA,<All States>,1,<10
+87.1,13.3,Concord,CA,<All States>,1,<10
+70.1,22.1,Colton,CA,<All States>,1,<10
+73,23.2,Coalinga,CA,<All States>,1,<10
+88.9,13.8,Clovis,CA,<All States>,1,<10
+79.1,37.5,Clearlake,CA,<All States>,1,<10
+68.3,32.1,Chowchilla,CA,<All States>,1,<10
+67.9,17.9,Ceres,CA,<All States>,1,<10
+91.9,6.8,Castaic,CA,<All States>,1,<10
+79.6,10.9,Carson,CA,<All States>,1,<10
+75.8,26.8,Campo,CA,<All States>,1,<10
+92.2,6.4,Camarillo,CA,<All States>,1,<10
+88.3,14.8,Calimesa,CA,<All States>,1,<10
+56.6,27.4,Calexico,CA,<All States>,1,<10
+74.1,30.7,Cabazon,CA,<All States>,1,<10
+73,3.6,Byron,CA,<All States>,1,<10
+70.4,25.2,Brawley,CA,<All States>,1,<10
+77.6,17.9,Bellflower,CA,<All States>,1,<10
+47.4,27.7,Bell,CA,<All States>,1,<10
+86.8,11.8,Beaumont,CA,<All States>,1,<10
+48.8,36.4,Avenal,CA,<All States>,1,<10
+72.5,26.2,Atwater,CA,<All States>,1,<10
+92.6,11,Atascadero,CA,<All States>,1,<10
+91.2,13,Antelope,CA,<All States>,1,<10
+85,24.6,Anderson,CA,<All States>,1,<10
+90.3,8.8,Alpine,CA,<All States>,1,<10
+80.7,15.8,Alhambra,CA,<All States>,1,<10
+81.1,7,Aguanga,CA,<All States>,1,<10
+86.1,17.3,Denver,CO,<All States>,11,>=10
+91,9,Westminster,CO,<All States>,6,<10
+86.5,15.3,Aurora,CO,<All States>,6,<10
+85.3,25,Pueblo,CO,<All States>,4,<10
+96.3,23.1,Boulder,CO,<All States>,4,<10
+94.1,9.1,Loveland,CO,<All States>,3,<10
+86.6,14,Northglenn,CO,<All States>,2,<10
+91.5,11.9,Lakewood,CO,<All States>,2,<10
+83.6,20.2,Greeley,CO,<All States>,2,<10
+76.3,16.6,Evans,CO,<All States>,2,<10
+84.1,16.9,Trinidad,CO,<All States>,1,<10
+87.5,8.9,Thornton,CO,<All States>,1,<10
+92.9,4.7,Strasburg,CO,<All States>,1,<10
+98,4.2,Parker,CO,<All States>,1,<10
+88.4,22.2,Montrose,CO,<All States>,1,<10
+95.5,8.6,Fountain,CO,<All States>,1,<10
+88.1,16.5,Englewood,CO,<All States>,1,<10
+78.3,18.5,Dinosaur,CO,<All States>,1,<10
+97.6,5,Centennial,CO,<All States>,1,<10
+95.7,6.5,Broomfield,CO,<All States>,1,<10
+82.5,9.9,Brighton,CO,<All States>,1,<10
+86.3,10.8,Thomaston,CT,<All States>,1,<10
+89,9.4,Stamford,CT,<All States>,1,<10
+91.5,0.6,Mashantucket,CT,<All States>,1,<10
+75.6,22.9,Bridgeport,CT,<All States>,1,<10
+83.2,24.5,Wilmington,DE,<All States>,3,<10
+89.9,7.6,Smyrna,DE,<All States>,1,<10
+93.3,5.4,Middletown,DE,<All States>,1,<10
+81.5,15.5,Frederica,DE,<All States>,1,<10
+87.6,12.1,Claymont,DE,<All States>,1,<10
+89.3,18,Washington,DC,<All States>,11,>=10
+73.2,28.3,Miami,FL,<All States>,20,>=10
+88.2,17.7,Jacksonville,FL,<All States>,11,>=10
+89.5,20.2,Orlando,FL,<All States>,9,<10
+86.6,21.8,Tampa,FL,<All States>,5,<10
+88.2,16.4,Deltona,FL,<All States>,4,<10
+87.4,19.2,Lakeland,FL,<All States>,3,<10
+87.4,20.6,DeLand,FL,<All States>,3,<10
+92.5,29.7,Tallahassee,FL,<All States>,2,<10
+91.9,9.5,Riverview,FL,<All States>,2,<10
+86.1,22.6,Ocala,FL,<All States>,2,<10
+77.5,29.1,Lealman,FL,<All States>,2,<10
+69.1,28.8,Homestead,FL,<All States>,2,<10
+92.1,35.6,Gainesville,FL,<All States>,2,<10
+83.1,29.3,Cocoa,FL,<All States>,2,<10
+82.2,27.3,Brooksville,FL,<All States>,2,<10
+84.9,18.1,Bradenton,FL,<All States>,2,<10
+87.6,11.5,Yulee,FL,<All States>,1,<10
+94.7,8.2,Wellington,FL,<All States>,1,<10
+90.2,18.8,Titusville,FL,<All States>,1,<10
+83.6,21.5,Thonotosassa,FL,<All States>,1,<10
+79,30.3,Sneads,FL,<All States>,1,<10
+91.7,15.7,Pensacola,FL,<All States>,1,<10
+87.2,21.2,Panama City,FL,<All States>,1,<10
+97.8,5.3,Palm Beach,FL,<All States>,1,<10
+92.9,6.5,Oakland,FL,<All States>,1,<10
+70.1,29.8,Noma,FL,<All States>,1,<10
+94.4,14,Niceville,FL,<All States>,1,<10
+93.8,9.6,Navarre,FL,<All States>,1,<10
+94.1,8.8,Naples,FL,<All States>,1,<10
+90.8,15,Milton,FL,<All States>,1,<10
+83.5,16.8,Middleburg,FL,<All States>,1,<10
+87.6,12.7,Micanopy,FL,<All States>,1,<10
+89.2,15.9,Melbourne,FL,<All States>,1,<10
+69.7,14.6,Mascotte,FL,<All States>,1,<10
+88,16.2,Largo,FL,<All States>,1,<10
+92.3,9.2,Jupiter,FL,<All States>,1,<10
+41.3,43.9,Immokalee,FL,<All States>,1,<10
+83.7,21.1,Holiday,FL,<All States>,1,<10
+82.5,30.7,Gifford,FL,<All States>,1,<10
+91.4,10.5,Englewood,FL,<All States>,1,<10
+92.3,14.1,Clermont,FL,<All States>,1,<10
+81.2,27.6,Callahan,FL,<All States>,1,<10
+81.1,17.6,Auburndale,FL,<All States>,1,<10
+89,24.6,Atlanta,GA,<All States>,7,<10
+82.6,35,Valdosta,GA,<All States>,3,<10
+87.7,15.4,Stockbridge,GA,<All States>,2,<10
+68.1,34.3,Rossville,GA,<All States>,2,<10
+86.3,20.2,Marietta,GA,<All States>,2,<10
+81.2,14.9,Cartersville,GA,<All States>,2,<10
+95.5,7,Woodstock,GA,<All States>,1,<10
+78.6,20.2,White,GA,<All States>,1,<10
+91.6,11.8,Tyrone,GA,<All States>,1,<10
+74,28.7,Sylvester,GA,<All States>,1,<10
+90.5,13.4,Smyrna,GA,<All States>,1,<10
+86,26.5,Savannah,GA,<All States>,1,<10
+85.6,29.5,Riverdale,GA,<All States>,1,<10
+87.5,22.6,Newnan,GA,<All States>,1,<10
+72.3,36,Moultrie,GA,<All States>,1,<10
+84.1,17.6,Mableton,GA,<All States>,1,<10
+75.2,36.3,Lumpkin,GA,<All States>,1,<10
+82.3,14.9,Ludowici,GA,<All States>,1,<10
+87.4,9.2,Loganville,GA,<All States>,1,<10
+81.3,24.4,Lawrenceville,GA,<All States>,1,<10
+84,31.6,Jesup,GA,<All States>,1,<10
+72.8,22.8,Jackson,GA,<All States>,1,<10
+80.9,32.4,Hampton,GA,<All States>,1,<10
+71.2,28.3,Gainesville,GA,<All States>,1,<10
+74.4,32.9,Elberton,GA,<All States>,1,<10
+88.7,19.1,Douglasville,GA,<All States>,1,<10
+78,25.8,Douglas,GA,<All States>,1,<10
+95.4,14.9,Decatur,GA,<All States>,1,<10
+81.1,20.7,Cumming,GA,<All States>,1,<10
+77.8,25.1,Covington,GA,<All States>,1,<10
+76.1,23.2,Commerce,GA,<All States>,1,<10
+75.1,38.1,Cochran,GA,<All States>,1,<10
+88.2,17.8,Clarkesville,GA,<All States>,1,<10
+62.5,31,Cedartown,GA,<All States>,1,<10
+78.3,28.7,Carrollton,GA,<All States>,1,<10
+93.2,10.5,Brooklet,GA,<All States>,1,<10
+84.2,17.2,Austell,GA,<All States>,1,<10
+71.2,37.5,Arlington,GA,<All States>,1,<10
+79.9,33.8,Albany,GA,<All States>,1,<10
+90.7,9.6,Acworth,GA,<All States>,1,<10
+92.5,18.3,Hilo,HI,<All States>,4,<10
+85.1,13.5,Keaau,HI,<All States>,1,<10
+86.9,15.3,Kahuku,HI,<All States>,1,<10
+93.8,5.9,Aiea,HI,<All States>,1,<10
+88.3,24.3,Sandpoint,ID,<All States>,1,<10
+97.8,46.1,Rexburg,ID,<All States>,1,<10
+91.7,13.5,Middleton,ID,<All States>,1,<10
+90.4,16.4,Melba,ID,<All States>,1,<10
+92.9,13.2,Kuna,ID,<All States>,1,<10
+66.6,47.7,Homedale,ID,<All States>,1,<10
+82.7,15.4,Council,ID,<All States>,1,<10
+82.3,22.3,Chicago,IL,<All States>,25,>=10
+81.3,19.2,Zion,IL,<All States>,2,<10
+77.2,23,Metropolis,IL,<All States>,2,<10
+92.6,18.2,Belleville,IL,<All States>,2,<10
+95.4,4.7,Washington,IL,<All States>,1,<10
+94.1,16.1,Stockton,IL,<All States>,1,<10
+90.8,19.5,Springfield,IL,<All States>,1,<10
+83.1,24.8,Rockford,IL,<All States>,1,<10
+86.7,25.1,Rantoul,IL,<All States>,1,<10
+83.1,25.8,Markham,IL,<All States>,1,<10
+90.3,18.2,Marion,IL,<All States>,1,<10
+93.8,13.2,Maeystown,IL,<All States>,1,<10
+83.1,15.2,Lyons,IL,<All States>,1,<10
+95.5,8.6,Lisle,IL,<All States>,1,<10
+89.5,14.6,Lansing,IL,<All States>,1,<10
+90.6,6.4,Jerseyville,IL,<All States>,1,<10
+80.8,15.7,Hurst,IL,<All States>,1,<10
+78.1,36.4,Harvey,IL,<All States>,1,<10
+86.8,24.8,Dolton,IL,<All States>,1,<10
+98.4,2.9,Deerfield,IL,<All States>,1,<10
+88.7,16.9,Clinton,IL,<All States>,1,<10
+84.1,23.4,Benton,IL,<All States>,1,<10
+82.6,14.8,Arcola,IL,<All States>,1,<10
+95.1,9.1,Antioch,IL,<All States>,1,<10
+90.3,24.4,Alton,IL,<All States>,1,<10
+84.9,21.3,Indianapolis,IN,<All States>,14,>=10
+86.4,32.2,Muncie,IN,<All States>,3,<10
+83.4,16.9,Shelbyville,IN,<All States>,2,<10
+85.4,23.9,Vincennes,IN,<All States>,1,<10
+88.2,16.3,Portage,IN,<All States>,1,<10
+74.5,31.1,Monon,IN,<All States>,1,<10
+85.6,19.8,Lafayette,IN,<All States>,1,<10
+86.3,21.3,Kokomo,IN,<All States>,1,<10
+75.1,20.9,Knox,IN,<All States>,1,<10
+89.4,6.8,Harmony,IN,<All States>,1,<10
+83.7,24.8,Hanover,IN,<All States>,1,<10
+91.5,13.7,Greenwood,IN,<All States>,1,<10
+76,22.6,Goshen,IN,<All States>,1,<10
+83.9,37.1,Gary,IN,<All States>,1,<10
+97.4,3.2,Fishers,IN,<All States>,1,<10
+87.5,21,Evansville,IN,<All States>,1,<10
+67.1,39.6,English,IN,<All States>,1,<10
+77.6,26.7,Elkhart,IN,<All States>,1,<10
+85.4,16,Brookville,IN,<All States>,1,<10
+94.2,3.3,Avon,IN,<All States>,1,<10
+93.2,5.7,Wellman,IA,<All States>,1,<10
+97,5.9,Urbandale,IA,<All States>,1,<10
+89.7,19.6,Burlington,IA,<All States>,1,<10
+94.3,10.9,Boone,IA,<All States>,1,<10
+87.5,17.3,Wichita,KS,<All States>,4,<10
+88.6,19.2,Topeka,KS,<All States>,2,<10
+87.6,13.9,Hutchinson,KS,<All States>,2,<10
+94.5,17.7,Hays,KS,<All States>,2,<10
+87.8,17.4,Udall,KS,<All States>,1,<10
+81.3,12.8,Rosalia,KS,<All States>,1,<10
+94,6.9,Olathe,KS,<All States>,1,<10
+88.1,16.8,Newton,KS,<All States>,1,<10
+94.4,6.2,McPherson,KS,<All States>,1,<10
+96.5,7.7,Lehigh,KS,<All States>,1,<10
+90.8,16.4,Leavenworth,KS,<All States>,1,<10
+99.3,11.1,Hesston,KS,<All States>,1,<10
+94.4,3.8,Gardner,KS,<All States>,1,<10
+92,11.1,Colby,KS,<All States>,1,<10
+95.9,8.2,Assaria,KS,<All States>,1,<10
+85.5,19.8,Owensboro,KY,<All States>,2,<10
+88.3,16.3,Elizabethtown,KY,<All States>,2,<10
+91.2,28.8,Wilmore,KY,<All States>,1,<10
+74.3,27.4,Russellville,KY,<All States>,1,<10
+86.2,31.9,Richmond,KY,<All States>,1,<10
+86.9,26.3,Princeton,KY,<All States>,1,<10
+57.6,21.5,Phelps,KY,<All States>,1,<10
+82.9,22.8,Paris,KY,<All States>,1,<10
+85.4,36.1,Morehead,KY,<All States>,1,<10
+86.2,25.5,Ludlow,KY,<All States>,1,<10
+76.4,27.5,London,KY,<All States>,1,<10
+75.8,29,Leitchfield,KY,<All States>,1,<10
+87.9,11.8,Lawrenceburg,KY,<All States>,1,<10
+70.3,36.7,Lancaster,KY,<All States>,1,<10
+58.6,24,Hiseville,KY,<All States>,1,<10
+89.8,12.5,Georgetown,KY,<All States>,1,<10
+79.3,25.2,Fulton,KY,<All States>,1,<10
+83.9,22.3,Elsmere,KY,<All States>,1,<10
+73.3,29.7,Edmonton,KY,<All States>,1,<10
+70.5,33.1,Burkesville,KY,<All States>,1,<10
+63,41.1,Brodhead,KY,<All States>,1,<10
+80.6,43.9,Booneville,KY,<All States>,1,<10
+86.5,26.9,Berea,KY,<All States>,1,<10
+85.6,24.4,Bardstown,KY,<All States>,1,<10
+78.7,29.7,Barbourville,KY,<All States>,1,<10
+85.5,23.6,Shreveport,LA,<All States>,3,<10
+79.9,20.9,Houma,LA,<All States>,3,<10
+89,13.8,Metairie,LA,<All States>,2,<10
+77.2,20.7,Harvey,LA,<All States>,2,<10
+81.7,25.8,Alexandria,LA,<All States>,2,<10
+65,52.3,Winnsboro,LA,<All States>,1,<10
+87.5,16.3,Slidell,LA,<All States>,1,<10
+74.2,18.4,Raceland,LA,<All States>,1,<10
+80.3,22.6,Plaquemine,LA,<All States>,1,<10
+83.8,21.3,Pineville,LA,<All States>,1,<10
+64.7,29.8,Marksville,LA,<All States>,1,<10
+92,6,Mandeville,LA,<All States>,1,<10
+60.6,41.1,Mamou,LA,<All States>,1,<10
+81.2,9,Livingston,LA,<All States>,1,<10
+84.7,15.5,Kenner,LA,<All States>,1,<10
+79,40,Homer,LA,<All States>,1,<10
+77.1,22.7,Gretna,LA,<All States>,1,<10
+78.9,29.5,Franklin,LA,<All States>,1,<10
+64.8,34.9,Crowley,LA,<All States>,1,<10
+81.3,18.4,Covington,LA,<All States>,1,<10
+78.3,17.5,Converse,LA,<All States>,1,<10
+83.1,21.6,Chalmette,LA,<All States>,1,<10
+80.6,15.5,Cade,LA,<All States>,1,<10
+98.4,42.3,Waldoboro,ME,<All States>,1,<10
+92.5,19.7,Portland,ME,<All States>,1,<10
+100,4.4,Naples,ME,<All States>,1,<10
+86.7,22.7,Madison,ME,<All States>,1,<10
+91.4,26.2,Bangor,ME,<All States>,1,<10
+82.5,23.7,Baltimore,MD,<All States>,8,<10
+85,17.5,Elkton,MD,<All States>,3,<10
+93.5,10,Randallstown,MD,<All States>,2,<10
+79.8,15.6,Landover,MD,<All States>,2,<10
+85.6,27.4,Salisbury,MD,<All States>,1,<10
+90,12.8,Reisterstown,MD,<All States>,1,<10
+96.1,6.8,Pikesville,MD,<All States>,1,<10
+94,1.9,Owings,MD,<All States>,1,<10
+90.9,7.3,Overlea,MD,<All States>,1,<10
+89,11.3,Greenbelt,MD,<All States>,1,<10
+89.2,11.4,Frederick,MD,<All States>,1,<10
+84.1,13.8,Essex,MD,<All States>,1,<10
+91.9,5.6,Elkridge,MD,<All States>,1,<10
+79.7,13.7,Dundalk,MD,<All States>,1,<10
+95.7,7,Columbia,MD,<All States>,1,<10
+84.5,24.9,Chestertown,MD,<All States>,1,<10
+85.2,21.5,Boston,MA,<All States>,5,<10
+79.9,20.2,Lynn,MA,<All States>,4,<10
+79.6,19.2,Webster,MA,<All States>,1,<10
+82.1,12.4,Taunton,MA,<All States>,1,<10
+80.6,16.9,Spencer,MA,<All States>,1,<10
+92.6,5.8,Oxford,MA,<All States>,1,<10
+78.9,19.8,Lowell,MA,<All States>,1,<10
+79.8,14.9,Everett,MA,<All States>,1,<10
+81,18.6,Brockton,MA,<All States>,1,<10
+94.1,8,Beverly,MA,<All States>,1,<10
+78.3,40.3,Detroit,MI,<All States>,5,<10
+84,14.9,Wyoming,MI,<All States>,2,<10
+89.6,14.6,Kentwood,MI,<All States>,2,<10
+81,28.9,Dearborn,MI,<All States>,2,<10
+84.1,19.7,Warren,MI,<All States>,1,<10
+91.7,8,Trenton,MI,<All States>,1,<10
+92.6,15.2,Southfield,MI,<All States>,1,<10
+78.4,35.9,Saginaw,MI,<All States>,1,<10
+86.8,20.5,Romulus,MI,<All States>,1,<10
+95.8,11,Portage,MI,<All States>,1,<10
+87.2,43.7,Marion,MI,<All States>,1,<10
+92.2,19,Manistee,MI,<All States>,1,<10
+87.6,29.6,Lansing,MI,<All States>,1,<10
+93.1,20.6,Ishpeming,MI,<All States>,1,<10
+85.6,18.5,Holland,MI,<All States>,1,<10
+90.9,22.3,Eaton Rapids,MI,<All States>,1,<10
+93.8,10.2,Brighton,MI,<All States>,1,<10
+84.5,16.3,Belleville,MI,<All States>,1,<10
+89.5,31.4,Beaverton,MI,<All States>,1,<10
+88.6,21.9,Minneapolis,MN,<All States>,3,<10
+93.9,11.2,Burnsville,MN,<All States>,2,<10
+80.2,31.5,Vineland,MN,<All States>,1,<10
+93.4,11.5,Roseville,MN,<All States>,1,<10
+97.3,5.8,Plymouth,MN,<All States>,1,<10
+90.5,7.9,Peterson,MN,<All States>,1,<10
+88.4,27.6,Morris,MN,<All States>,1,<10
+85.4,17.6,Mora,MN,<All States>,1,<10
+94.1,26.2,Mankato,MN,<All States>,1,<10
+93.9,7.3,Hutchinson,MN,<All States>,1,<10
+90,13,Fridley,MN,<All States>,1,<10
+96.4,7,Eagan,MN,<All States>,1,<10
+94.3,7.3,Cohasset,MN,<All States>,1,<10
+93.1,8.9,Bloomington,MN,<All States>,1,<10
+85.4,15.9,Austin,MN,<All States>,1,<10
+92.6,14.7,Alexandria,MN,<All States>,1,<10
+85.5,24.6,Aitkin,MN,<All States>,1,<10
+87.2,23.3,Tupelo,MS,<All States>,2,<10
+88.4,11.4,Southaven,MS,<All States>,2,<10
+68.8,20.9,Iuka,MS,<All States>,2,<10
+80.6,31.2,Columbus,MS,<All States>,2,<10
+87.2,18.7,Walls,MS,<All States>,1,<10
+77.6,15.8,Smithville,MS,<All States>,1,<10
+88.5,11.8,Petal,MS,<All States>,1,<10
+77.5,30.9,Lucedale,MS,<All States>,1,<10
+84.6,37.8,Hattiesburg,MS,<All States>,1,<10
+84.5,25.5,Gulfport,MS,<All States>,1,<10
+78.7,36.8,Greenville,MS,<All States>,1,<10
+88.4,15.2,Gautier,MS,<All States>,1,<10
+84.8,37.1,Brookhaven,MS,<All States>,1,<10
+85.1,24.6,Biloxi,MS,<All States>,1,<10
+88.3,25.7,Springfield,MO,<All States>,4,<10
+93.8,24.4,Columbia,MO,<All States>,3,<10
+79.3,19,Sullivan,MO,<All States>,1,<10
+80.7,23.9,Sedalia,MO,<All States>,1,<10
+93.2,15.8,Republic,MO,<All States>,1,<10
+89.2,12.6,Ozark,MO,<All States>,1,<10
+94.9,11.7,Odessa,MO,<All States>,1,<10
+85.6,27.1,Nevada,MO,<All States>,1,<10
+80.6,20.2,Neosho,MO,<All States>,1,<10
+84.9,14.4,Maysville,MO,<All States>,1,<10
+92.5,13,Lakeshire,MO,<All States>,1,<10
+79.5,29.9,Jennings,MO,<All States>,1,<10
+92.5,13,Jackson,MO,<All States>,1,<10
+87.6,17.9,Independence,MO,<All States>,1,<10
+90.8,14.3,Harrisonville,MO,<All States>,1,<10
+57.6,27.1,Franklin,MO,<All States>,1,<10
+91.7,8.5,Florissant,MO,<All States>,1,<10
+79.3,25.8,Buffalo,MO,<All States>,1,<10
+91.7,8.9,Affton,MO,<All States>,1,<10
+92.8,12.8,Billings,MT,<All States>,4,<10
+89.2,25.5,Superior,MT,<All States>,1,<10
+88.8,14.3,Malta,MT,<All States>,1,<10
+94.7,12.7,Livingston,MT,<All States>,1,<10
+100,0,Huntley,MT,<All States>,1,<10
+92.5,22,Dillon,MT,<All States>,1,<10
+88,16.7,Omaha,NE,<All States>,8,<10
+93.1,15.9,Lincoln,NE,<All States>,3,<10
+93.9,13.1,York,NE,<All States>,1,<10
+93.6,13.5,Sidney,NE,<All States>,1,<10
+91.5,4.4,Louisville,NE,<All States>,1,<10
+85.7,18.3,Reno,NV,<All States>,8,<10
+92.7,9.8,Henderson,NV,<All States>,2,<10
+86.8,16.8,Carson,NV,<All States>,2,<10
+85.5,13,Sparks,NV,<All States>,1,<10
+85.2,18.9,Pahrump,NV,<All States>,1,<10
+91.5,16.1,Gardnerville,NV,<All States>,1,<10
+97.6,6.6,Peterborough,NH,<All States>,1,<10
+96.6,5.3,Hampton,NH,<All States>,1,<10
+94.4,8,Derry,NH,<All States>,1,<10
+87.2,14.1,Claremont,NH,<All States>,1,<10
+72.3,29.7,Newark,NJ,<All States>,5,<10
+71.4,29.1,Paterson,NJ,<All States>,3,<10
+67.6,39.9,Camden,NJ,<All States>,3,<10
+86.6,15.8,Hackensack,NJ,<All States>,2,<10
+89.5,7.2,Woodbridge,NJ,<All States>,1,<10
+76.4,16.9,Vineland,NJ,<All States>,1,<10
+71,28.3,Trenton,NJ,<All States>,1,<10
+94.8,0.2,Cranbury,NJ,<All States>,1,<10
+61.5,32,Bridgeton,NJ,<All States>,1,<10
+89,19.2,Albuquerque,NM,<All States>,14,>=10
+92.4,12.1,Ruidoso,NM,<All States>,3,<10
+72.7,16.5,Hobbs,NM,<All States>,3,<10
+80.3,22.1,Roswell,NM,<All States>,2,<10
+81.8,10.9,Artesia,NM,<All States>,2,<10
+88.5,21.8,Taos,NM,<All States>,1,<10
+72.1,30.2,Socorro,NM,<All States>,1,<10
+96.3,27.4,Rowe,NM,<All States>,1,<10
+64.5,19.7,Lovington,NM,<All States>,1,<10
+88.3,34.5,Laguna,NM,<All States>,1,<10
+72.6,6.6,Jal,NM,<All States>,1,<10
+100,38.4,Hanover,NM,<All States>,1,<10
+79.9,25.5,Gallup,NM,<All States>,1,<10
+97.2,7.7,Edgewood,NM,<All States>,1,<10
+66.3,33.1,Deming,NM,<All States>,1,<10
+82.5,31.6,Crownpoint,NM,<All States>,1,<10
+83.9,34.3,Carrizozo,NM,<All States>,1,<10
+85.6,13.5,Carlsbad,NM,<All States>,1,<10
+88.8,20.5,Alamogordo,NM,<All States>,1,<10
+84.7,26.1,Troy,NY,<All States>,2,<10
+80.2,34.8,Syracuse,NY,<All States>,2,<10
+83,16.7,Yonkers,NY,<All States>,1,<10
+84.3,22.8,Schenectady,NY,<All States>,1,<10
+93.2,7,Rotterdam,NY,<All States>,1,<10
+80.5,33.5,Rochester,NY,<All States>,1,<10
+92.5,28.8,Potsdam,NY,<All States>,1,<10
+83,19.6,Middletown,NY,<All States>,1,<10
+81.2,31.1,Malone,NY,<All States>,1,<10
+92.4,5.6,Islip,NY,<All States>,1,<10
+91.8,8.4,Greece,NY,<All States>,1,<10
+88.2,3.2,Constantia,NY,<All States>,1,<10
+90.3,11.4,Cheektowaga,NY,<All States>,1,<10
+82.7,31.4,Buffalo,NY,<All States>,1,<10
+89.3,11.6,Beacon,NY,<All States>,1,<10
+88.4,16.8,Charlotte,NC,<All States>,11,>=10
+87.1,19.2,Durham,NC,<All States>,4,<10
+83.2,20.8,Gastonia,NC,<All States>,3,<10
+90.5,16,Raleigh,NC,<All States>,2,<10
+84.3,17.5,Hickory,NC,<All States>,2,<10
+88.7,19.3,Greensboro,NC,<All States>,2,<10
+91.2,18.4,Fayetteville,NC,<All States>,2,<10
+75.9,30.5,Wilkesboro,NC,<All States>,1,<10
+79.7,32.2,Wadesboro,NC,<All States>,1,<10
+75,17,Tarboro,NC,<All States>,1,<10
+81.2,10.6,Stoneville,NC,<All States>,1,<10
+80.1,28.4,Statesville,NC,<All States>,1,<10
+85.1,29,Shelby,NC,<All States>,1,<10
+82.4,23.3,Salisbury,NC,<All States>,1,<10
+80.9,16.8,Salemburg,NC,<All States>,1,<10
+87.1,17.8,Rutherfordton,NC,<All States>,1,<10
+77.1,36.2,Rowland,NC,<All States>,1,<10
+62.3,23,Ronda,NC,<All States>,1,<10
+76.5,8.1,Pinnacle,NC,<All States>,1,<10
+80.9,31.6,Peachland,NC,<All States>,1,<10
+77.7,23.8,Newton,NC,<All States>,1,<10
+76.5,18.1,Maiden,NC,<All States>,1,<10
+74.1,34.8,Lumberton,NC,<All States>,1,<10
+77,22.8,Lenoir,NC,<All States>,1,<10
+93.5,14.2,Leland,NC,<All States>,1,<10
+82.8,21.4,Lawndale,NC,<All States>,1,<10
+80.3,33.1,Kinston,NC,<All States>,1,<10
+88,14.1,Hudson,NC,<All States>,1,<10
+91.6,32.5,Greenville,NC,<All States>,1,<10
+67.5,26.5,Gaston,NC,<All States>,1,<10
+80.8,35.9,Franklin,NC,<All States>,1,<10
+99.1,2.4,Efland,NC,<All States>,1,<10
+75.1,28,Dublin,NC,<All States>,1,<10
+82.7,16.4,Dallas,NC,<All States>,1,<10
+81.5,29.2,Clinton,NC,<All States>,1,<10
+95.3,6.3,Cary,NC,<All States>,1,<10
+79.9,16.9,Canton,NC,<All States>,1,<10
+89.9,12.7,Brevard,NC,<All States>,1,<10
+92.3,17.3,Asheville,NC,<All States>,1,<10
+81.4,10.5,Archdale,NC,<All States>,1,<10
+91.8,9.3,Mandan,ND,<All States>,1,<10
+92.8,9.6,Bismarck,ND,<All States>,1,<10
+88.5,21.7,Columbus,OH,<All States>,17,>=10
+85.8,30.5,Cincinnati,OH,<All States>,5,<10
+77.4,36.2,Cleveland,OH,<All States>,4,<10
+86.3,26.5,Akron,OH,<All States>,4,<10
+82.1,35.5,Dayton,OH,<All States>,3,<10
+92.2,9.7,Madison,OH,<All States>,2,<10
+93,35.1,Kent,OH,<All States>,2,<10
+85.2,22.1,Hamilton,OH,<All States>,2,<10
+80.3,31.4,Zanesville,OH,<All States>,1,<10
+92.8,7.9,Willoughby,OH,<All States>,1,<10
+96,4.6,Westlake,OH,<All States>,1,<10
+96.8,6.7,Westerville,OH,<All States>,1,<10
+91.6,9.7,Vandalia,OH,<All States>,1,<10
+92.5,7.6,Uniontown,OH,<All States>,1,<10
+94.4,4.6,Twinsburg,OH,<All States>,1,<10
+85.2,27.8,Toledo,OH,<All States>,1,<10
+88.9,19.9,Tiffin,OH,<All States>,1,<10
+95.6,7.8,Sylvania,OH,<All States>,1,<10
+82.4,29,Springfield,OH,<All States>,1,<10
+79.3,28.2,Rome,OH,<All States>,1,<10
+89.8,8.8,Richmond,OH,<All States>,1,<10
+91,7.9,Perry,OH,<All States>,1,<10
+89.8,11.2,Parma,OH,<All States>,1,<10
+92.2,10,Northwood,OH,<All States>,1,<10
+83.2,19.5,Montpelier,OH,<All States>,1,<10
+94.1,12.5,Medina,OH,<All States>,1,<10
+82.6,26.2,Mansfield,OH,<All States>,1,<10
+98.2,3.8,Hudson,OH,<All States>,1,<10
+93.4,8.3,Green,OH,<All States>,1,<10
+86.7,12.2,Geneva,OH,<All States>,1,<10
+90.6,19.2,Findlay,OH,<All States>,1,<10
+86.3,23.1,Fairborn,OH,<All States>,1,<10
+88.7,20.9,Euclid,OH,<All States>,1,<10
+93.4,10.2,Englewood,OH,<All States>,1,<10
+83.5,20.2,Circleville,OH,<All States>,1,<10
+90.1,11.9,Celina,OH,<All States>,1,<10
+83.8,32.3,Canton,OH,<All States>,1,<10
+91.8,8.9,Brookville,OH,<All States>,1,<10
+85.2,19.2,Beverly,OH,<All States>,1,<10
+80.9,34.8,Ashtabula,OH,<All States>,1,<10
+86.9,20.2,Tulsa,OK,<All States>,12,>=10
+84.3,34.3,Tahlequah,OK,<All States>,2,<10
+83.4,18.4,Chickasha,OK,<All States>,2,<10
+78.9,36.7,Wewoka,OK,<All States>,1,<10
+74.4,27,Wetumka,OK,<All States>,1,<10
+73.6,53.1,Watts,OK,<All States>,1,<10
+83.5,24.1,Wagoner,OK,<All States>,1,<10
+95.2,33,Stillwater,OK,<All States>,1,<10
+74.7,36.5,Schulter,OK,<All States>,1,<10
+82.3,28.5,Sallisaw,OK,<All States>,1,<10
+80.4,30.3,Roland,OK,<All States>,1,<10
+86.8,29.5,Okmulgee,OK,<All States>,1,<10
+79.5,31.1,Okemah,OK,<All States>,1,<10
+84.5,25.4,Muskogee,OK,<All States>,1,<10
+79.4,29.3,Millerton,OK,<All States>,1,<10
+84.6,24.5,Miami,OK,<All States>,1,<10
+83.9,23,McAlester,OK,<All States>,1,<10
+91.6,7,Leedey,OK,<All States>,1,<10
+88.5,19.9,Lawton,OK,<All States>,1,<10
+82.5,19.9,Kiowa,OK,<All States>,1,<10
+79.6,25.3,Kellyville,OK,<All States>,1,<10
+79.5,21.6,Hominy,OK,<All States>,1,<10
+85.7,14.3,Healdton,OK,<All States>,1,<10
+89.7,18.6,Guthrie,OK,<All States>,1,<10
+86.6,25.4,Fairland,OK,<All States>,1,<10
+83.8,25.9,Fairfax,OK,<All States>,1,<10
+83.2,30,Eufaula,OK,<All States>,1,<10
+95.9,10.1,Edmond,OK,<All States>,1,<10
+78.4,20.9,Cushing,OK,<All States>,1,<10
+86.8,22,Colbert,OK,<All States>,1,<10
+90.2,13,Cache,OK,<All States>,1,<10
+87,10.6,Byng,OK,<All States>,1,<10
+70.3,25.3,Byars,OK,<All States>,1,<10
+86.9,17.1,Bethany,OK,<All States>,1,<10
+91,15.7,Bartlesville,OK,<All States>,1,<10
+84.1,17.1,Ardmore,OK,<All States>,1,<10
+82.7,35.9,Anadarko,OK,<All States>,1,<10
+91.3,18,Portland,OR,<All States>,7,<10
+86.4,23,Medford,OR,<All States>,3,<10
+90.3,15.4,Beaverton,OR,<All States>,3,<10
+86.9,18.2,Salem,OR,<All States>,2,<10
+93.5,24.4,Eugene,OR,<All States>,2,<10
+95.2,12.5,Bend,OR,<All States>,2,<10
+88.1,14.9,Aloha,OR,<All States>,2,<10
+92.5,11.7,Tualatin,OR,<All States>,1,<10
+86.2,21.5,Springfield,OR,<All States>,1,<10
+87.6,19.3,Seaside,OR,<All States>,1,<10
+85.2,21.2,McMinnville,OR,<All States>,1,<10
+84.2,21.3,Gresham,OR,<All States>,1,<10
+91.2,14.2,Florence,OR,<All States>,1,<10
+92.7,16.7,Dallas,OR,<All States>,1,<10
+85.9,21.2,Burns,OR,<All States>,1,<10
+82,26.4,Philadelphia,PA,<All States>,9,<10
+76.5,37.3,York,PA,<All States>,3,<10
+79.5,34.6,Chester,PA,<All States>,3,<10
+65.1,39.6,Reading,PA,<All States>,2,<10
+91.4,22.9,Pittsburgh,PA,<All States>,2,<10
+76.3,29,Lancaster,PA,<All States>,2,<10
+77.3,26.5,Allentown,PA,<All States>,2,<10
+90.8,24.1,Wilkinsburg,PA,<All States>,1,<10
+89.4,15.1,Stewartstown,PA,<All States>,1,<10
+88.7,23.9,Somerset,PA,<All States>,1,<10
+86.5,24.5,Sharon,PA,<All States>,1,<10
+88.8,19.5,Pittston,PA,<All States>,1,<10
+93.4,16.9,Penn,PA,<All States>,1,<10
+87.5,25.8,Lewistown,PA,<All States>,1,<10
+84.8,14.4,Knoxville,PA,<All States>,1,<10
+84.7,35.1,Johnstown,PA,<All States>,1,<10
+91.9,21.9,Huntingdon,PA,<All States>,1,<10
+92.4,9.5,Hummelstown,PA,<All States>,1,<10
+79.9,31.8,Harrisburg,PA,<All States>,1,<10
+81.1,22.3,Chambersburg,PA,<All States>,1,<10
+95.6,3.2,Campbelltown,PA,<All States>,1,<10
+87.8,34.1,Bloomsburg,PA,<All States>,1,<10
+84.1,10.7,Avella,PA,<All States>,1,<10
+89.4,6.8,Tiverton,RI,<All States>,1,<10
+78.4,20.6,Pawtucket,RI,<All States>,1,<10
+73.3,35,North,SC,<All States>,4,<10
+87.7,19.3,Greenville,SC,<All States>,3,<10
+88.1,16.3,Taylors,SC,<All States>,2,<10
+82.3,27.2,Spartanburg,SC,<All States>,2,<10
+82.4,19.6,Piedmont,SC,<All States>,2,<10
+92.6,16.4,Irmo,SC,<All States>,2,<10
+84.6,24.2,Hardeeville,SC,<All States>,2,<10
+89.5,16.2,Aiken,SC,<All States>,2,<10
+84,18.6,Sumter,SC,<All States>,1,<10
+92.9,13,Summerville,SC,<All States>,1,<10
+84.3,23.3,Seneca,SC,<All States>,1,<10
+79.1,32.3,Pendleton,SC,<All States>,1,<10
+94.7,29.3,Pelzer,SC,<All States>,1,<10
+93.7,11.7,Lexington,SC,<All States>,1,<10
+78.8,31.1,Latta,SC,<All States>,1,<10
+84,20.1,Landrum,SC,<All States>,1,<10
+80.5,30.1,Lancaster,SC,<All States>,1,<10
+79.7,20.5,Johnsonville,SC,<All States>,1,<10
+66.4,26.9,Iva,SC,<All States>,1,<10
+73.4,29,Chesterfield,SC,<All States>,1,<10
+93.6,17.8,Charleston,SC,<All States>,1,<10
+89.5,23.3,Cayce,SC,<All States>,1,<10
+82.2,23.8,Campobello,SC,<All States>,1,<10
+75,43.7,Rosebud,SD,<All States>,1,<10
+90.1,13.9,Mitchell,SD,<All States>,1,<10
+91.8,10.3,Lead,SD,<All States>,1,<10
+67.9,57.5,Kyle,SD,<All States>,1,<10
+83.7,27.6,Memphis,TN,<All States>,5,<10
+85.2,22.6,Chattanooga,TN,<All States>,4,<10
+87.8,25.7,Knoxville,TN,<All States>,3,<10
+76.1,21.9,Alamo,TN,<All States>,2,<10
+79.2,24.3,Sparta,TN,<All States>,1,<10
+79.8,33.3,Somerville,TN,<All States>,1,<10
+84.2,10.7,Soddy-Daisy,TN,<All States>,1,<10
+73.3,26.9,Shelbyville,TN,<All States>,1,<10
+82.9,25.3,Sevierville,TN,<All States>,1,<10
+84.3,29.9,Oneida,TN,<All States>,1,<10
+77,28.9,Morristown,TN,<All States>,1,<10
+83.9,27,Monteagle,TN,<All States>,1,<10
+85.3,26.8,McLemoresville,TN,<All States>,1,<10
+75.9,22,Lewisburg,TN,<All States>,1,<10
+94.9,4.4,Lakeland,TN,<All States>,1,<10
+87.5,24,Jackson,TN,<All States>,1,<10
+81.1,22.9,Humboldt,TN,<All States>,1,<10
+80.9,29.5,Hohenwald,TN,<All States>,1,<10
+93.8,6.6,Hendersonville,TN,<All States>,1,<10
+90.8,9.4,Gray,TN,<All States>,1,<10
+82.4,6.2,Gibson,TN,<All States>,1,<10
+85.1,12.8,Gallatin,TN,<All States>,1,<10
+94.5,6.9,Franklin,TN,<All States>,1,<10
+81.9,23.7,Elizabethton,TN,<All States>,1,<10
+84,19.4,Dickson,TN,<All States>,1,<10
+84.3,21.9,Decatur,TN,<All States>,1,<10
+85.1,23.2,Columbia,TN,<All States>,1,<10
+92.2,17.4,Clarksville,TN,<All States>,1,<10
+83.5,16.3,Bristol,TN,<All States>,1,<10
+94.1,3.4,Arlington,TN,<All States>,1,<10
+76.7,22.5,Houston,TX,<All States>,26,>=10
+87.5,18,Austin,TX,<All States>,16,>=10
+74.5,24,Dallas,TX,<All States>,9,<10
+84.7,17.5,Arlington,TX,<All States>,5,<10
+89.3,10.6,Weatherford,TX,<All States>,4,<10
+79.7,15.1,Irving,TX,<All States>,4,<10
+83.4,17,Amarillo,TX,<All States>,4,<10
+76.4,12.1,Odessa,TX,<All States>,3,<10
+71.9,26,Mission,TX,<All States>,3,<10
+66.3,30.8,Laredo,TX,<All States>,3,<10
+83,9.3,Midland,TX,<All States>,2,<10
+83.5,17.9,Longview,TX,<All States>,2,<10
+85.7,15.6,Kerrville,TX,<All States>,2,<10
+76.3,17.2,Garland,TX,<All States>,2,<10
+90.3,12.2,Euless,TX,<All States>,2,<10
+75,19.3,Conroe,TX,<All States>,2,<10
+84.9,21.8,Beaumont,TX,<All States>,2,<10
+75.5,19.6,Baytown,TX,<All States>,2,<10
+85.9,9.1,Azle,TX,<All States>,2,<10
+95.6,5.5,Allen,TX,<All States>,2,<10
+70.8,13.7,Winnie,TX,<All States>,1,<10
+88.3,14.6,Wink,TX,<All States>,1,<10
+80.3,18.4,Whitewright,TX,<All States>,1,<10
+83.4,17.4,West,TX,<All States>,1,<10
+83.5,17.6,Webster,TX,<All States>,1,<10
+79.2,29,Waco,TX,<All States>,1,<10
+81.3,18,Victoria,TX,<All States>,1,<10
+88.8,22.7,Tomball,TX,<All States>,1,<10
+76.2,21.4,Terrell,TX,<All States>,1,<10
+87.9,17.9,Temple,TX,<All States>,1,<10
+84.6,18.3,Tahoka,TX,<All States>,1,<10
+89.6,19.4,Springtown,TX,<All States>,1,<10
+90.4,11.2,Spring,TX,<All States>,1,<10
+72,31.5,Splendora,TX,<All States>,1,<10
+72.2,15.8,Seagoville,TX,<All States>,1,<10
+92.1,7.5,Saginaw,TX,<All States>,1,<10
+67.1,30.7,Rosser,TX,<All States>,1,<10
+74.6,20.7,Rosenberg,TX,<All States>,1,<10
+88.6,3.4,Ponder,TX,<All States>,1,<10
+93.5,7.5,Plano,TX,<All States>,1,<10
+62,33.9,Pharr,TX,<All States>,1,<10
+93.1,4.5,Pearland,TX,<All States>,1,<10
+84.1,25.6,Paris,TX,<All States>,1,<10
+94.9,11,Panhandle,TX,<All States>,1,<10
+81.7,23.8,Palestine,TX,<All States>,1,<10
+74.8,33.2,Onalaska,TX,<All States>,1,<10
+72.1,31.7,Nocona,TX,<All States>,1,<10
+85.2,30,Nacogdoches,TX,<All States>,1,<10
+92.2,5.3,Midlothian,TX,<All States>,1,<10
+92.2,7.4,McKinney,TX,<All States>,1,<10
+94.4,6.2,Mansfield,TX,<All States>,1,<10
+81.6,24.2,Mabank,TX,<All States>,1,<10
+77.2,23.7,Lufkin,TX,<All States>,1,<10
+88.9,12.8,Lorena,TX,<All States>,1,<10
+79.8,13.1,Lockhart,TX,<All States>,1,<10
+80.5,27.1,Llano,TX,<All States>,1,<10
+77.9,15.4,Levelland,TX,<All States>,1,<10
+80.2,18.8,Kingsbury,TX,<All States>,1,<10
+91.6,15.2,Killeen,TX,<All States>,1,<10
+84.1,8.4,Katy,TX,<All States>,1,<10
+75.8,10.7,Jourdanton,TX,<All States>,1,<10
+72.2,25.7,Hutchins,TX,<All States>,1,<10
+85.5,12.8,Hurst,TX,<All States>,1,<10
+77.4,17.4,Henderson,TX,<All States>,1,<10
+73,39.7,Groveton,TX,<All States>,1,<10
+81.1,28.1,Gladewater,TX,<All States>,1,<10
+80.8,13.1,Gilmer,TX,<All States>,1,<10
+94.7,3.2,Fulshear,TX,<All States>,1,<10
+93.6,8.6,Fritch,TX,<All States>,1,<10
+95,5.7,Friendswood,TX,<All States>,1,<10
+66.3,26.5,Freeport,TX,<All States>,1,<10
+77.7,27.7,Edinburg,TX,<All States>,1,<10
+90.5,11.3,DeSoto,TX,<All States>,1,<10
+88.8,20.6,Denton,TX,<All States>,1,<10
+73.7,19.3,Clute,TX,<All States>,1,<10
+80.7,27.3,Cisco,TX,<All States>,1,<10
+33.3,31.7,Chapeno,TX,<All States>,1,<10
+85.3,9.5,Carrollton,TX,<All States>,1,<10
+64.1,33.7,Brownsville,TX,<All States>,1,<10
+62.1,21.5,Brookshire,TX,<All States>,1,<10
+89.8,9.7,Boerne,TX,<All States>,1,<10
+87.6,6.7,Bellville,TX,<All States>,1,<10
+77.1,26.3,Beckville,TX,<All States>,1,<10
+94,10,Addison,TX,<All States>,1,<10
+83.5,19.1,Abilene,TX,<All States>,1,<10
+82.3,22.9,Ogden,UT,<All States>,2,<10
+88.8,26.5,Logan,UT,<All States>,2,<10
+97.5,3,Syracuse,UT,<All States>,1,<10
+90.7,12.1,Roy,UT,<All States>,1,<10
+88.7,13.5,Roosevelt,UT,<All States>,1,<10
+90.5,28.8,Provo,UT,<All States>,1,<10
+95.5,13.3,Parowan,UT,<All States>,1,<10
+96.8,4.9,Draper,UT,<All States>,1,<10
+92.3,13.1,Clearfield,UT,<All States>,1,<10
+97.4,4.5,Centerville,UT,<All States>,1,<10
+89,24.8,Burlington,VT,<All States>,2,<10
+85,26.1,Winooski,VT,<All States>,1,<10
+87,21,Norfolk,VA,<All States>,7,<10
+83.2,25.5,Richmond,VA,<All States>,4,<10
+80.4,21.1,Pulaski,VA,<All States>,2,<10
+83.6,18.2,Portsmouth,VA,<All States>,2,<10
+91.1,9.7,Chesapeake,VA,<All States>,2,<10
+93.5,9,Arlington,VA,<All States>,2,<10
+84.2,16,Winchester,VA,<All States>,1,<10
+87.5,11.5,Suffolk,VA,<All States>,1,<10
+84.4,21.2,Roanoke,VA,<All States>,1,<10
+93,0,Powhatan,VA,<All States>,1,<10
+86.9,7.8,Pearisburg,VA,<All States>,1,<10
+80.9,19,Hopewell,VA,<All States>,1,<10
+84.3,7.8,Herndon,VA,<All States>,1,<10
+84.1,32.5,Harrisonburg,VA,<All States>,1,<10
+81.3,12.9,Grundy,VA,<All States>,1,<10
+91,16.5,Fredericksburg,VA,<All States>,1,<10
+74.7,34.9,Emporia,VA,<All States>,1,<10
+82.1,13.6,Culpeper,VA,<All States>,1,<10
+71.3,1.9,Concord,VA,<All States>,1,<10
+91.5,8.3,Alexandria,VA,<All States>,1,<10
+93.4,13.5,Seattle,WA,<All States>,6,<10
+89.7,14.8,Vancouver,WA,<All States>,4,<10
+87.6,18,Tacoma,WA,<All States>,4,<10
+91.6,19.9,Spokane,WA,<All States>,4,<10
+88.1,20.7,Lakewood,WA,<All States>,2,<10
+85.4,15.5,Kent,WA,<All States>,2,<10
+83,30.6,Kelso,WA,<All States>,2,<10
+83.3,18.2,Burien,WA,<All States>,2,<10
+87.6,15.9,Auburn,WA,<All States>,2,<10
+73.3,23,Yakima,WA,<All States>,1,<10
+82,19.4,Woodland,WA,<All States>,1,<10
+81.4,14,Wenatchee,WA,<All States>,1,<10
+44.4,36.6,Wapato,WA,<All States>,1,<10
+82.7,23.7,Tukwila,WA,<All States>,1,<10
+80.5,8,Sumas,WA,<All States>,1,<10
+87.7,12.8,Spanaway,WA,<All States>,1,<10
+92.2,12.7,Snohomish,WA,<All States>,1,<10
+80.1,28.6,Shelton,WA,<All States>,1,<10
+96.5,7.9,Ridgefield,WA,<All States>,1,<10
+95.4,10.6,Richland,WA,<All States>,1,<10
+71.9,18.8,Pasco,WA,<All States>,1,<10
+93.3,17.7,Olympia,WA,<All States>,1,<10
+88.3,16,Lynnwood,WA,<All States>,1,<10
+93.6,9.9,Lacey,WA,<All States>,1,<10
+96.3,6.3,Kirkland,WA,<All States>,1,<10
+86.5,18.1,Kennewick,WA,<All States>,1,<10
+90.1,25.5,Grapeview,WA,<All States>,1,<10
+94.5,5.1,Graham,WA,<All States>,1,<10
+88.8,14.8,Fife,WA,<All States>,1,<10
+88.1,17.6,Everett,WA,<All States>,1,<10
+92.7,23,Bellingham,WA,<All States>,1,<10
+93.7,34.1,Morgantown,WV,<All States>,3,<10
+76.6,31.6,Princeton,WV,<All States>,2,<10
+89.8,17.2,Weirton,WV,<All States>,1,<10
+75.1,30.8,Spencer,WV,<All States>,1,<10
+90.6,12.9,Nitro,WV,<All States>,1,<10
+71.8,48.5,Montcalm,WV,<All States>,1,<10
+86.1,14.9,Hometown,WV,<All States>,1,<10
+84.8,20.1,Grafton,WV,<All States>,1,<10
+87.6,18,Follansbee,WV,<All States>,1,<10
+88.1,24.9,Fairmont,WV,<All States>,1,<10
+88.8,19.4,Elkins,WV,<All States>,1,<10
+82.2,12.6,Clendenin,WV,<All States>,1,<10
+86.7,28.2,Buckhannon,WV,<All States>,1,<10
+60.9,23.5,Brandywine,WV,<All States>,1,<10
+85.6,23.4,Bluefield,WV,<All States>,1,<10
+86.1,21.8,Beckley,WV,<All States>,1,<10
+82.1,28.7,Milwaukee,WI,<All States>,7,<10
+96.6,6.4,Wauwatosa,WI,<All States>,2,<10
+94.8,19,Madison,WI,<All States>,2,<10
+91.4,15.5,Weston,WI,<All States>,1,<10
+89.1,16.6,Wausau,WI,<All States>,1,<10
+92.7,11.3,Waukesha,WI,<All States>,1,<10
+87.7,14.2,Sheboygan,WI,<All States>,1,<10
+100,18.6,Pembine,WI,<All States>,1,<10
+89.3,17.9,Oshkosh,WI,<All States>,1,<10
+94,10.8,Neenah,WI,<All States>,1,<10
+90.5,15.2,Monroe,WI,<All States>,1,<10
+82,14.7,Millston,WI,<All States>,1,<10
+88.6,19.5,Kenosha,WI,<All States>,1,<10
+92.5,6.5,Jackson,WI,<All States>,1,<10
+91.4,9.8,Greenfield,WI,<All States>,1,<10
+93.8,9.6,Ashwaubenon,WI,<All States>,1,<10
+92.3,11.9,Appleton,WI,<All States>,1,<10
+88.1,22.1,Antigo,WI,<All States>,1,<10
+91.2,9.2,Douglas,WY,<All States>,2,<10
+91.8,10.5,Casper,WY,<All States>,2,<10
+88.3,15.7,Rawlins,WY,<All States>,1,<10
+96.7,30,Laramie,WY,<All States>,1,<10
+90.4,9,Gillette,WY,<All States>,1,<10
+93.4,11.2,Cheyenne,WY,<All States>,1,<10
 90.2,18.2,Huntsville,AL,Alabama,4,<10
-92.5,18.3,Hilo,HI,Hawaii,4,<10
-87.1,19.2,Durham,NC,North Carolina,4,<10
-88.2,16.4,Deltona,FL,Florida,4,<10
-77.4,36.2,Cleveland,OH,Ohio,4,<10
+85.1,30.9,Birmingham,AL,Alabama,3,<10
+93.5,12.7,Homewood,AL,Alabama,2,<10
+76.8,16.9,Clanton,AL,Alabama,2,<10
+85.2,13.4,Westover,AL,Alabama,1,<10
+86.2,15.3,Tuscumbia,AL,Alabama,1,<10
+87.3,25.1,Tuscaloosa,AL,Alabama,1,<10
+82.5,29.8,Sylacauga,AL,Alabama,1,<10
+77.8,41.9,Selma,AL,Alabama,1,<10
+85.4,11.2,Saraland,AL,Alabama,1,<10
+76.8,25.6,Piedmont,AL,Alabama,1,<10
+83.5,11.7,Oxford,AL,Alabama,1,<10
+77.4,25.9,Opp,AL,Alabama,1,<10
+83.7,23,Opelika,AL,Alabama,1,<10
+85.5,24.1,Montgomery,AL,Alabama,1,<10
+82.3,36.7,Monroeville,AL,Alabama,1,<10
+86.9,23.3,Mobile,AL,Alabama,1,<10
+91.3,11.6,Millbrook,AL,Alabama,1,<10
+86.6,15.4,Meridianville,AL,Alabama,1,<10
+85.8,24.7,Jackson,AL,Alabama,1,<10
+95.2,6,Hoover,AL,Alabama,1,<10
+78.3,29.4,Gadsden,AL,Alabama,1,<10
+81.5,25.3,Eufaula,AL,Alabama,1,<10
+73.7,28.8,Dadeville,AL,Alabama,1,<10
+92.2,6.6,Clay,AL,Alabama,1,<10
+77.6,28.3,Ashville,AL,Alabama,1,<10
+87.6,16.7,Arab,AL,Alabama,1,<10
+69.1,29.1,Abbeville,AL,Alabama,1,<10
+91.2,13.1,Fairbanks,AK,Alaska,5,<10
+93,8.2,Anchorage,AK,Alaska,3,<10
+91.8,11.7,Wasilla,AK,Alaska,2,<10
+89.7,10.9,Kenai,AK,Alaska,1,<10
+90.2,14.8,Houston,AK,Alaska,1,<10
+84.6,11.7,Barrow,AK,Alaska,1,<10
+80.7,23.1,Phoenix,AZ,Arizona,31,>=10
+84.2,25.3,Tucson,AZ,Arizona,14,>=10
+83.6,21.7,Glendale,AZ,Arizona,7,<10
+91.7,21.6,Tempe,AZ,Arizona,6,<10
+87.5,16.5,Mesa,AZ,Arizona,6,<10
+87,20.7,Kingman,AZ,Arizona,5,<10
+96.2,9.5,Scottsdale,AZ,Arizona,3,<10
+91.3,24.2,Flagstaff,AZ,Arizona,3,<10
+89.2,18,Eagar,AZ,Arizona,3,<10
+79,18.6,Avondale,AZ,Arizona,3,<10
+92.8,15.5,Prescott,AZ,Arizona,2,<10
+95.6,6.6,Gilbert,AZ,Arizona,2,<10
+91.5,10,Chandler,AZ,Arizona,2,<10
+77.5,18.4,Yuma,AZ,Arizona,1,<10
+79.6,30.1,Winslow,AZ,Arizona,1,<10
+80.1,24,Wilhoit,AZ,Arizona,1,<10
+92.9,9.8,Surprise,AZ,Arizona,1,<10
+51,31.5,Somerton,AZ,Arizona,1,<10
+87.8,22.5,Pima,AZ,Arizona,1,<10
+80.4,15.4,Parker,AZ,Arizona,1,<10
+94.3,6.8,Morenci,AZ,Arizona,1,<10
+91.7,8.1,Maricopa,AZ,Arizona,1,<10
+94.1,5.8,Marana,AZ,Arizona,1,<10
+87.7,21.2,Kearny,AZ,Arizona,1,<10
+92.1,8.8,Goodyear,AZ,Arizona,1,<10
+75.6,16.8,Florence,AZ,Arizona,1,<10
+84.3,14.8,Buckeye,AZ,Arizona,1,<10
+87.3,29.1,Bisbee,AZ,Arizona,1,<10
+91.7,24,Fayetteville,AR,Arkansas,2,<10
+87,11.4,Benton,AR,Arkansas,2,<10
+74.4,23,Strong,AR,Arkansas,1,<10
+71.7,23.3,Springdale,AR,Arkansas,1,<10
+90.4,10.2,Sheridan,AR,Arkansas,1,<10
+85.8,14,Perryville,AR,Arkansas,1,<10
+88.8,18.5,Mena,AR,Arkansas,1,<10
+89.3,10.9,Marion,AR,Arkansas,1,<10
+80.7,32.6,Manila,AR,Arkansas,1,<10
+89.1,23.7,Jonesboro,AR,Arkansas,1,<10
+92.3,11.4,Farmington,AR,Arkansas,1,<10
+82.3,29.9,England,AR,Arkansas,1,<10
+85.2,23.6,Dover,AR,Arkansas,1,<10
+92.4,11.4,Cabot,AR,Arkansas,1,<10
+95.9,7.7,Austin,AR,Arkansas,1,<10
+79.6,19.8,Bakersfield,CA,California,13,>=10
+75.2,29.8,Fresno,CA,California,11,>=10
+74.9,25.3,Stockton,CA,California,7,<10
+80.4,20.4,Oakland,CA,California,7,<10
+79.5,26,Hemet,CA,California,6,<10
+83.4,22,Sacramento,CA,California,5,<10
+81.2,20.5,Modesto,CA,California,5,<10
+75.8,16.5,Anaheim,CA,California,5,<10
+70.6,18.1,Ontario,CA,California,4,<10
 92,24.9,Chico,CA,California,4,<10
-85.2,22.6,Chattanooga,TN,Tennessee,4,<10
-96.3,23.1,Boulder,CO,Colorado,4,<10
-92.8,12.8,Billings,MT,Montana,4,<10
-83.4,17,Amarillo,TX,Texas,4,<10
-86.3,26.5,Akron,OH,Ohio,4,<10
-76.5,37.3,York,PA,Pennsylvania,3,<10
-83.2,24.5,Wilmington,DE,Delaware,3,<10
-82.6,35,Valdosta,GA,Georgia,3,<10
 91.4,7,Temecula,CA,California,3,<10
 91.4,7.5,Sunnyvale,CA,California,3,<10
-85.5,23.6,Shreveport,LA,Louisiana,3,<10
-96.2,9.5,Scottsdale,AZ,Arizona,3,<10
-92.4,12.1,Ruidoso,NM,New Mexico,3,<10
-71.4,29.1,Paterson,NJ,New Jersey,3,<10
-76.4,12.1,Odessa,TX,Texas,3,<10
 80.9,9.5,Napa,CA,California,3,<10
-86.4,32.2,Muncie,IN,Indiana,3,<10
-93.7,34.1,Morgantown,WV,West Virginia,3,<10
-71.9,26,Mission,TX,Texas,3,<10
-88.6,21.9,Minneapolis,MN,Minnesota,3,<10
-86.4,23,Medford,OR,Oregon,3,<10
-94.1,9.1,Loveland,CO,Colorado,3,<10
-93.1,15.9,Lincoln,NE,Nebraska,3,<10
-66.3,30.8,Laredo,TX,Texas,3,<10
-87.4,19.2,Lakeland,FL,Florida,3,<10
-87.8,25.7,Knoxville,TN,Tennessee,3,<10
 73.7,19.5,Indio,CA,California,3,<10
-79.9,20.9,Houma,LA,Louisiana,3,<10
-72.7,16.5,Hobbs,NM,New Mexico,3,<10
-87.7,19.3,Greenville,SC,South Carolina,3,<10
-83.2,20.8,Gastonia,NC,North Carolina,3,<10
 92.3,6.1,Fremont,CA,California,3,<10
 72.5,16.1,Fontana,CA,California,3,<10
-91.3,24.2,Flagstaff,AZ,Arizona,3,<10
-85,17.5,Elkton,MD,Maryland,3,<10
-89.2,18,Eagar,AZ,Arizona,3,<10
-87.4,20.6,DeLand,FL,Florida,3,<10
-82.1,35.5,Dayton,OH,Ohio,3,<10
 60.1,26.6,Compton,CA,California,3,<10
-93.8,24.4,Columbia,MO,Missouri,3,<10
 73.2,13.9,Citrus,CA,California,3,<10
-79.5,34.6,Chester,PA,Pennsylvania,3,<10
-67.6,39.9,Camden,NJ,New Jersey,3,<10
-85.1,30.9,Birmingham,AL,Alabama,3,<10
-90.3,15.4,Beaverton,OR,Oregon,3,<10
 77.7,17.6,Azusa,CA,California,3,<10
-79,18.6,Avondale,AZ,Arizona,3,<10
-93,8.2,Anchorage,AK,Alaska,3,<10
-81.3,19.2,Zion,IL,Illinois,2,<10
-84,14.9,Wyoming,MI,Michigan,2,<10
 83.3,12.5,Whittier,CA,California,2,<10
-96.6,6.4,Wauwatosa,WI,Wisconsin,2,<10
-91.8,11.7,Wasilla,AK,Alaska,2,<10
 76.9,17.8,Vista,CA,California,2,<10
 82.7,21.3,Visalia,CA,California,2,<10
 87.4,18.3,Vallejo,CA,California,2,<10
-87.2,23.3,Tupelo,MS,Mississippi,2,<10
-84.7,26.1,Troy,NY,New York,2,<10
-88.6,19.2,Topeka,KS,Kansas,2,<10
-88.1,16.3,Taylors,SC,South Carolina,2,<10
-92.5,29.7,Tallahassee,FL,Florida,2,<10
-84.3,34.3,Tahlequah,OK,Oklahoma,2,<10
-80.2,34.8,Syracuse,NY,New York,2,<10
-87.7,15.4,Stockbridge,GA,Georgia,2,<10
-82.3,27.2,Spartanburg,SC,South Carolina,2,<10
-88.4,11.4,Southaven,MS,Mississippi,2,<10
-83.4,16.9,Shelbyville,IN,Indiana,2,<10
-86.9,18.2,Salem,OR,Oregon,2,<10
-80.3,22.1,Roswell,NM,New Mexico,2,<10
-68.1,34.3,Rossville,GA,Georgia,2,<10
-91.9,9.5,Riverview,FL,Florida,2,<10
 90.6,9.8,Ripon,CA,California,2,<10
 67.4,19.7,Rialto,CA,California,2,<10
 90.6,18.8,Redding,CA,California,2,<10
-65.1,39.6,Reading,PA,Pennsylvania,2,<10
-93.5,10,Randallstown,MD,Maryland,2,<10
-90.5,16,Raleigh,NC,North Carolina,2,<10
-80.4,21.1,Pulaski,VA,Virginia,2,<10
-76.6,31.6,Princeton,WV,West Virginia,2,<10
-92.8,15.5,Prescott,AZ,Arizona,2,<10
-83.6,18.2,Portsmouth,VA,Virginia,2,<10
 95.2,4.4,Pleasanton,CA,California,2,<10
-91.4,22.9,Pittsburgh,PA,Pennsylvania,2,<10
-82.4,19.6,Piedmont,SC,South Carolina,2,<10
 74.2,21.3,Palmdale,CA,California,2,<10
-85.5,19.8,Owensboro,KY,Kentucky,2,<10
 84.2,13.2,Orange,CA,California,2,<10
-82.3,22.9,Ogden,UT,Utah,2,<10
-86.1,22.6,Ocala,FL,Florida,2,<10
-86.6,14,Northglenn,CO,Colorado,2,<10
 87.7,7.9,Newark,CA,California,2,<10
-83,9.3,Midland,TX,Texas,2,<10
-77.2,23,Metropolis,IL,Illinois,2,<10
-89,13.8,Metairie,LA,Louisiana,2,<10
-86.3,20.2,Marietta,GA,Georgia,2,<10
-94.8,19,Madison,WI,Wisconsin,2,<10
-92.2,9.7,Madison,OH,Ohio,2,<10
-83.5,17.9,Longview,TX,Texas,2,<10
-88.8,26.5,Logan,UT,Utah,2,<10
-77.5,29.1,Lealman,FL,Florida,2,<10
-79.8,15.6,Landover,MD,Maryland,2,<10
-76.3,29,Lancaster,PA,Pennsylvania,2,<10
 81.4,23.5,Lancaster,CA,California,2,<10
-88.1,20.7,Lakewood,WA,Washington,2,<10
-91.5,11.9,Lakewood,CO,Colorado,2,<10
-85.7,15.6,Kerrville,TX,Texas,2,<10
-89.6,14.6,Kentwood,MI,Michigan,2,<10
-85.4,15.5,Kent,WA,Washington,2,<10
-93,35.1,Kent,OH,Ohio,2,<10
-83,30.6,Kelso,WA,Washington,2,<10
-68.8,20.9,Iuka,MS,Mississippi,2,<10
-92.6,16.4,Irmo,SC,South Carolina,2,<10
 72.5,22.4,Inglewood,CA,California,2,<10
-87.6,13.9,Hutchinson,KS,Kansas,2,<10
-93.5,12.7,Homewood,AL,Alabama,2,<10
-69.1,28.8,Homestead,FL,Florida,2,<10
-84.3,17.5,Hickory,NC,North Carolina,2,<10
-92.7,9.8,Henderson,NV,Nevada,2,<10
 80.1,13.4,Hayward,CA,California,2,<10
-94.5,17.7,Hays,KS,Kansas,2,<10
-77.2,20.7,Harvey,LA,Louisiana,2,<10
-84.6,24.2,Hardeeville,SC,South Carolina,2,<10
-85.2,22.1,Hamilton,OH,Ohio,2,<10
-86.6,15.8,Hackensack,NJ,New Jersey,2,<10
-88.7,19.3,Greensboro,NC,North Carolina,2,<10
-83.6,20.2,Greeley,CO,Colorado,2,<10
-95.6,6.6,Gilbert,AZ,Arizona,2,<10
-76.3,17.2,Garland,TX,Texas,2,<10
-92.1,35.6,Gainesville,FL,Florida,2,<10
-91.2,18.4,Fayetteville,NC,North Carolina,2,<10
-91.7,24,Fayetteville,AR,Arkansas,2,<10
-76.3,16.6,Evans,CO,Colorado,2,<10
-90.3,12.2,Euless,TX,Texas,2,<10
-93.5,24.4,Eugene,OR,Oregon,2,<10
-88.3,16.3,Elizabethtown,KY,Kentucky,2,<10
 88.3,24.5,Dunsmuir,CA,California,2,<10
-91.2,9.2,Douglas,WY,Wyoming,2,<10
-81,28.9,Dearborn,MI,Michigan,2,<10
-75,19.3,Conroe,TX,Texas,2,<10
-80.6,31.2,Columbus,MS,Mississippi,2,<10
-83.1,29.3,Cocoa,FL,Florida,2,<10
-76.8,16.9,Clanton,AL,Alabama,2,<10
 77.7,11.6,Chino,CA,California,2,<10
-83.4,18.4,Chickasha,OK,Oklahoma,2,<10
-91.1,9.7,Chesapeake,VA,Virginia,2,<10
-91.5,10,Chandler,AZ,Arizona,2,<10
 91.7,4.8,Cerritos,CA,California,2,<10
-91.8,10.5,Casper,WY,Wyoming,2,<10
-81.2,14.9,Cartersville,GA,Georgia,2,<10
-86.8,16.8,Carson,NV,Nevada,2,<10
 93.4,16.6,Carmichael,CA,California,2,<10
-93.9,11.2,Burnsville,MN,Minnesota,2,<10
-89,24.8,Burlington,VT,Vermont,2,<10
-83.3,18.2,Burien,WA,Washington,2,<10
-82.2,27.3,Brooksville,FL,Florida,2,<10
-84.9,18.1,Bradenton,FL,Florida,2,<10
-87,11.4,Benton,AR,Arkansas,2,<10
-95.2,12.5,Bend,OR,Oregon,2,<10
-92.6,18.2,Belleville,IL,Illinois,2,<10
-84.9,21.8,Beaumont,TX,Texas,2,<10
-75.5,19.6,Baytown,TX,Texas,2,<10
 79.8,33.7,Barstow,CA,California,2,<10
-85.9,9.1,Azle,TX,Texas,2,<10
-87.6,15.9,Auburn,WA,Washington,2,<10
-81.8,10.9,Artesia,NM,New Mexico,2,<10
-93.5,9,Arlington,VA,Virginia,2,<10
 86.9,15.4,Antioch,CA,California,2,<10
-88.1,14.9,Aloha,OR,Oregon,2,<10
-77.3,26.5,Allentown,PA,Pennsylvania,2,<10
-95.6,5.5,Allen,TX,Texas,2,<10
-81.7,25.8,Alexandria,LA,Louisiana,2,<10
-76.1,21.9,Alamo,TN,Tennessee,2,<10
-89.5,16.2,Aiken,SC,South Carolina,2,<10
-80.3,31.4,Zanesville,OH,Ohio,1,<10
-77.5,18.4,Yuma,AZ,Arizona,1,<10
-87.6,11.5,Yulee,FL,Florida,1,<10
 84.4,34.3,Yreka,CA,California,1,<10
-93.9,13.1,York,NE,Nebraska,1,<10
-83,16.7,Yonkers,NY,New York,1,<10
-73.3,23,Yakima,WA,Washington,1,<10
-95.5,7,Woodstock,GA,Georgia,1,<10
-82,19.4,Woodland,WA,Washington,1,<10
-89.5,7.2,Woodbridge,NJ,New Jersey,1,<10
-79.6,30.1,Winslow,AZ,Arizona,1,<10
-85,26.1,Winooski,VT,Vermont,1,<10
-65,52.3,Winnsboro,LA,Louisiana,1,<10
-70.8,13.7,Winnie,TX,Texas,1,<10
-88.3,14.6,Wink,TX,Texas,1,<10
 86.8,4.1,Windsor,CA,California,1,<10
-84.2,16,Winchester,VA,Virginia,1,<10
 73.6,14.1,Winchester,CA,California,1,<10
-91.2,28.8,Wilmore,KY,Kentucky,1,<10
-92.8,7.9,Willoughby,OH,Ohio,1,<10
-90.8,24.1,Wilkinsburg,PA,Pennsylvania,1,<10
-75.9,30.5,Wilkesboro,NC,North Carolina,1,<10
-80.1,24,Wilhoit,AZ,Arizona,1,<10
-80.3,18.4,Whitewright,TX,Texas,1,<10
-78.6,20.2,White,GA,Georgia,1,<10
-78.9,36.7,Wewoka,OK,Oklahoma,1,<10
-74.4,27,Wetumka,OK,Oklahoma,1,<10
-85.2,13.4,Westover,AL,Alabama,1,<10
-91.4,15.5,Weston,WI,Wisconsin,1,<10
-96,4.6,Westlake,OH,Ohio,1,<10
-96.8,6.7,Westerville,OH,Ohio,1,<10
-83.4,17.4,West,TX,Texas,1,<10
-81.4,14,Wenatchee,WA,Washington,1,<10
-93.2,5.7,Wellman,IA,Iowa,1,<10
-94.7,8.2,Wellington,FL,Florida,1,<10
-89.8,17.2,Weirton,WV,West Virginia,1,<10
-83.5,17.6,Webster,TX,Texas,1,<10
-79.6,19.2,Webster,MA,Massachusetts,1,<10
-89.1,16.6,Wausau,WI,Wisconsin,1,<10
-92.7,11.3,Waukesha,WI,Wisconsin,1,<10
-73.6,53.1,Watts,OK,Oklahoma,1,<10
 56.3,19.7,Watsonville,CA,California,1,<10
-95.4,4.7,Washington,IL,Illinois,1,<10
 51.1,32.7,Wasco,CA,California,1,<10
-84.1,19.7,Warren,MI,Michigan,1,<10
-44.4,36.6,Wapato,WA,Washington,1,<10
 93,6.7,Walnut,CA,California,1,<10
-87.2,18.7,Walls,MS,Mississippi,1,<10
-98.4,42.3,Waldoboro,ME,Maine,1,<10
-83.5,24.1,Wagoner,OK,Oklahoma,1,<10
-79.7,32.2,Wadesboro,NC,North Carolina,1,<10
-79.2,29,Waco,TX,Texas,1,<10
-76.4,16.9,Vineland,NJ,New Jersey,1,<10
-80.2,31.5,Vineland,MN,Minnesota,1,<10
-85.4,23.9,Vincennes,IN,Indiana,1,<10
-81.3,18,Victoria,TX,Texas,1,<10
-91.6,9.7,Vandalia,OH,Ohio,1,<10
 66.2,12.5,Valinda,CA,California,1,<10
 88.4,10.7,Vacaville,CA,California,1,<10
-97,5.9,Urbandale,IA,Iowa,1,<10
-92.5,7.6,Uniontown,OH,Ohio,1,<10
-87.8,17.4,Udall,KS,Kansas,1,<10
-91.6,11.8,Tyrone,GA,Georgia,1,<10
-94.4,4.6,Twinsburg,OH,Ohio,1,<10
 83.5,13.6,Tustin,CA,California,1,<10
-86.2,15.3,Tuscumbia,AL,Alabama,1,<10
-87.3,25.1,Tuscaloosa,AL,Alabama,1,<10
 81.2,17.5,Turlock,CA,California,1,<10
-82.7,23.7,Tukwila,WA,Washington,1,<10
-92.5,11.7,Tualatin,OR,Oregon,1,<10
-84.1,16.9,Trinidad,CO,Colorado,1,<10
-71,28.3,Trenton,NJ,New Jersey,1,<10
-91.7,8,Trenton,MI,Michigan,1,<10
 93.5,7,Torrance,CA,California,1,<10
-88.8,22.7,Tomball,TX,Texas,1,<10
-85.2,27.8,Toledo,OH,Ohio,1,<10
-89.4,6.8,Tiverton,RI,Rhode Island,1,<10
-90.2,18.8,Titusville,FL,Florida,1,<10
-88.9,19.9,Tiffin,OH,Ohio,1,<10
-87.5,8.9,Thornton,CO,Colorado,1,<10
-83.6,21.5,Thonotosassa,FL,Florida,1,<10
-86.3,10.8,Thomaston,CT,Connecticut,1,<10
-76.2,21.4,Terrell,TX,Texas,1,<10
-87.9,17.9,Temple,TX,Texas,1,<10
 75.6,22,Tehachapi,CA,California,1,<10
-82.1,12.4,Taunton,MA,Massachusetts,1,<10
-75,17,Tarboro,NC,North Carolina,1,<10
-88.5,21.8,Taos,NM,New Mexico,1,<10
-84.6,18.3,Tahoka,TX,Texas,1,<10
-97.5,3,Syracuse,UT,Utah,1,<10
-74,28.7,Sylvester,GA,Georgia,1,<10
-95.6,7.8,Sylvania,OH,Ohio,1,<10
-82.5,29.8,Sylacauga,AL,Alabama,1,<10
-92.9,9.8,Surprise,AZ,Arizona,1,<10
-89.2,25.5,Superior,MT,Montana,1,<10
-84,18.6,Sumter,SC,South Carolina,1,<10
-92.9,13,Summerville,SC,South Carolina,1,<10
-80.5,8,Sumas,WA,Washington,1,<10
-79.3,19,Sullivan,MO,Missouri,1,<10
-87.5,11.5,Suffolk,VA,Virginia,1,<10
-74.4,23,Strong,AR,Arkansas,1,<10
-92.9,4.7,Strasburg,CO,Colorado,1,<10
-81.2,10.6,Stoneville,NC,North Carolina,1,<10
-94.1,16.1,Stockton,IL,Illinois,1,<10
-95.2,33,Stillwater,OK,Oklahoma,1,<10
-89.4,15.1,Stewartstown,PA,Pennsylvania,1,<10
-80.1,28.4,Statesville,NC,North Carolina,1,<10
-89,9.4,Stamford,CT,Connecticut,1,<10
-89.6,19.4,Springtown,TX,Texas,1,<10
-86.2,21.5,Springfield,OR,Oregon,1,<10
-82.4,29,Springfield,OH,Ohio,1,<10
-90.8,19.5,Springfield,IL,Illinois,1,<10
-71.7,23.3,Springdale,AR,Arkansas,1,<10
-90.4,11.2,Spring,TX,Texas,1,<10
-72,31.5,Splendora,TX,Texas,1,<10
-75.1,30.8,Spencer,WV,West Virginia,1,<10
-80.6,16.9,Spencer,MA,Massachusetts,1,<10
-79.2,24.3,Sparta,TN,Tennessee,1,<10
-85.5,13,Sparks,NV,Nevada,1,<10
-87.7,12.8,Spanaway,WA,Washington,1,<10
-92.6,15.2,Southfield,MI,Michigan,1,<10
-79.8,33.3,Somerville,TN,Tennessee,1,<10
-51,31.5,Somerton,AZ,Arizona,1,<10
-88.7,23.9,Somerset,PA,Pennsylvania,1,<10
 92.8,11.1,Solvang,CA,California,1,<10
-84.2,10.7,Soddy-Daisy,TN,Tennessee,1,<10
-72.1,30.2,Socorro,NM,New Mexico,1,<10
-92.2,12.7,Snohomish,WA,Washington,1,<10
-79,30.3,Sneads,FL,Florida,1,<10
-90.5,13.4,Smyrna,GA,Georgia,1,<10
-89.9,7.6,Smyrna,DE,Delaware,1,<10
-77.6,15.8,Smithville,MS,Mississippi,1,<10
 100,3.7,Smartsville,CA,California,1,<10
-87.5,16.3,Slidell,LA,Louisiana,1,<10
-93.6,13.5,Sidney,NE,Nebraska,1,<10
-90.4,10.2,Sheridan,AR,Arkansas,1,<10
-80.1,28.6,Shelton,WA,Washington,1,<10
-73.3,26.9,Shelbyville,TN,Tennessee,1,<10
-85.1,29,Shelby,NC,North Carolina,1,<10
-87.7,14.2,Sheboygan,WI,Wisconsin,1,<10
-86.5,24.5,Sharon,PA,Pennsylvania,1,<10
 57.9,21.7,Shafter,CA,California,1,<10
-82.9,25.3,Sevierville,TN,Tennessee,1,<10
-84.3,23.3,Seneca,SC,South Carolina,1,<10
 62,24.3,Selma,CA,California,1,<10
-77.8,41.9,Selma,AL,Alabama,1,<10
-80.7,23.9,Sedalia,MO,Missouri,1,<10
-87.6,19.3,Seaside,OR,Oregon,1,<10
 75.8,18.7,Seaside,CA,California,1,<10
-72.2,15.8,Seagoville,TX,Texas,1,<10
-74.7,36.5,Schulter,OK,Oklahoma,1,<10
-84.3,22.8,Schenectady,NY,New York,1,<10
-86,26.5,Savannah,GA,Georgia,1,<10
 98.2,3.6,Saratoga,CA,California,1,<10
-85.4,11.2,Saraland,AL,Alabama,1,<10
 92.9,7.8,Santee,CA,California,1,<10
-88.3,24.3,Sandpoint,ID,Idaho,1,<10
 87.3,15.4,San Diego,CA,California,1,<10
-82.3,28.5,Sallisaw,OK,Oklahoma,1,<10
-82.4,23.3,Salisbury,NC,North Carolina,1,<10
-85.6,27.4,Salisbury,MD,Maryland,1,<10
 59.5,20.2,Salinas,CA,California,1,<10
-80.9,16.8,Salemburg,NC,North Carolina,1,<10
-92.1,7.5,Saginaw,TX,Texas,1,<10
-78.4,35.9,Saginaw,MI,Michigan,1,<10
-87.1,17.8,Rutherfordton,NC,North Carolina,1,<10
-74.3,27.4,Russellville,KY,Kentucky,1,<10
-90.7,12.1,Roy,UT,Utah,1,<10
-77.1,36.2,Rowland,NC,North Carolina,1,<10
-96.3,27.4,Rowe,NM,New Mexico,1,<10
-93.2,7,Rotterdam,NY,New York,1,<10
-67.1,30.7,Rosser,TX,Texas,1,<10
-93.4,11.5,Roseville,MN,Minnesota,1,<10
-74.6,20.7,Rosenberg,TX,Texas,1,<10
 66.2,19.3,Rosemead,CA,California,1,<10
-75,43.7,Rosebud,SD,South Dakota,1,<10
-81.3,12.8,Rosalia,KS,Kansas,1,<10
-88.7,13.5,Roosevelt,UT,Utah,1,<10
-62.3,23,Ronda,NC,North Carolina,1,<10
-86.8,20.5,Romulus,MI,Michigan,1,<10
-79.3,28.2,Rome,OH,Ohio,1,<10
-80.4,30.3,Roland,OK,Oklahoma,1,<10
 95.8,8.6,Rocklin,CA,California,1,<10
-83.1,24.8,Rockford,IL,Illinois,1,<10
-80.5,33.5,Rochester,NY,New York,1,<10
-84.4,21.2,Roanoke,VA,Virginia,1,<10
 78.5,18.8,Riverside,CA,California,1,<10
-85.6,29.5,Riverdale,GA,Georgia,1,<10
-96.5,7.9,Ridgefield,WA,Washington,1,<10
-89.8,8.8,Richmond,OH,Ohio,1,<10
-86.2,31.9,Richmond,KY,Kentucky,1,<10
-95.4,10.6,Richland,WA,Washington,1,<10
-97.8,46.1,Rexburg,ID,Idaho,1,<10
-93.2,15.8,Republic,MO,Missouri,1,<10
-90,12.8,Reisterstown,MD,Maryland,1,<10
 90.4,14.3,Redlands,CA,California,1,<10
-88.3,15.7,Rawlins,WY,Wyoming,1,<10
-86.7,25.1,Rantoul,IL,Illinois,1,<10
-74.2,18.4,Raceland,LA,Louisiana,1,<10
-90.5,28.8,Provo,UT,Utah,1,<10
-86.9,26.3,Princeton,KY,Kentucky,1,<10
-93,0,Powhatan,VA,Virginia,1,<10
 93,6,Poway,CA,California,1,<10
-92.5,28.8,Potsdam,NY,New York,1,<10
-92.5,19.7,Portland,ME,Maine,1,<10
 66.9,30.9,Porterville,CA,California,1,<10
-95.8,11,Portage,MI,Michigan,1,<10
-88.2,16.3,Portage,IN,Indiana,1,<10
-88.6,3.4,Ponder,TX,Texas,1,<10
 67.5,22.1,Pomona,CA,California,1,<10
-97.3,5.8,Plymouth,MN,Minnesota,1,<10
-80.3,22.6,Plaquemine,LA,Louisiana,1,<10
-93.5,7.5,Plano,TX,Texas,1,<10
-88.8,19.5,Pittston,PA,Pennsylvania,1,<10
-76.5,8.1,Pinnacle,NC,North Carolina,1,<10
-83.8,21.3,Pineville,LA,Louisiana,1,<10
-87.8,22.5,Pima,AZ,Arizona,1,<10
-96.1,6.8,Pikesville,MD,Maryland,1,<10
-76.8,25.6,Piedmont,AL,Alabama,1,<10
-57.6,21.5,Phelps,KY,Kentucky,1,<10
-62,33.9,Pharr,TX,Texas,1,<10
-90.5,7.9,Peterson,MN,Minnesota,1,<10
-97.6,6.6,Peterborough,NH,New Hampshire,1,<10
-88.5,11.8,Petal,MS,Mississippi,1,<10
-85.8,14,Perryville,AR,Arkansas,1,<10
-91,7.9,Perry,OH,Ohio,1,<10
-91.7,15.7,Pensacola,FL,Florida,1,<10
-93.4,16.9,Penn,PA,Pennsylvania,1,<10
-79.1,32.3,Pendleton,SC,South Carolina,1,<10
-100,18.6,Pembine,WI,Wisconsin,1,<10
-94.7,29.3,Pelzer,SC,South Carolina,1,<10
-93.1,4.5,Pearland,TX,Texas,1,<10
-86.9,7.8,Pearisburg,VA,Virginia,1,<10
-80.9,31.6,Peachland,NC,North Carolina,1,<10
-78.4,20.6,Pawtucket,RI,Rhode Island,1,<10
-71.9,18.8,Pasco,WA,Washington,1,<10
-95.5,13.3,Parowan,UT,Utah,1,<10
-89.8,11.2,Parma,OH,Ohio,1,<10
-98,4.2,Parker,CO,Colorado,1,<10
-80.4,15.4,Parker,AZ,Arizona,1,<10
-84.1,25.6,Paris,TX,Texas,1,<10
-82.9,22.8,Paris,KY,Kentucky,1,<10
-94.9,11,Panhandle,TX,Texas,1,<10
-87.2,21.2,Panama City,FL,Florida,1,<10
-97.8,5.3,Palm Beach,FL,Florida,1,<10
-81.7,23.8,Palestine,TX,Texas,1,<10
-85.2,18.9,Pahrump,NV,Nevada,1,<10
-89.2,12.6,Ozark,MO,Missouri,1,<10
 65.6,16.6,Oxnard,CA,California,1,<10
-92.6,5.8,Oxford,MA,Massachusetts,1,<10
-83.5,11.7,Oxford,AL,Alabama,1,<10
-94,1.9,Owings,MD,Maryland,1,<10
-90.9,7.3,Overlea,MD,Maryland,1,<10
-89.3,17.9,Oshkosh,WI,Wisconsin,1,<10
-77.4,25.9,Opp,AL,Alabama,1,<10
-83.7,23,Opelika,AL,Alabama,1,<10
-84.3,29.9,Oneida,TN,Tennessee,1,<10
-74.8,33.2,Onalaska,TX,Texas,1,<10
-93.3,17.7,Olympia,WA,Washington,1,<10
 69.6,18.8,Olivehurst,CA,California,1,<10
-94,6.9,Olathe,KS,Kansas,1,<10
-86.8,29.5,Okmulgee,OK,Oklahoma,1,<10
-79.5,31.1,Okemah,OK,Oklahoma,1,<10
-94.9,11.7,Odessa,MO,Missouri,1,<10
-92.9,6.5,Oakland,FL,Florida,1,<10
 73.5,14.3,Norwalk,CA,California,1,<10
-92.2,10,Northwood,OH,Ohio,1,<10
-70.1,29.8,Noma,FL,Florida,1,<10
-72.1,31.7,Nocona,TX,Texas,1,<10
-90.6,12.9,Nitro,WV,West Virginia,1,<10
-94.4,14,Niceville,FL,Florida,1,<10
-77.7,23.8,Newton,NC,North Carolina,1,<10
-88.1,16.8,Newton,KS,Kansas,1,<10
-87.5,22.6,Newnan,GA,Georgia,1,<10
 76,19.8,Newman,CA,California,1,<10
-85.6,27.1,Nevada,MO,Missouri,1,<10
-80.6,20.2,Neosho,MO,Missouri,1,<10
-94,10.8,Neenah,WI,Wisconsin,1,<10
 82.1,27.7,Needles,CA,California,1,<10
-93.8,9.6,Navarre,FL,Florida,1,<10
-100,4.4,Naples,ME,Maine,1,<10
-94.1,8.8,Naples,FL,Florida,1,<10
-85.2,30,Nacogdoches,TX,Texas,1,<10
-84.5,25.4,Muskogee,OK,Oklahoma,1,<10
-72.3,36,Moultrie,GA,Georgia,1,<10
-77,28.9,Morristown,TN,Tennessee,1,<10
-88.4,27.6,Morris,MN,Minnesota,1,<10
-94.3,6.8,Morenci,AZ,Arizona,1,<10
-85.4,36.1,Morehead,KY,Kentucky,1,<10
-85.4,17.6,Mora,MN,Minnesota,1,<10
-88.4,22.2,Montrose,CO,Colorado,1,<10
-83.2,19.5,Montpelier,OH,Ohio,1,<10
-85.5,24.1,Montgomery,AL,Alabama,1,<10
 94.3,9.1,Monterey,CA,California,1,<10
 71.7,14,Montebello,CA,California,1,<10
-83.9,27,Monteagle,TN,Tennessee,1,<10
 70.1,16.9,Montclair,CA,California,1,<10
-71.8,48.5,Montcalm,WV,West Virginia,1,<10
-82.3,36.7,Monroeville,AL,Alabama,1,<10
-90.5,15.2,Monroe,WI,Wisconsin,1,<10
-74.5,31.1,Monon,IN,Indiana,1,<10
-86.9,23.3,Mobile,AL,Alabama,1,<10
-90.1,13.9,Mitchell,SD,South Dakota,1,<10
-90.8,15,Milton,FL,Florida,1,<10
-82,14.7,Millston,WI,Wisconsin,1,<10
-79.4,29.3,Millerton,OK,Oklahoma,1,<10
-91.3,11.6,Millbrook,AL,Alabama,1,<10
-92.2,5.3,Midlothian,TX,Texas,1,<10
-83,19.6,Middletown,NY,New York,1,<10
-93.3,5.4,Middletown,DE,Delaware,1,<10
-91.7,13.5,Middleton,ID,Idaho,1,<10
-83.5,16.8,Middleburg,FL,Florida,1,<10
-87.6,12.7,Micanopy,FL,Florida,1,<10
-84.6,24.5,Miami,OK,Oklahoma,1,<10
-86.6,15.4,Meridianville,AL,Alabama,1,<10
 74.5,31.9,Merced,CA,California,1,<10
-88.8,18.5,Mena,AR,Arkansas,1,<10
-89.2,15.9,Melbourne,FL,Florida,1,<10
-90.4,16.4,Melba,ID,Idaho,1,<10
-94.1,12.5,Medina,OH,Ohio,1,<10
-94.4,6.2,McPherson,KS,Kansas,1,<10
-85.2,21.2,McMinnville,OR,Oregon,1,<10
-85.3,26.8,McLemoresville,TN,Tennessee,1,<10
-92.2,7.4,McKinney,TX,Texas,1,<10
-83.9,23,McAlester,OK,Oklahoma,1,<10
 41.2,30.1,Maywood,CA,California,1,<10
-84.9,14.4,Maysville,MO,Missouri,1,<10
-91.5,0.6,Mashantucket,CT,Connecticut,1,<10
-69.7,14.6,Mascotte,FL,Florida,1,<10
-64.7,29.8,Marksville,LA,Louisiana,1,<10
-83.1,25.8,Markham,IL,Illinois,1,<10
-87.2,43.7,Marion,MI,Michigan,1,<10
-90.3,18.2,Marion,IL,Illinois,1,<10
-89.3,10.9,Marion,AR,Arkansas,1,<10
 83.1,15.3,Marina,CA,California,1,<10
-91.7,8.1,Maricopa,AZ,Arizona,1,<10
-94.1,5.8,Marana,AZ,Arizona,1,<10
-94.4,6.2,Mansfield,TX,Texas,1,<10
-82.6,26.2,Mansfield,OH,Ohio,1,<10
-94.1,26.2,Mankato,MN,Minnesota,1,<10
-92.2,19,Manistee,MI,Michigan,1,<10
-80.7,32.6,Manila,AR,Arkansas,1,<10
-92,6,Mandeville,LA,Louisiana,1,<10
-91.8,9.3,Mandan,ND,North Dakota,1,<10
-60.6,41.1,Mamou,LA,Louisiana,1,<10
-88.8,14.3,Malta,MT,Montana,1,<10
-81.2,31.1,Malone,NY,New York,1,<10
-76.5,18.1,Maiden,NC,North Carolina,1,<10
-93.8,13.2,Maeystown,IL,Illinois,1,<10
-86.7,22.7,Madison,ME,Maine,1,<10
 58.2,27.6,Madera,CA,California,1,<10
-84.1,17.6,Mableton,GA,Georgia,1,<10
-81.6,24.2,Mabank,TX,Texas,1,<10
-83.1,15.2,Lyons,IL,Illinois,1,<10
 52.8,25.3,Lynwood,CA,California,1,<10
-88.3,16,Lynnwood,WA,Washington,1,<10
-75.2,36.3,Lumpkin,GA,Georgia,1,<10
-74.1,34.8,Lumberton,NC,North Carolina,1,<10
-77.2,23.7,Lufkin,TX,Texas,1,<10
-82.3,14.9,Ludowici,GA,Georgia,1,<10
-86.2,25.5,Ludlow,KY,Kentucky,1,<10
-77.5,30.9,Lucedale,MS,Mississippi,1,<10
-78.9,19.8,Lowell,MA,Massachusetts,1,<10
-64.5,19.7,Lovington,NM,New Mexico,1,<10
-91.5,4.4,Louisville,NE,Nebraska,1,<10
-88.9,12.8,Lorena,TX,Texas,1,<10
-76.4,27.5,London,KY,Kentucky,1,<10
 74.7,21.3,Lompoc,CA,California,1,<10
-87.4,9.2,Loganville,GA,Georgia,1,<10
 80.4,17.4,Lodi,CA,California,1,<10
-79.8,13.1,Lockhart,TX,Texas,1,<10
-80.5,27.1,Llano,TX,Texas,1,<10
-94.7,12.7,Livingston,MT,Montana,1,<10
-81.2,9,Livingston,LA,Louisiana,1,<10
-95.5,8.6,Lisle,IL,Illinois,1,<10
 93,9.1,Lincoln,CA,California,1,<10
-93.7,11.7,Lexington,SC,South Carolina,1,<10
-87.5,25.8,Lewistown,PA,Pennsylvania,1,<10
-75.9,22,Lewisburg,TN,Tennessee,1,<10
-77.9,15.4,Levelland,TX,Texas,1,<10
-77,22.8,Lenoir,NC,North Carolina,1,<10
 84.6,15.6,Lemoore,CA,California,1,<10
-93.5,14.2,Leland,NC,North Carolina,1,<10
-75.8,29,Leitchfield,KY,Kentucky,1,<10
-96.5,7.7,Lehigh,KS,Kansas,1,<10
-91.6,7,Leedey,OK,Oklahoma,1,<10
-90.8,16.4,Leavenworth,KS,Kansas,1,<10
-91.8,10.3,Lead,SD,South Dakota,1,<10
-88.5,19.9,Lawton,OK,Oklahoma,1,<10
-81.3,24.4,Lawrenceville,GA,Georgia,1,<10
-87.9,11.8,Lawrenceburg,KY,Kentucky,1,<10
-82.8,21.4,Lawndale,NC,North Carolina,1,<10
-78.8,31.1,Latta,SC,South Carolina,1,<10
-88,16.2,Largo,FL,Florida,1,<10
-96.7,30,Laramie,WY,Wyoming,1,<10
-87.6,29.6,Lansing,MI,Michigan,1,<10
-89.5,14.6,Lansing,IL,Illinois,1,<10
-84,20.1,Landrum,SC,South Carolina,1,<10
-80.5,30.1,Lancaster,SC,South Carolina,1,<10
-70.3,36.7,Lancaster,KY,Kentucky,1,<10
 87.9,7.9,Lakewood,CA,California,1,<10
-92.5,13,Lakeshire,MO,Missouri,1,<10
-94.9,4.4,Lakeland,TN,Tennessee,1,<10
-88.3,34.5,Laguna,NM,New Mexico,1,<10
-85.6,19.8,Lafayette,IN,Indiana,1,<10
 100,1.2,Ladera,CA,California,1,<10
-93.6,9.9,Lacey,WA,Washington,1,<10
-67.9,57.5,Kyle,SD,South Dakota,1,<10
-92.9,13.2,Kuna,ID,Idaho,1,<10
-86.3,21.3,Kokomo,IN,Indiana,1,<10
-84.8,14.4,Knoxville,PA,Pennsylvania,1,<10
-75.1,20.9,Knox,IN,Indiana,1,<10
-96.3,6.3,Kirkland,WA,Washington,1,<10
-82.5,19.9,Kiowa,OK,Oklahoma,1,<10
-80.3,33.1,Kinston,NC,North Carolina,1,<10
-80.2,18.8,Kingsbury,TX,Texas,1,<10
-91.6,15.2,Killeen,TX,Texas,1,<10
-88.6,19.5,Kenosha,WI,Wisconsin,1,<10
-86.5,18.1,Kennewick,WA,Washington,1,<10
-84.7,15.5,Kenner,LA,Louisiana,1,<10
-89.7,10.9,Kenai,AK,Alaska,1,<10
-79.6,25.3,Kellyville,OK,Oklahoma,1,<10
-87.7,21.2,Kearny,AZ,Arizona,1,<10
-85.1,13.5,Keaau,HI,Hawaii,1,<10
-84.1,8.4,Katy,TX,Texas,1,<10
-86.9,15.3,Kahuku,HI,Hawaii,1,<10
-92.3,9.2,Jupiter,FL,Florida,1,<10
-75.8,10.7,Jourdanton,TX,Texas,1,<10
-89.1,23.7,Jonesboro,AR,Arkansas,1,<10
-84.7,35.1,Johnstown,PA,Pennsylvania,1,<10
-79.7,20.5,Johnsonville,SC,South Carolina,1,<10
-84,31.6,Jesup,GA,Georgia,1,<10
-90.6,6.4,Jerseyville,IL,Illinois,1,<10
-79.5,29.9,Jennings,MO,Missouri,1,<10
-72.6,6.6,Jal,NM,New Mexico,1,<10
-92.5,6.5,Jackson,WI,Wisconsin,1,<10
-87.5,24,Jackson,TN,Tennessee,1,<10
-92.5,13,Jackson,MO,Missouri,1,<10
-72.8,22.8,Jackson,GA,Georgia,1,<10
-85.8,24.7,Jackson,AL,Alabama,1,<10
-66.4,26.9,Iva,SC,South Carolina,1,<10
-92.4,5.6,Islip,NY,New York,1,<10
-93.1,20.6,Ishpeming,MI,Michigan,1,<10
 96.3,12.3,Irvine,CA,California,1,<10
 94.5,1.9,Inyokern,CA,California,1,<10
-87.6,17.9,Independence,MO,Missouri,1,<10
-41.3,43.9,Immokalee,FL,Florida,1,<10
-93.9,7.3,Hutchinson,MN,Minnesota,1,<10
-72.2,25.7,Hutchins,TX,Texas,1,<10
-85.5,12.8,Hurst,TX,Texas,1,<10
-80.8,15.7,Hurst,IL,Illinois,1,<10
-100,0,Huntley,MT,Montana,1,<10
-91.9,21.9,Huntingdon,PA,Pennsylvania,1,<10
-92.4,9.5,Hummelstown,PA,Pennsylvania,1,<10
-81.1,22.9,Humboldt,TN,Tennessee,1,<10
-98.2,3.8,Hudson,OH,Ohio,1,<10
-88,14.1,Hudson,NC,North Carolina,1,<10
-90.2,14.8,Houston,AK,Alaska,1,<10
-80.9,19,Hopewell,VA,Virginia,1,<10
-95.2,6,Hoover,AL,Alabama,1,<10
-79.5,21.6,Hominy,OK,Oklahoma,1,<10
-86.1,14.9,Hometown,WV,West Virginia,1,<10
-79,40,Homer,LA,Louisiana,1,<10
-66.6,47.7,Homedale,ID,Idaho,1,<10
-85.6,18.5,Holland,MI,Michigan,1,<10
-83.7,21.1,Holiday,FL,Florida,1,<10
-80.9,29.5,Hohenwald,TN,Tennessee,1,<10
-58.6,24,Hiseville,KY,Kentucky,1,<10
 75,20.7,Highland,CA,California,1,<10
 69,31.9,Highgrove,CA,California,1,<10
-99.3,11.1,Hesston,KS,Kansas,1,<10
 77.2,24.8,Hesperia,CA,California,1,<10
-84.3,7.8,Herndon,VA,Virginia,1,<10
-93.8,6.6,Hendersonville,TN,Tennessee,1,<10
-77.4,17.4,Henderson,TX,Texas,1,<10
-85.7,14.3,Healdton,OK,Oklahoma,1,<10
 73.8,20.1,Hawthorne,CA,California,1,<10
-84.6,37.8,Hattiesburg,MS,Mississippi,1,<10
-78.1,36.4,Harvey,IL,Illinois,1,<10
-90.8,14.3,Harrisonville,MO,Missouri,1,<10
-84.1,32.5,Harrisonburg,VA,Virginia,1,<10
-79.9,31.8,Harrisburg,PA,Pennsylvania,1,<10
-89.4,6.8,Harmony,IN,Indiana,1,<10
-100,38.4,Hanover,NM,New Mexico,1,<10
-83.7,24.8,Hanover,IN,Indiana,1,<10
-96.6,5.3,Hampton,NH,New Hampshire,1,<10
-80.9,32.4,Hampton,GA,Georgia,1,<10
-89.7,18.6,Guthrie,OK,Oklahoma,1,<10
-84.5,25.5,Gulfport,MS,Mississippi,1,<10
-81.3,12.9,Grundy,VA,Virginia,1,<10
-73,39.7,Groveton,TX,Texas,1,<10
-77.1,22.7,Gretna,LA,Louisiana,1,<10
-84.2,21.3,Gresham,OR,Oregon,1,<10
-91.5,13.7,Greenwood,IN,Indiana,1,<10
-91.6,32.5,Greenville,NC,North Carolina,1,<10
-78.7,36.8,Greenville,MS,Mississippi,1,<10
-91.4,9.8,Greenfield,WI,Wisconsin,1,<10
-89,11.3,Greenbelt,MD,Maryland,1,<10
-93.4,8.3,Green,OH,Ohio,1,<10
-91.8,8.4,Greece,NY,New York,1,<10
-90.8,9.4,Gray,TN,Tennessee,1,<10
-90.1,25.5,Grapeview,WA,Washington,1,<10
-94.5,5.1,Graham,WA,Washington,1,<10
-84.8,20.1,Grafton,WV,West Virginia,1,<10
-76,22.6,Goshen,IN,Indiana,1,<10
-92.1,8.8,Goodyear,AZ,Arizona,1,<10
 84.4,14.6,Glendale,CA,California,1,<10
-81.1,28.1,Gladewater,TX,Texas,1,<10
 77,15.1,Gilroy,CA,California,1,<10
-80.8,13.1,Gilmer,TX,Texas,1,<10
-90.4,9,Gillette,WY,Wyoming,1,<10
-82.5,30.7,Gifford,FL,Florida,1,<10
-82.4,6.2,Gibson,TN,Tennessee,1,<10
-89.8,12.5,Georgetown,KY,Kentucky,1,<10
-86.7,12.2,Geneva,OH,Ohio,1,<10
-88.4,15.2,Gautier,MS,Mississippi,1,<10
-67.5,26.5,Gaston,NC,North Carolina,1,<10
-83.9,37.1,Gary,IN,Indiana,1,<10
-91.5,16.1,Gardnerville,NV,Nevada,1,<10
-94.4,3.8,Gardner,KS,Kansas,1,<10
 81.8,15,Gardena,CA,California,1,<10
-79.9,25.5,Gallup,NM,New Mexico,1,<10
-85.1,12.8,Gallatin,TN,Tennessee,1,<10
-71.2,28.3,Gainesville,GA,Georgia,1,<10
-78.3,29.4,Gadsden,AL,Alabama,1,<10
-79.3,25.2,Fulton,KY,Kentucky,1,<10
-94.7,3.2,Fulshear,TX,Texas,1,<10
 86.6,16.8,Fullerton,CA,California,1,<10
-93.6,8.6,Fritch,TX,Texas,1,<10
-95,5.7,Friendswood,TX,Texas,1,<10
-90,13,Fridley,MN,Minnesota,1,<10
-66.3,26.5,Freeport,TX,Texas,1,<10
-91,16.5,Fredericksburg,VA,Virginia,1,<10
-89.2,11.4,Frederick,MD,Maryland,1,<10
-81.5,15.5,Frederica,DE,Delaware,1,<10
-94.5,6.9,Franklin,TN,Tennessee,1,<10
-80.8,35.9,Franklin,NC,North Carolina,1,<10
-57.6,27.1,Franklin,MO,Missouri,1,<10
-78.9,29.5,Franklin,LA,Louisiana,1,<10
-95.5,8.6,Fountain,CO,Colorado,1,<10
-87.6,18,Follansbee,WV,West Virginia,1,<10
-91.7,8.5,Florissant,MO,Missouri,1,<10
-91.2,14.2,Florence,OR,Oregon,1,<10
-75.6,16.8,Florence,AZ,Arizona,1,<10
-97.4,3.2,Fishers,IN,Indiana,1,<10
-90.6,19.2,Findlay,OH,Ohio,1,<10
-88.8,14.8,Fife,WA,Washington,1,<10
-92.3,11.4,Farmington,AR,Arkansas,1,<10
-88.1,24.9,Fairmont,WV,West Virginia,1,<10
-86.6,25.4,Fairland,OK,Oklahoma,1,<10
 85.6,13.2,Fairfield,CA,California,1,<10
-83.8,25.9,Fairfax,OK,Oklahoma,1,<10
-86.3,23.1,Fairborn,OH,Ohio,1,<10
-88.1,17.6,Everett,WA,Washington,1,<10
-79.8,14.9,Everett,MA,Massachusetts,1,<10
-87.5,21,Evansville,IN,Indiana,1,<10
 86.5,24.5,Eureka,CA,California,1,<10
-83.2,30,Eufaula,OK,Oklahoma,1,<10
-81.5,25.3,Eufaula,AL,Alabama,1,<10
-88.7,20.9,Euclid,OH,Ohio,1,<10
-84.1,13.8,Essex,MD,Maryland,1,<10
 73.6,18.7,Escondido,CA,California,1,<10
-67.1,39.6,English,IN,Indiana,1,<10
-93.4,10.2,Englewood,OH,Ohio,1,<10
-91.4,10.5,Englewood,FL,Florida,1,<10
-88.1,16.5,Englewood,CO,Colorado,1,<10
-82.3,29.9,England,AR,Arkansas,1,<10
 94.4,8.1,Encinitas,CA,California,1,<10
-74.7,34.9,Emporia,VA,Virginia,1,<10
 96.9,11.9,Emeryville,CA,California,1,<10
-83.9,22.3,Elsmere,KY,Kentucky,1,<10
-91.9,5.6,Elkridge,MD,Maryland,1,<10
-88.8,19.4,Elkins,WV,West Virginia,1,<10
-77.6,26.7,Elkhart,IN,Indiana,1,<10
-81.9,23.7,Elizabethton,TN,Tennessee,1,<10
-74.4,32.9,Elberton,GA,Georgia,1,<10
-99.1,2.4,Efland,NC,North Carolina,1,<10
-73.3,29.7,Edmonton,KY,Kentucky,1,<10
-95.9,10.1,Edmond,OK,Oklahoma,1,<10
-77.7,27.7,Edinburg,TX,Texas,1,<10
-97.2,7.7,Edgewood,NM,New Mexico,1,<10
-90.9,22.3,Eaton Rapids,MI,Michigan,1,<10
-96.4,7,Eagan,MN,Minnesota,1,<10
-79.7,13.7,Dundalk,MD,Maryland,1,<10
-75.1,28,Dublin,NC,North Carolina,1,<10
-96.8,4.9,Draper,UT,Utah,1,<10
 76.1,11.4,Downey,CA,California,1,<10
-85.2,23.6,Dover,AR,Arkansas,1,<10
-88.7,19.1,Douglasville,GA,Georgia,1,<10
-78,25.8,Douglas,GA,Georgia,1,<10
-86.8,24.8,Dolton,IL,Illinois,1,<10
 58.6,28.6,Dinuba,CA,California,1,<10
-78.3,18.5,Dinosaur,CO,Colorado,1,<10
-92.5,22,Dillon,MT,Montana,1,<10
-84,19.4,Dickson,TN,Tennessee,1,<10
-90.5,11.3,DeSoto,TX,Texas,1,<10
-94.4,8,Derry,NH,New Hampshire,1,<10
-88.8,20.6,Denton,TX,Texas,1,<10
-66.3,33.1,Deming,NM,New Mexico,1,<10
 55.5,17.3,Delhi,CA,California,1,<10
 55,30.3,Delano,CA,California,1,<10
-98.4,2.9,Deerfield,IL,Illinois,1,<10
-84.3,21.9,Decatur,TN,Tennessee,1,<10
-95.4,14.9,Decatur,GA,Georgia,1,<10
-92.7,16.7,Dallas,OR,Oregon,1,<10
-82.7,16.4,Dallas,NC,North Carolina,1,<10
-73.7,28.8,Dadeville,AL,Alabama,1,<10
-78.4,20.9,Cushing,OK,Oklahoma,1,<10
-81.1,20.7,Cumming,GA,Georgia,1,<10
-82.1,13.6,Culpeper,VA,Virginia,1,<10
-82.5,31.6,Crownpoint,NM,New Mexico,1,<10
-64.8,34.9,Crowley,LA,Louisiana,1,<10
-94.8,0.2,Cranbury,NJ,New Jersey,1,<10
-81.3,18.4,Covington,LA,Louisiana,1,<10
-77.8,25.1,Covington,GA,Georgia,1,<10
-82.7,15.4,Council,ID,Idaho,1,<10
 79,34.4,Cottonwood,CA,California,1,<10
 75.3,29.6,Corning,CA,California,1,<10
-78.3,17.5,Converse,LA,Louisiana,1,<10
-88.2,3.2,Constantia,NY,New York,1,<10
-71.3,1.9,Concord,VA,Virginia,1,<10
 87.1,13.3,Concord,CA,California,1,<10
-76.1,23.2,Commerce,GA,Georgia,1,<10
-85.1,23.2,Columbia,TN,Tennessee,1,<10
-95.7,7,Columbia,MD,Maryland,1,<10
 70.1,22.1,Colton,CA,California,1,<10
-92,11.1,Colby,KS,Kansas,1,<10
-86.8,22,Colbert,OK,Oklahoma,1,<10
-94.3,7.3,Cohasset,MN,Minnesota,1,<10
-75.1,38.1,Cochran,GA,Georgia,1,<10
 73,23.2,Coalinga,CA,California,1,<10
-73.7,19.3,Clute,TX,Texas,1,<10
 88.9,13.8,Clovis,CA,California,1,<10
-81.5,29.2,Clinton,NC,North Carolina,1,<10
-88.7,16.9,Clinton,IL,Illinois,1,<10
-92.3,14.1,Clermont,FL,Florida,1,<10
-82.2,12.6,Clendenin,WV,West Virginia,1,<10
 79.1,37.5,Clearlake,CA,California,1,<10
-92.3,13.1,Clearfield,UT,Utah,1,<10
-87.6,12.1,Claymont,DE,Delaware,1,<10
-92.2,6.6,Clay,AL,Alabama,1,<10
-92.2,17.4,Clarksville,TN,Tennessee,1,<10
-88.2,17.8,Clarkesville,GA,Georgia,1,<10
-87.2,14.1,Claremont,NH,New Hampshire,1,<10
-80.7,27.3,Cisco,TX,Texas,1,<10
-83.5,20.2,Circleville,OH,Ohio,1,<10
 68.3,32.1,Chowchilla,CA,California,1,<10
-93.4,11.2,Cheyenne,WY,Wyoming,1,<10
-84.5,24.9,Chestertown,MD,Maryland,1,<10
-73.4,29,Chesterfield,SC,South Carolina,1,<10
-90.3,11.4,Cheektowaga,NY,New York,1,<10
-93.6,17.8,Charleston,SC,South Carolina,1,<10
-33.3,31.7,Chapeno,TX,Texas,1,<10
-81.1,22.3,Chambersburg,PA,Pennsylvania,1,<10
-83.1,21.6,Chalmette,LA,Louisiana,1,<10
 67.9,17.9,Ceres,CA,California,1,<10
-97.4,4.5,Centerville,UT,Utah,1,<10
-97.6,5,Centennial,CO,Colorado,1,<10
-90.1,11.9,Celina,OH,Ohio,1,<10
-62.5,31,Cedartown,GA,Georgia,1,<10
-89.5,23.3,Cayce,SC,South Carolina,1,<10
 91.9,6.8,Castaic,CA,California,1,<10
-95.3,6.3,Cary,NC,North Carolina,1,<10
 79.6,10.9,Carson,CA,California,1,<10
-85.3,9.5,Carrollton,TX,Texas,1,<10
-78.3,28.7,Carrollton,GA,Georgia,1,<10
-83.9,34.3,Carrizozo,NM,New Mexico,1,<10
-85.6,13.5,Carlsbad,NM,New Mexico,1,<10
-83.8,32.3,Canton,OH,Ohio,1,<10
-79.9,16.9,Canton,NC,North Carolina,1,<10
-82.2,23.8,Campobello,SC,South Carolina,1,<10
 75.8,26.8,Campo,CA,California,1,<10
-95.6,3.2,Campbelltown,PA,Pennsylvania,1,<10
 92.2,6.4,Camarillo,CA,California,1,<10
-81.2,27.6,Callahan,FL,Florida,1,<10
 88.3,14.8,Calimesa,CA,California,1,<10
 56.6,27.4,Calexico,CA,California,1,<10
-80.6,15.5,Cade,LA,Louisiana,1,<10
-90.2,13,Cache,OK,Oklahoma,1,<10
-92.4,11.4,Cabot,AR,Arkansas,1,<10
 74.1,30.7,Cabazon,CA,California,1,<10
 73,3.6,Byron,CA,California,1,<10
-87,10.6,Byng,OK,Oklahoma,1,<10
-70.3,25.3,Byars,OK,Oklahoma,1,<10
-85.9,21.2,Burns,OR,Oregon,1,<10
-89.7,19.6,Burlington,IA,Iowa,1,<10
-70.5,33.1,Burkesville,KY,Kentucky,1,<10
-82.7,31.4,Buffalo,NY,New York,1,<10
-79.3,25.8,Buffalo,MO,Missouri,1,<10
-86.7,28.2,Buckhannon,WV,West Virginia,1,<10
-84.3,14.8,Buckeye,AZ,Arizona,1,<10
-64.1,33.7,Brownsville,TX,Texas,1,<10
-95.7,6.5,Broomfield,CO,Colorado,1,<10
-91.8,8.9,Brookville,OH,Ohio,1,<10
-85.4,16,Brookville,IN,Indiana,1,<10
-62.1,21.5,Brookshire,TX,Texas,1,<10
-93.2,10.5,Brooklet,GA,Georgia,1,<10
-84.8,37.1,Brookhaven,MS,Mississippi,1,<10
-63,41.1,Brodhead,KY,Kentucky,1,<10
-81,18.6,Brockton,MA,Massachusetts,1,<10
-83.5,16.3,Bristol,TN,Tennessee,1,<10
-93.8,10.2,Brighton,MI,Michigan,1,<10
-82.5,9.9,Brighton,CO,Colorado,1,<10
-61.5,32,Bridgeton,NJ,New Jersey,1,<10
-75.6,22.9,Bridgeport,CT,Connecticut,1,<10
-89.9,12.7,Brevard,NC,North Carolina,1,<10
 70.4,25.2,Brawley,CA,California,1,<10
-60.9,23.5,Brandywine,WV,West Virginia,1,<10
-80.6,43.9,Booneville,KY,Kentucky,1,<10
-94.3,10.9,Boone,IA,Iowa,1,<10
-89.8,9.7,Boerne,TX,Texas,1,<10
-85.6,23.4,Bluefield,WV,West Virginia,1,<10
-87.8,34.1,Bloomsburg,PA,Pennsylvania,1,<10
-93.1,8.9,Bloomington,MN,Minnesota,1,<10
-92.8,9.6,Bismarck,ND,North Dakota,1,<10
-87.3,29.1,Bisbee,AZ,Arizona,1,<10
-85.1,24.6,Biloxi,MS,Mississippi,1,<10
-85.2,19.2,Beverly,OH,Ohio,1,<10
-94.1,8,Beverly,MA,Massachusetts,1,<10
-86.9,17.1,Bethany,OK,Oklahoma,1,<10
-86.5,26.9,Berea,KY,Kentucky,1,<10
-84.1,23.4,Benton,IL,Illinois,1,<10
-87.6,6.7,Bellville,TX,Texas,1,<10
-92.7,23,Bellingham,WA,Washington,1,<10
 77.6,17.9,Bellflower,CA,California,1,<10
-84.5,16.3,Belleville,MI,Michigan,1,<10
 47.4,27.7,Bell,CA,California,1,<10
-77.1,26.3,Beckville,TX,Texas,1,<10
-86.1,21.8,Beckley,WV,West Virginia,1,<10
-89.5,31.4,Beaverton,MI,Michigan,1,<10
 86.8,11.8,Beaumont,CA,California,1,<10
-89.3,11.6,Beacon,NY,New York,1,<10
-91,15.7,Bartlesville,OK,Oklahoma,1,<10
-84.6,11.7,Barrow,AK,Alaska,1,<10
-85.6,24.4,Bardstown,KY,Kentucky,1,<10
-78.7,29.7,Barbourville,KY,Kentucky,1,<10
-91.4,26.2,Bangor,ME,Maine,1,<10
-94.2,3.3,Avon,IN,Indiana,1,<10
 48.8,36.4,Avenal,CA,California,1,<10
-84.1,10.7,Avella,PA,Pennsylvania,1,<10
-85.4,15.9,Austin,MN,Minnesota,1,<10
-95.9,7.7,Austin,AR,Arkansas,1,<10
-84.2,17.2,Austell,GA,Georgia,1,<10
-81.1,17.6,Auburndale,FL,Florida,1,<10
 72.5,26.2,Atwater,CA,California,1,<10
 92.6,11,Atascadero,CA,California,1,<10
-95.9,8.2,Assaria,KS,Kansas,1,<10
-93.8,9.6,Ashwaubenon,WI,Wisconsin,1,<10
-77.6,28.3,Ashville,AL,Alabama,1,<10
-80.9,34.8,Ashtabula,OH,Ohio,1,<10
-92.3,17.3,Asheville,NC,North Carolina,1,<10
-94.1,3.4,Arlington,TN,Tennessee,1,<10
-71.2,37.5,Arlington,GA,Georgia,1,<10
-84.1,17.1,Ardmore,OK,Oklahoma,1,<10
-82.6,14.8,Arcola,IL,Illinois,1,<10
-81.4,10.5,Archdale,NC,North Carolina,1,<10
-87.6,16.7,Arab,AL,Alabama,1,<10
-92.3,11.9,Appleton,WI,Wisconsin,1,<10
-95.1,9.1,Antioch,IL,Illinois,1,<10
-88.1,22.1,Antigo,WI,Wisconsin,1,<10
 91.2,13,Antelope,CA,California,1,<10
 85,24.6,Anderson,CA,California,1,<10
-82.7,35.9,Anadarko,OK,Oklahoma,1,<10
-90.3,24.4,Alton,IL,Illinois,1,<10
 90.3,8.8,Alpine,CA,California,1,<10
 80.7,15.8,Alhambra,CA,California,1,<10
-91.5,8.3,Alexandria,VA,Virginia,1,<10
-92.6,14.7,Alexandria,MN,Minnesota,1,<10
-79.9,33.8,Albany,GA,Georgia,1,<10
-88.8,20.5,Alamogordo,NM,New Mexico,1,<10
-85.5,24.6,Aitkin,MN,Minnesota,1,<10
-93.8,5.9,Aiea,HI,Hawaii,1,<10
 81.1,7,Aguanga,CA,California,1,<10
-91.7,8.9,Affton,MO,Missouri,1,<10
-94,10,Addison,TX,Texas,1,<10
+86.1,17.3,Denver,CO,Colorado,11,>=10
+91,9,Westminster,CO,Colorado,6,<10
+86.5,15.3,Aurora,CO,Colorado,6,<10
+85.3,25,Pueblo,CO,Colorado,4,<10
+96.3,23.1,Boulder,CO,Colorado,4,<10
+94.1,9.1,Loveland,CO,Colorado,3,<10
+86.6,14,Northglenn,CO,Colorado,2,<10
+91.5,11.9,Lakewood,CO,Colorado,2,<10
+83.6,20.2,Greeley,CO,Colorado,2,<10
+76.3,16.6,Evans,CO,Colorado,2,<10
+84.1,16.9,Trinidad,CO,Colorado,1,<10
+87.5,8.9,Thornton,CO,Colorado,1,<10
+92.9,4.7,Strasburg,CO,Colorado,1,<10
+98,4.2,Parker,CO,Colorado,1,<10
+88.4,22.2,Montrose,CO,Colorado,1,<10
+95.5,8.6,Fountain,CO,Colorado,1,<10
+88.1,16.5,Englewood,CO,Colorado,1,<10
+78.3,18.5,Dinosaur,CO,Colorado,1,<10
+97.6,5,Centennial,CO,Colorado,1,<10
+95.7,6.5,Broomfield,CO,Colorado,1,<10
+82.5,9.9,Brighton,CO,Colorado,1,<10
+86.3,10.8,Thomaston,CT,Connecticut,1,<10
+89,9.4,Stamford,CT,Connecticut,1,<10
+91.5,0.6,Mashantucket,CT,Connecticut,1,<10
+75.6,22.9,Bridgeport,CT,Connecticut,1,<10
+83.2,24.5,Wilmington,DE,Delaware,3,<10
+89.9,7.6,Smyrna,DE,Delaware,1,<10
+93.3,5.4,Middletown,DE,Delaware,1,<10
+81.5,15.5,Frederica,DE,Delaware,1,<10
+87.6,12.1,Claymont,DE,Delaware,1,<10
+89.3,18,Washington,DC,District of Columbia,11,>=10
+73.2,28.3,Miami,FL,Florida,20,>=10
+88.2,17.7,Jacksonville,FL,Florida,11,>=10
+89.5,20.2,Orlando,FL,Florida,9,<10
+86.6,21.8,Tampa,FL,Florida,5,<10
+88.2,16.4,Deltona,FL,Florida,4,<10
+87.4,19.2,Lakeland,FL,Florida,3,<10
+87.4,20.6,DeLand,FL,Florida,3,<10
+92.5,29.7,Tallahassee,FL,Florida,2,<10
+91.9,9.5,Riverview,FL,Florida,2,<10
+86.1,22.6,Ocala,FL,Florida,2,<10
+77.5,29.1,Lealman,FL,Florida,2,<10
+69.1,28.8,Homestead,FL,Florida,2,<10
+92.1,35.6,Gainesville,FL,Florida,2,<10
+83.1,29.3,Cocoa,FL,Florida,2,<10
+82.2,27.3,Brooksville,FL,Florida,2,<10
+84.9,18.1,Bradenton,FL,Florida,2,<10
+87.6,11.5,Yulee,FL,Florida,1,<10
+94.7,8.2,Wellington,FL,Florida,1,<10
+90.2,18.8,Titusville,FL,Florida,1,<10
+83.6,21.5,Thonotosassa,FL,Florida,1,<10
+79,30.3,Sneads,FL,Florida,1,<10
+91.7,15.7,Pensacola,FL,Florida,1,<10
+87.2,21.2,Panama City,FL,Florida,1,<10
+97.8,5.3,Palm Beach,FL,Florida,1,<10
+92.9,6.5,Oakland,FL,Florida,1,<10
+70.1,29.8,Noma,FL,Florida,1,<10
+94.4,14,Niceville,FL,Florida,1,<10
+93.8,9.6,Navarre,FL,Florida,1,<10
+94.1,8.8,Naples,FL,Florida,1,<10
+90.8,15,Milton,FL,Florida,1,<10
+83.5,16.8,Middleburg,FL,Florida,1,<10
+87.6,12.7,Micanopy,FL,Florida,1,<10
+89.2,15.9,Melbourne,FL,Florida,1,<10
+69.7,14.6,Mascotte,FL,Florida,1,<10
+88,16.2,Largo,FL,Florida,1,<10
+92.3,9.2,Jupiter,FL,Florida,1,<10
+41.3,43.9,Immokalee,FL,Florida,1,<10
+83.7,21.1,Holiday,FL,Florida,1,<10
+82.5,30.7,Gifford,FL,Florida,1,<10
+91.4,10.5,Englewood,FL,Florida,1,<10
+92.3,14.1,Clermont,FL,Florida,1,<10
+81.2,27.6,Callahan,FL,Florida,1,<10
+81.1,17.6,Auburndale,FL,Florida,1,<10
+89,24.6,Atlanta,GA,Georgia,7,<10
+82.6,35,Valdosta,GA,Georgia,3,<10
+87.7,15.4,Stockbridge,GA,Georgia,2,<10
+68.1,34.3,Rossville,GA,Georgia,2,<10
+86.3,20.2,Marietta,GA,Georgia,2,<10
+81.2,14.9,Cartersville,GA,Georgia,2,<10
+95.5,7,Woodstock,GA,Georgia,1,<10
+78.6,20.2,White,GA,Georgia,1,<10
+91.6,11.8,Tyrone,GA,Georgia,1,<10
+74,28.7,Sylvester,GA,Georgia,1,<10
+90.5,13.4,Smyrna,GA,Georgia,1,<10
+86,26.5,Savannah,GA,Georgia,1,<10
+85.6,29.5,Riverdale,GA,Georgia,1,<10
+87.5,22.6,Newnan,GA,Georgia,1,<10
+72.3,36,Moultrie,GA,Georgia,1,<10
+84.1,17.6,Mableton,GA,Georgia,1,<10
+75.2,36.3,Lumpkin,GA,Georgia,1,<10
+82.3,14.9,Ludowici,GA,Georgia,1,<10
+87.4,9.2,Loganville,GA,Georgia,1,<10
+81.3,24.4,Lawrenceville,GA,Georgia,1,<10
+84,31.6,Jesup,GA,Georgia,1,<10
+72.8,22.8,Jackson,GA,Georgia,1,<10
+80.9,32.4,Hampton,GA,Georgia,1,<10
+71.2,28.3,Gainesville,GA,Georgia,1,<10
+74.4,32.9,Elberton,GA,Georgia,1,<10
+88.7,19.1,Douglasville,GA,Georgia,1,<10
+78,25.8,Douglas,GA,Georgia,1,<10
+95.4,14.9,Decatur,GA,Georgia,1,<10
+81.1,20.7,Cumming,GA,Georgia,1,<10
+77.8,25.1,Covington,GA,Georgia,1,<10
+76.1,23.2,Commerce,GA,Georgia,1,<10
+75.1,38.1,Cochran,GA,Georgia,1,<10
+88.2,17.8,Clarkesville,GA,Georgia,1,<10
+62.5,31,Cedartown,GA,Georgia,1,<10
+78.3,28.7,Carrollton,GA,Georgia,1,<10
+93.2,10.5,Brooklet,GA,Georgia,1,<10
+84.2,17.2,Austell,GA,Georgia,1,<10
+71.2,37.5,Arlington,GA,Georgia,1,<10
+79.9,33.8,Albany,GA,Georgia,1,<10
 90.7,9.6,Acworth,GA,Georgia,1,<10
+92.5,18.3,Hilo,HI,Hawaii,4,<10
+85.1,13.5,Keaau,HI,Hawaii,1,<10
+86.9,15.3,Kahuku,HI,Hawaii,1,<10
+93.8,5.9,Aiea,HI,Hawaii,1,<10
+88.3,24.3,Sandpoint,ID,Idaho,1,<10
+97.8,46.1,Rexburg,ID,Idaho,1,<10
+91.7,13.5,Middleton,ID,Idaho,1,<10
+90.4,16.4,Melba,ID,Idaho,1,<10
+92.9,13.2,Kuna,ID,Idaho,1,<10
+66.6,47.7,Homedale,ID,Idaho,1,<10
+82.7,15.4,Council,ID,Idaho,1,<10
+82.3,22.3,Chicago,IL,Illinois,25,>=10
+81.3,19.2,Zion,IL,Illinois,2,<10
+77.2,23,Metropolis,IL,Illinois,2,<10
+92.6,18.2,Belleville,IL,Illinois,2,<10
+95.4,4.7,Washington,IL,Illinois,1,<10
+94.1,16.1,Stockton,IL,Illinois,1,<10
+90.8,19.5,Springfield,IL,Illinois,1,<10
+83.1,24.8,Rockford,IL,Illinois,1,<10
+86.7,25.1,Rantoul,IL,Illinois,1,<10
+83.1,25.8,Markham,IL,Illinois,1,<10
+90.3,18.2,Marion,IL,Illinois,1,<10
+93.8,13.2,Maeystown,IL,Illinois,1,<10
+83.1,15.2,Lyons,IL,Illinois,1,<10
+95.5,8.6,Lisle,IL,Illinois,1,<10
+89.5,14.6,Lansing,IL,Illinois,1,<10
+90.6,6.4,Jerseyville,IL,Illinois,1,<10
+80.8,15.7,Hurst,IL,Illinois,1,<10
+78.1,36.4,Harvey,IL,Illinois,1,<10
+86.8,24.8,Dolton,IL,Illinois,1,<10
+98.4,2.9,Deerfield,IL,Illinois,1,<10
+88.7,16.9,Clinton,IL,Illinois,1,<10
+84.1,23.4,Benton,IL,Illinois,1,<10
+82.6,14.8,Arcola,IL,Illinois,1,<10
+95.1,9.1,Antioch,IL,Illinois,1,<10
+90.3,24.4,Alton,IL,Illinois,1,<10
+84.9,21.3,Indianapolis,IN,Indiana,14,>=10
+86.4,32.2,Muncie,IN,Indiana,3,<10
+83.4,16.9,Shelbyville,IN,Indiana,2,<10
+85.4,23.9,Vincennes,IN,Indiana,1,<10
+88.2,16.3,Portage,IN,Indiana,1,<10
+74.5,31.1,Monon,IN,Indiana,1,<10
+85.6,19.8,Lafayette,IN,Indiana,1,<10
+86.3,21.3,Kokomo,IN,Indiana,1,<10
+75.1,20.9,Knox,IN,Indiana,1,<10
+89.4,6.8,Harmony,IN,Indiana,1,<10
+83.7,24.8,Hanover,IN,Indiana,1,<10
+91.5,13.7,Greenwood,IN,Indiana,1,<10
+76,22.6,Goshen,IN,Indiana,1,<10
+83.9,37.1,Gary,IN,Indiana,1,<10
+97.4,3.2,Fishers,IN,Indiana,1,<10
+87.5,21,Evansville,IN,Indiana,1,<10
+67.1,39.6,English,IN,Indiana,1,<10
+77.6,26.7,Elkhart,IN,Indiana,1,<10
+85.4,16,Brookville,IN,Indiana,1,<10
+94.2,3.3,Avon,IN,Indiana,1,<10
+93.2,5.7,Wellman,IA,Iowa,1,<10
+97,5.9,Urbandale,IA,Iowa,1,<10
+89.7,19.6,Burlington,IA,Iowa,1,<10
+94.3,10.9,Boone,IA,Iowa,1,<10
+87.5,17.3,Wichita,KS,Kansas,4,<10
+88.6,19.2,Topeka,KS,Kansas,2,<10
+87.6,13.9,Hutchinson,KS,Kansas,2,<10
+94.5,17.7,Hays,KS,Kansas,2,<10
+87.8,17.4,Udall,KS,Kansas,1,<10
+81.3,12.8,Rosalia,KS,Kansas,1,<10
+94,6.9,Olathe,KS,Kansas,1,<10
+88.1,16.8,Newton,KS,Kansas,1,<10
+94.4,6.2,McPherson,KS,Kansas,1,<10
+96.5,7.7,Lehigh,KS,Kansas,1,<10
+90.8,16.4,Leavenworth,KS,Kansas,1,<10
+99.3,11.1,Hesston,KS,Kansas,1,<10
+94.4,3.8,Gardner,KS,Kansas,1,<10
+92,11.1,Colby,KS,Kansas,1,<10
+95.9,8.2,Assaria,KS,Kansas,1,<10
+85.5,19.8,Owensboro,KY,Kentucky,2,<10
+88.3,16.3,Elizabethtown,KY,Kentucky,2,<10
+91.2,28.8,Wilmore,KY,Kentucky,1,<10
+74.3,27.4,Russellville,KY,Kentucky,1,<10
+86.2,31.9,Richmond,KY,Kentucky,1,<10
+86.9,26.3,Princeton,KY,Kentucky,1,<10
+57.6,21.5,Phelps,KY,Kentucky,1,<10
+82.9,22.8,Paris,KY,Kentucky,1,<10
+85.4,36.1,Morehead,KY,Kentucky,1,<10
+86.2,25.5,Ludlow,KY,Kentucky,1,<10
+76.4,27.5,London,KY,Kentucky,1,<10
+75.8,29,Leitchfield,KY,Kentucky,1,<10
+87.9,11.8,Lawrenceburg,KY,Kentucky,1,<10
+70.3,36.7,Lancaster,KY,Kentucky,1,<10
+58.6,24,Hiseville,KY,Kentucky,1,<10
+89.8,12.5,Georgetown,KY,Kentucky,1,<10
+79.3,25.2,Fulton,KY,Kentucky,1,<10
+83.9,22.3,Elsmere,KY,Kentucky,1,<10
+73.3,29.7,Edmonton,KY,Kentucky,1,<10
+70.5,33.1,Burkesville,KY,Kentucky,1,<10
+63,41.1,Brodhead,KY,Kentucky,1,<10
+80.6,43.9,Booneville,KY,Kentucky,1,<10
+86.5,26.9,Berea,KY,Kentucky,1,<10
+85.6,24.4,Bardstown,KY,Kentucky,1,<10
+78.7,29.7,Barbourville,KY,Kentucky,1,<10
+85.5,23.6,Shreveport,LA,Louisiana,3,<10
+79.9,20.9,Houma,LA,Louisiana,3,<10
+89,13.8,Metairie,LA,Louisiana,2,<10
+77.2,20.7,Harvey,LA,Louisiana,2,<10
+81.7,25.8,Alexandria,LA,Louisiana,2,<10
+65,52.3,Winnsboro,LA,Louisiana,1,<10
+87.5,16.3,Slidell,LA,Louisiana,1,<10
+74.2,18.4,Raceland,LA,Louisiana,1,<10
+80.3,22.6,Plaquemine,LA,Louisiana,1,<10
+83.8,21.3,Pineville,LA,Louisiana,1,<10
+64.7,29.8,Marksville,LA,Louisiana,1,<10
+92,6,Mandeville,LA,Louisiana,1,<10
+60.6,41.1,Mamou,LA,Louisiana,1,<10
+81.2,9,Livingston,LA,Louisiana,1,<10
+84.7,15.5,Kenner,LA,Louisiana,1,<10
+79,40,Homer,LA,Louisiana,1,<10
+77.1,22.7,Gretna,LA,Louisiana,1,<10
+78.9,29.5,Franklin,LA,Louisiana,1,<10
+64.8,34.9,Crowley,LA,Louisiana,1,<10
+81.3,18.4,Covington,LA,Louisiana,1,<10
+78.3,17.5,Converse,LA,Louisiana,1,<10
+83.1,21.6,Chalmette,LA,Louisiana,1,<10
+80.6,15.5,Cade,LA,Louisiana,1,<10
+98.4,42.3,Waldoboro,ME,Maine,1,<10
+92.5,19.7,Portland,ME,Maine,1,<10
+100,4.4,Naples,ME,Maine,1,<10
+86.7,22.7,Madison,ME,Maine,1,<10
+91.4,26.2,Bangor,ME,Maine,1,<10
+82.5,23.7,Baltimore,MD,Maryland,8,<10
+85,17.5,Elkton,MD,Maryland,3,<10
+93.5,10,Randallstown,MD,Maryland,2,<10
+79.8,15.6,Landover,MD,Maryland,2,<10
+85.6,27.4,Salisbury,MD,Maryland,1,<10
+90,12.8,Reisterstown,MD,Maryland,1,<10
+96.1,6.8,Pikesville,MD,Maryland,1,<10
+94,1.9,Owings,MD,Maryland,1,<10
+90.9,7.3,Overlea,MD,Maryland,1,<10
+89,11.3,Greenbelt,MD,Maryland,1,<10
+89.2,11.4,Frederick,MD,Maryland,1,<10
+84.1,13.8,Essex,MD,Maryland,1,<10
+91.9,5.6,Elkridge,MD,Maryland,1,<10
+79.7,13.7,Dundalk,MD,Maryland,1,<10
+95.7,7,Columbia,MD,Maryland,1,<10
+84.5,24.9,Chestertown,MD,Maryland,1,<10
+85.2,21.5,Boston,MA,Massachusetts,5,<10
+79.9,20.2,Lynn,MA,Massachusetts,4,<10
+79.6,19.2,Webster,MA,Massachusetts,1,<10
+82.1,12.4,Taunton,MA,Massachusetts,1,<10
+80.6,16.9,Spencer,MA,Massachusetts,1,<10
+92.6,5.8,Oxford,MA,Massachusetts,1,<10
+78.9,19.8,Lowell,MA,Massachusetts,1,<10
+79.8,14.9,Everett,MA,Massachusetts,1,<10
+81,18.6,Brockton,MA,Massachusetts,1,<10
+94.1,8,Beverly,MA,Massachusetts,1,<10
+78.3,40.3,Detroit,MI,Michigan,5,<10
+84,14.9,Wyoming,MI,Michigan,2,<10
+89.6,14.6,Kentwood,MI,Michigan,2,<10
+81,28.9,Dearborn,MI,Michigan,2,<10
+84.1,19.7,Warren,MI,Michigan,1,<10
+91.7,8,Trenton,MI,Michigan,1,<10
+92.6,15.2,Southfield,MI,Michigan,1,<10
+78.4,35.9,Saginaw,MI,Michigan,1,<10
+86.8,20.5,Romulus,MI,Michigan,1,<10
+95.8,11,Portage,MI,Michigan,1,<10
+87.2,43.7,Marion,MI,Michigan,1,<10
+92.2,19,Manistee,MI,Michigan,1,<10
+87.6,29.6,Lansing,MI,Michigan,1,<10
+93.1,20.6,Ishpeming,MI,Michigan,1,<10
+85.6,18.5,Holland,MI,Michigan,1,<10
+90.9,22.3,Eaton Rapids,MI,Michigan,1,<10
+93.8,10.2,Brighton,MI,Michigan,1,<10
+84.5,16.3,Belleville,MI,Michigan,1,<10
+89.5,31.4,Beaverton,MI,Michigan,1,<10
+88.6,21.9,Minneapolis,MN,Minnesota,3,<10
+93.9,11.2,Burnsville,MN,Minnesota,2,<10
+80.2,31.5,Vineland,MN,Minnesota,1,<10
+93.4,11.5,Roseville,MN,Minnesota,1,<10
+97.3,5.8,Plymouth,MN,Minnesota,1,<10
+90.5,7.9,Peterson,MN,Minnesota,1,<10
+88.4,27.6,Morris,MN,Minnesota,1,<10
+85.4,17.6,Mora,MN,Minnesota,1,<10
+94.1,26.2,Mankato,MN,Minnesota,1,<10
+93.9,7.3,Hutchinson,MN,Minnesota,1,<10
+90,13,Fridley,MN,Minnesota,1,<10
+96.4,7,Eagan,MN,Minnesota,1,<10
+94.3,7.3,Cohasset,MN,Minnesota,1,<10
+93.1,8.9,Bloomington,MN,Minnesota,1,<10
+85.4,15.9,Austin,MN,Minnesota,1,<10
+92.6,14.7,Alexandria,MN,Minnesota,1,<10
+85.5,24.6,Aitkin,MN,Minnesota,1,<10
+87.2,23.3,Tupelo,MS,Mississippi,2,<10
+88.4,11.4,Southaven,MS,Mississippi,2,<10
+68.8,20.9,Iuka,MS,Mississippi,2,<10
+80.6,31.2,Columbus,MS,Mississippi,2,<10
+87.2,18.7,Walls,MS,Mississippi,1,<10
+77.6,15.8,Smithville,MS,Mississippi,1,<10
+88.5,11.8,Petal,MS,Mississippi,1,<10
+77.5,30.9,Lucedale,MS,Mississippi,1,<10
+84.6,37.8,Hattiesburg,MS,Mississippi,1,<10
+84.5,25.5,Gulfport,MS,Mississippi,1,<10
+78.7,36.8,Greenville,MS,Mississippi,1,<10
+88.4,15.2,Gautier,MS,Mississippi,1,<10
+84.8,37.1,Brookhaven,MS,Mississippi,1,<10
+85.1,24.6,Biloxi,MS,Mississippi,1,<10
+88.3,25.7,Springfield,MO,Missouri,4,<10
+93.8,24.4,Columbia,MO,Missouri,3,<10
+79.3,19,Sullivan,MO,Missouri,1,<10
+80.7,23.9,Sedalia,MO,Missouri,1,<10
+93.2,15.8,Republic,MO,Missouri,1,<10
+89.2,12.6,Ozark,MO,Missouri,1,<10
+94.9,11.7,Odessa,MO,Missouri,1,<10
+85.6,27.1,Nevada,MO,Missouri,1,<10
+80.6,20.2,Neosho,MO,Missouri,1,<10
+84.9,14.4,Maysville,MO,Missouri,1,<10
+92.5,13,Lakeshire,MO,Missouri,1,<10
+79.5,29.9,Jennings,MO,Missouri,1,<10
+92.5,13,Jackson,MO,Missouri,1,<10
+87.6,17.9,Independence,MO,Missouri,1,<10
+90.8,14.3,Harrisonville,MO,Missouri,1,<10
+57.6,27.1,Franklin,MO,Missouri,1,<10
+91.7,8.5,Florissant,MO,Missouri,1,<10
+79.3,25.8,Buffalo,MO,Missouri,1,<10
+91.7,8.9,Affton,MO,Missouri,1,<10
+92.8,12.8,Billings,MT,Montana,4,<10
+89.2,25.5,Superior,MT,Montana,1,<10
+88.8,14.3,Malta,MT,Montana,1,<10
+94.7,12.7,Livingston,MT,Montana,1,<10
+100,0,Huntley,MT,Montana,1,<10
+92.5,22,Dillon,MT,Montana,1,<10
+88,16.7,Omaha,NE,Nebraska,8,<10
+93.1,15.9,Lincoln,NE,Nebraska,3,<10
+93.9,13.1,York,NE,Nebraska,1,<10
+93.6,13.5,Sidney,NE,Nebraska,1,<10
+91.5,4.4,Louisville,NE,Nebraska,1,<10
+85.7,18.3,Reno,NV,Nevada,8,<10
+92.7,9.8,Henderson,NV,Nevada,2,<10
+86.8,16.8,Carson,NV,Nevada,2,<10
+85.5,13,Sparks,NV,Nevada,1,<10
+85.2,18.9,Pahrump,NV,Nevada,1,<10
+91.5,16.1,Gardnerville,NV,Nevada,1,<10
+97.6,6.6,Peterborough,NH,New Hampshire,1,<10
+96.6,5.3,Hampton,NH,New Hampshire,1,<10
+94.4,8,Derry,NH,New Hampshire,1,<10
+87.2,14.1,Claremont,NH,New Hampshire,1,<10
+72.3,29.7,Newark,NJ,New Jersey,5,<10
+71.4,29.1,Paterson,NJ,New Jersey,3,<10
+67.6,39.9,Camden,NJ,New Jersey,3,<10
+86.6,15.8,Hackensack,NJ,New Jersey,2,<10
+89.5,7.2,Woodbridge,NJ,New Jersey,1,<10
+76.4,16.9,Vineland,NJ,New Jersey,1,<10
+71,28.3,Trenton,NJ,New Jersey,1,<10
+94.8,0.2,Cranbury,NJ,New Jersey,1,<10
+61.5,32,Bridgeton,NJ,New Jersey,1,<10
+89,19.2,Albuquerque,NM,New Mexico,14,>=10
+92.4,12.1,Ruidoso,NM,New Mexico,3,<10
+72.7,16.5,Hobbs,NM,New Mexico,3,<10
+80.3,22.1,Roswell,NM,New Mexico,2,<10
+81.8,10.9,Artesia,NM,New Mexico,2,<10
+88.5,21.8,Taos,NM,New Mexico,1,<10
+72.1,30.2,Socorro,NM,New Mexico,1,<10
+96.3,27.4,Rowe,NM,New Mexico,1,<10
+64.5,19.7,Lovington,NM,New Mexico,1,<10
+88.3,34.5,Laguna,NM,New Mexico,1,<10
+72.6,6.6,Jal,NM,New Mexico,1,<10
+100,38.4,Hanover,NM,New Mexico,1,<10
+79.9,25.5,Gallup,NM,New Mexico,1,<10
+97.2,7.7,Edgewood,NM,New Mexico,1,<10
+66.3,33.1,Deming,NM,New Mexico,1,<10
+82.5,31.6,Crownpoint,NM,New Mexico,1,<10
+83.9,34.3,Carrizozo,NM,New Mexico,1,<10
+85.6,13.5,Carlsbad,NM,New Mexico,1,<10
+88.8,20.5,Alamogordo,NM,New Mexico,1,<10
+84.7,26.1,Troy,NY,New York,2,<10
+80.2,34.8,Syracuse,NY,New York,2,<10
+83,16.7,Yonkers,NY,New York,1,<10
+84.3,22.8,Schenectady,NY,New York,1,<10
+93.2,7,Rotterdam,NY,New York,1,<10
+80.5,33.5,Rochester,NY,New York,1,<10
+92.5,28.8,Potsdam,NY,New York,1,<10
+83,19.6,Middletown,NY,New York,1,<10
+81.2,31.1,Malone,NY,New York,1,<10
+92.4,5.6,Islip,NY,New York,1,<10
+91.8,8.4,Greece,NY,New York,1,<10
+88.2,3.2,Constantia,NY,New York,1,<10
+90.3,11.4,Cheektowaga,NY,New York,1,<10
+82.7,31.4,Buffalo,NY,New York,1,<10
+89.3,11.6,Beacon,NY,New York,1,<10
+88.4,16.8,Charlotte,NC,North Carolina,11,>=10
+87.1,19.2,Durham,NC,North Carolina,4,<10
+83.2,20.8,Gastonia,NC,North Carolina,3,<10
+90.5,16,Raleigh,NC,North Carolina,2,<10
+84.3,17.5,Hickory,NC,North Carolina,2,<10
+88.7,19.3,Greensboro,NC,North Carolina,2,<10
+91.2,18.4,Fayetteville,NC,North Carolina,2,<10
+75.9,30.5,Wilkesboro,NC,North Carolina,1,<10
+79.7,32.2,Wadesboro,NC,North Carolina,1,<10
+75,17,Tarboro,NC,North Carolina,1,<10
+81.2,10.6,Stoneville,NC,North Carolina,1,<10
+80.1,28.4,Statesville,NC,North Carolina,1,<10
+85.1,29,Shelby,NC,North Carolina,1,<10
+82.4,23.3,Salisbury,NC,North Carolina,1,<10
+80.9,16.8,Salemburg,NC,North Carolina,1,<10
+87.1,17.8,Rutherfordton,NC,North Carolina,1,<10
+77.1,36.2,Rowland,NC,North Carolina,1,<10
+62.3,23,Ronda,NC,North Carolina,1,<10
+76.5,8.1,Pinnacle,NC,North Carolina,1,<10
+80.9,31.6,Peachland,NC,North Carolina,1,<10
+77.7,23.8,Newton,NC,North Carolina,1,<10
+76.5,18.1,Maiden,NC,North Carolina,1,<10
+74.1,34.8,Lumberton,NC,North Carolina,1,<10
+77,22.8,Lenoir,NC,North Carolina,1,<10
+93.5,14.2,Leland,NC,North Carolina,1,<10
+82.8,21.4,Lawndale,NC,North Carolina,1,<10
+80.3,33.1,Kinston,NC,North Carolina,1,<10
+88,14.1,Hudson,NC,North Carolina,1,<10
+91.6,32.5,Greenville,NC,North Carolina,1,<10
+67.5,26.5,Gaston,NC,North Carolina,1,<10
+80.8,35.9,Franklin,NC,North Carolina,1,<10
+99.1,2.4,Efland,NC,North Carolina,1,<10
+75.1,28,Dublin,NC,North Carolina,1,<10
+82.7,16.4,Dallas,NC,North Carolina,1,<10
+81.5,29.2,Clinton,NC,North Carolina,1,<10
+95.3,6.3,Cary,NC,North Carolina,1,<10
+79.9,16.9,Canton,NC,North Carolina,1,<10
+89.9,12.7,Brevard,NC,North Carolina,1,<10
+92.3,17.3,Asheville,NC,North Carolina,1,<10
+81.4,10.5,Archdale,NC,North Carolina,1,<10
+91.8,9.3,Mandan,ND,North Dakota,1,<10
+92.8,9.6,Bismarck,ND,North Dakota,1,<10
+88.5,21.7,Columbus,OH,Ohio,17,>=10
+85.8,30.5,Cincinnati,OH,Ohio,5,<10
+77.4,36.2,Cleveland,OH,Ohio,4,<10
+86.3,26.5,Akron,OH,Ohio,4,<10
+82.1,35.5,Dayton,OH,Ohio,3,<10
+92.2,9.7,Madison,OH,Ohio,2,<10
+93,35.1,Kent,OH,Ohio,2,<10
+85.2,22.1,Hamilton,OH,Ohio,2,<10
+80.3,31.4,Zanesville,OH,Ohio,1,<10
+92.8,7.9,Willoughby,OH,Ohio,1,<10
+96,4.6,Westlake,OH,Ohio,1,<10
+96.8,6.7,Westerville,OH,Ohio,1,<10
+91.6,9.7,Vandalia,OH,Ohio,1,<10
+92.5,7.6,Uniontown,OH,Ohio,1,<10
+94.4,4.6,Twinsburg,OH,Ohio,1,<10
+85.2,27.8,Toledo,OH,Ohio,1,<10
+88.9,19.9,Tiffin,OH,Ohio,1,<10
+95.6,7.8,Sylvania,OH,Ohio,1,<10
+82.4,29,Springfield,OH,Ohio,1,<10
+79.3,28.2,Rome,OH,Ohio,1,<10
+89.8,8.8,Richmond,OH,Ohio,1,<10
+91,7.9,Perry,OH,Ohio,1,<10
+89.8,11.2,Parma,OH,Ohio,1,<10
+92.2,10,Northwood,OH,Ohio,1,<10
+83.2,19.5,Montpelier,OH,Ohio,1,<10
+94.1,12.5,Medina,OH,Ohio,1,<10
+82.6,26.2,Mansfield,OH,Ohio,1,<10
+98.2,3.8,Hudson,OH,Ohio,1,<10
+93.4,8.3,Green,OH,Ohio,1,<10
+86.7,12.2,Geneva,OH,Ohio,1,<10
+90.6,19.2,Findlay,OH,Ohio,1,<10
+86.3,23.1,Fairborn,OH,Ohio,1,<10
+88.7,20.9,Euclid,OH,Ohio,1,<10
+93.4,10.2,Englewood,OH,Ohio,1,<10
+83.5,20.2,Circleville,OH,Ohio,1,<10
+90.1,11.9,Celina,OH,Ohio,1,<10
+83.8,32.3,Canton,OH,Ohio,1,<10
+91.8,8.9,Brookville,OH,Ohio,1,<10
+85.2,19.2,Beverly,OH,Ohio,1,<10
+80.9,34.8,Ashtabula,OH,Ohio,1,<10
+86.9,20.2,Tulsa,OK,Oklahoma,12,>=10
+84.3,34.3,Tahlequah,OK,Oklahoma,2,<10
+83.4,18.4,Chickasha,OK,Oklahoma,2,<10
+78.9,36.7,Wewoka,OK,Oklahoma,1,<10
+74.4,27,Wetumka,OK,Oklahoma,1,<10
+73.6,53.1,Watts,OK,Oklahoma,1,<10
+83.5,24.1,Wagoner,OK,Oklahoma,1,<10
+95.2,33,Stillwater,OK,Oklahoma,1,<10
+74.7,36.5,Schulter,OK,Oklahoma,1,<10
+82.3,28.5,Sallisaw,OK,Oklahoma,1,<10
+80.4,30.3,Roland,OK,Oklahoma,1,<10
+86.8,29.5,Okmulgee,OK,Oklahoma,1,<10
+79.5,31.1,Okemah,OK,Oklahoma,1,<10
+84.5,25.4,Muskogee,OK,Oklahoma,1,<10
+79.4,29.3,Millerton,OK,Oklahoma,1,<10
+84.6,24.5,Miami,OK,Oklahoma,1,<10
+83.9,23,McAlester,OK,Oklahoma,1,<10
+91.6,7,Leedey,OK,Oklahoma,1,<10
+88.5,19.9,Lawton,OK,Oklahoma,1,<10
+82.5,19.9,Kiowa,OK,Oklahoma,1,<10
+79.6,25.3,Kellyville,OK,Oklahoma,1,<10
+79.5,21.6,Hominy,OK,Oklahoma,1,<10
+85.7,14.3,Healdton,OK,Oklahoma,1,<10
+89.7,18.6,Guthrie,OK,Oklahoma,1,<10
+86.6,25.4,Fairland,OK,Oklahoma,1,<10
+83.8,25.9,Fairfax,OK,Oklahoma,1,<10
+83.2,30,Eufaula,OK,Oklahoma,1,<10
+95.9,10.1,Edmond,OK,Oklahoma,1,<10
+78.4,20.9,Cushing,OK,Oklahoma,1,<10
+86.8,22,Colbert,OK,Oklahoma,1,<10
+90.2,13,Cache,OK,Oklahoma,1,<10
+87,10.6,Byng,OK,Oklahoma,1,<10
+70.3,25.3,Byars,OK,Oklahoma,1,<10
+86.9,17.1,Bethany,OK,Oklahoma,1,<10
+91,15.7,Bartlesville,OK,Oklahoma,1,<10
+84.1,17.1,Ardmore,OK,Oklahoma,1,<10
+82.7,35.9,Anadarko,OK,Oklahoma,1,<10
+91.3,18,Portland,OR,Oregon,7,<10
+86.4,23,Medford,OR,Oregon,3,<10
+90.3,15.4,Beaverton,OR,Oregon,3,<10
+86.9,18.2,Salem,OR,Oregon,2,<10
+93.5,24.4,Eugene,OR,Oregon,2,<10
+95.2,12.5,Bend,OR,Oregon,2,<10
+88.1,14.9,Aloha,OR,Oregon,2,<10
+92.5,11.7,Tualatin,OR,Oregon,1,<10
+86.2,21.5,Springfield,OR,Oregon,1,<10
+87.6,19.3,Seaside,OR,Oregon,1,<10
+85.2,21.2,McMinnville,OR,Oregon,1,<10
+84.2,21.3,Gresham,OR,Oregon,1,<10
+91.2,14.2,Florence,OR,Oregon,1,<10
+92.7,16.7,Dallas,OR,Oregon,1,<10
+85.9,21.2,Burns,OR,Oregon,1,<10
+82,26.4,Philadelphia,PA,Pennsylvania,9,<10
+76.5,37.3,York,PA,Pennsylvania,3,<10
+79.5,34.6,Chester,PA,Pennsylvania,3,<10
+65.1,39.6,Reading,PA,Pennsylvania,2,<10
+91.4,22.9,Pittsburgh,PA,Pennsylvania,2,<10
+76.3,29,Lancaster,PA,Pennsylvania,2,<10
+77.3,26.5,Allentown,PA,Pennsylvania,2,<10
+90.8,24.1,Wilkinsburg,PA,Pennsylvania,1,<10
+89.4,15.1,Stewartstown,PA,Pennsylvania,1,<10
+88.7,23.9,Somerset,PA,Pennsylvania,1,<10
+86.5,24.5,Sharon,PA,Pennsylvania,1,<10
+88.8,19.5,Pittston,PA,Pennsylvania,1,<10
+93.4,16.9,Penn,PA,Pennsylvania,1,<10
+87.5,25.8,Lewistown,PA,Pennsylvania,1,<10
+84.8,14.4,Knoxville,PA,Pennsylvania,1,<10
+84.7,35.1,Johnstown,PA,Pennsylvania,1,<10
+91.9,21.9,Huntingdon,PA,Pennsylvania,1,<10
+92.4,9.5,Hummelstown,PA,Pennsylvania,1,<10
+79.9,31.8,Harrisburg,PA,Pennsylvania,1,<10
+81.1,22.3,Chambersburg,PA,Pennsylvania,1,<10
+95.6,3.2,Campbelltown,PA,Pennsylvania,1,<10
+87.8,34.1,Bloomsburg,PA,Pennsylvania,1,<10
+84.1,10.7,Avella,PA,Pennsylvania,1,<10
+89.4,6.8,Tiverton,RI,Rhode Island,1,<10
+78.4,20.6,Pawtucket,RI,Rhode Island,1,<10
+73.3,35,North,SC,South Carolina,4,<10
+87.7,19.3,Greenville,SC,South Carolina,3,<10
+88.1,16.3,Taylors,SC,South Carolina,2,<10
+82.3,27.2,Spartanburg,SC,South Carolina,2,<10
+82.4,19.6,Piedmont,SC,South Carolina,2,<10
+92.6,16.4,Irmo,SC,South Carolina,2,<10
+84.6,24.2,Hardeeville,SC,South Carolina,2,<10
+89.5,16.2,Aiken,SC,South Carolina,2,<10
+84,18.6,Sumter,SC,South Carolina,1,<10
+92.9,13,Summerville,SC,South Carolina,1,<10
+84.3,23.3,Seneca,SC,South Carolina,1,<10
+79.1,32.3,Pendleton,SC,South Carolina,1,<10
+94.7,29.3,Pelzer,SC,South Carolina,1,<10
+93.7,11.7,Lexington,SC,South Carolina,1,<10
+78.8,31.1,Latta,SC,South Carolina,1,<10
+84,20.1,Landrum,SC,South Carolina,1,<10
+80.5,30.1,Lancaster,SC,South Carolina,1,<10
+79.7,20.5,Johnsonville,SC,South Carolina,1,<10
+66.4,26.9,Iva,SC,South Carolina,1,<10
+73.4,29,Chesterfield,SC,South Carolina,1,<10
+93.6,17.8,Charleston,SC,South Carolina,1,<10
+89.5,23.3,Cayce,SC,South Carolina,1,<10
+82.2,23.8,Campobello,SC,South Carolina,1,<10
+75,43.7,Rosebud,SD,South Dakota,1,<10
+90.1,13.9,Mitchell,SD,South Dakota,1,<10
+91.8,10.3,Lead,SD,South Dakota,1,<10
+67.9,57.5,Kyle,SD,South Dakota,1,<10
+83.7,27.6,Memphis,TN,Tennessee,5,<10
+85.2,22.6,Chattanooga,TN,Tennessee,4,<10
+87.8,25.7,Knoxville,TN,Tennessee,3,<10
+76.1,21.9,Alamo,TN,Tennessee,2,<10
+79.2,24.3,Sparta,TN,Tennessee,1,<10
+79.8,33.3,Somerville,TN,Tennessee,1,<10
+84.2,10.7,Soddy-Daisy,TN,Tennessee,1,<10
+73.3,26.9,Shelbyville,TN,Tennessee,1,<10
+82.9,25.3,Sevierville,TN,Tennessee,1,<10
+84.3,29.9,Oneida,TN,Tennessee,1,<10
+77,28.9,Morristown,TN,Tennessee,1,<10
+83.9,27,Monteagle,TN,Tennessee,1,<10
+85.3,26.8,McLemoresville,TN,Tennessee,1,<10
+75.9,22,Lewisburg,TN,Tennessee,1,<10
+94.9,4.4,Lakeland,TN,Tennessee,1,<10
+87.5,24,Jackson,TN,Tennessee,1,<10
+81.1,22.9,Humboldt,TN,Tennessee,1,<10
+80.9,29.5,Hohenwald,TN,Tennessee,1,<10
+93.8,6.6,Hendersonville,TN,Tennessee,1,<10
+90.8,9.4,Gray,TN,Tennessee,1,<10
+82.4,6.2,Gibson,TN,Tennessee,1,<10
+85.1,12.8,Gallatin,TN,Tennessee,1,<10
+94.5,6.9,Franklin,TN,Tennessee,1,<10
+81.9,23.7,Elizabethton,TN,Tennessee,1,<10
+84,19.4,Dickson,TN,Tennessee,1,<10
+84.3,21.9,Decatur,TN,Tennessee,1,<10
+85.1,23.2,Columbia,TN,Tennessee,1,<10
+92.2,17.4,Clarksville,TN,Tennessee,1,<10
+83.5,16.3,Bristol,TN,Tennessee,1,<10
+94.1,3.4,Arlington,TN,Tennessee,1,<10
+76.7,22.5,Houston,TX,Texas,26,>=10
+87.5,18,Austin,TX,Texas,16,>=10
+74.5,24,Dallas,TX,Texas,9,<10
+84.7,17.5,Arlington,TX,Texas,5,<10
+89.3,10.6,Weatherford,TX,Texas,4,<10
+79.7,15.1,Irving,TX,Texas,4,<10
+83.4,17,Amarillo,TX,Texas,4,<10
+76.4,12.1,Odessa,TX,Texas,3,<10
+71.9,26,Mission,TX,Texas,3,<10
+66.3,30.8,Laredo,TX,Texas,3,<10
+83,9.3,Midland,TX,Texas,2,<10
+83.5,17.9,Longview,TX,Texas,2,<10
+85.7,15.6,Kerrville,TX,Texas,2,<10
+76.3,17.2,Garland,TX,Texas,2,<10
+90.3,12.2,Euless,TX,Texas,2,<10
+75,19.3,Conroe,TX,Texas,2,<10
+84.9,21.8,Beaumont,TX,Texas,2,<10
+75.5,19.6,Baytown,TX,Texas,2,<10
+85.9,9.1,Azle,TX,Texas,2,<10
+95.6,5.5,Allen,TX,Texas,2,<10
+70.8,13.7,Winnie,TX,Texas,1,<10
+88.3,14.6,Wink,TX,Texas,1,<10
+80.3,18.4,Whitewright,TX,Texas,1,<10
+83.4,17.4,West,TX,Texas,1,<10
+83.5,17.6,Webster,TX,Texas,1,<10
+79.2,29,Waco,TX,Texas,1,<10
+81.3,18,Victoria,TX,Texas,1,<10
+88.8,22.7,Tomball,TX,Texas,1,<10
+76.2,21.4,Terrell,TX,Texas,1,<10
+87.9,17.9,Temple,TX,Texas,1,<10
+84.6,18.3,Tahoka,TX,Texas,1,<10
+89.6,19.4,Springtown,TX,Texas,1,<10
+90.4,11.2,Spring,TX,Texas,1,<10
+72,31.5,Splendora,TX,Texas,1,<10
+72.2,15.8,Seagoville,TX,Texas,1,<10
+92.1,7.5,Saginaw,TX,Texas,1,<10
+67.1,30.7,Rosser,TX,Texas,1,<10
+74.6,20.7,Rosenberg,TX,Texas,1,<10
+88.6,3.4,Ponder,TX,Texas,1,<10
+93.5,7.5,Plano,TX,Texas,1,<10
+62,33.9,Pharr,TX,Texas,1,<10
+93.1,4.5,Pearland,TX,Texas,1,<10
+84.1,25.6,Paris,TX,Texas,1,<10
+94.9,11,Panhandle,TX,Texas,1,<10
+81.7,23.8,Palestine,TX,Texas,1,<10
+74.8,33.2,Onalaska,TX,Texas,1,<10
+72.1,31.7,Nocona,TX,Texas,1,<10
+85.2,30,Nacogdoches,TX,Texas,1,<10
+92.2,5.3,Midlothian,TX,Texas,1,<10
+92.2,7.4,McKinney,TX,Texas,1,<10
+94.4,6.2,Mansfield,TX,Texas,1,<10
+81.6,24.2,Mabank,TX,Texas,1,<10
+77.2,23.7,Lufkin,TX,Texas,1,<10
+88.9,12.8,Lorena,TX,Texas,1,<10
+79.8,13.1,Lockhart,TX,Texas,1,<10
+80.5,27.1,Llano,TX,Texas,1,<10
+77.9,15.4,Levelland,TX,Texas,1,<10
+80.2,18.8,Kingsbury,TX,Texas,1,<10
+91.6,15.2,Killeen,TX,Texas,1,<10
+84.1,8.4,Katy,TX,Texas,1,<10
+75.8,10.7,Jourdanton,TX,Texas,1,<10
+72.2,25.7,Hutchins,TX,Texas,1,<10
+85.5,12.8,Hurst,TX,Texas,1,<10
+77.4,17.4,Henderson,TX,Texas,1,<10
+73,39.7,Groveton,TX,Texas,1,<10
+81.1,28.1,Gladewater,TX,Texas,1,<10
+80.8,13.1,Gilmer,TX,Texas,1,<10
+94.7,3.2,Fulshear,TX,Texas,1,<10
+93.6,8.6,Fritch,TX,Texas,1,<10
+95,5.7,Friendswood,TX,Texas,1,<10
+66.3,26.5,Freeport,TX,Texas,1,<10
+77.7,27.7,Edinburg,TX,Texas,1,<10
+90.5,11.3,DeSoto,TX,Texas,1,<10
+88.8,20.6,Denton,TX,Texas,1,<10
+73.7,19.3,Clute,TX,Texas,1,<10
+80.7,27.3,Cisco,TX,Texas,1,<10
+33.3,31.7,Chapeno,TX,Texas,1,<10
+85.3,9.5,Carrollton,TX,Texas,1,<10
+64.1,33.7,Brownsville,TX,Texas,1,<10
+62.1,21.5,Brookshire,TX,Texas,1,<10
+89.8,9.7,Boerne,TX,Texas,1,<10
+87.6,6.7,Bellville,TX,Texas,1,<10
+77.1,26.3,Beckville,TX,Texas,1,<10
+94,10,Addison,TX,Texas,1,<10
 83.5,19.1,Abilene,TX,Texas,1,<10
-69.1,29.1,Abbeville,AL,Alabama,1,<10
+82.3,22.9,Ogden,UT,Utah,2,<10
+88.8,26.5,Logan,UT,Utah,2,<10
+97.5,3,Syracuse,UT,Utah,1,<10
+90.7,12.1,Roy,UT,Utah,1,<10
+88.7,13.5,Roosevelt,UT,Utah,1,<10
+90.5,28.8,Provo,UT,Utah,1,<10
+95.5,13.3,Parowan,UT,Utah,1,<10
+96.8,4.9,Draper,UT,Utah,1,<10
+92.3,13.1,Clearfield,UT,Utah,1,<10
+97.4,4.5,Centerville,UT,Utah,1,<10
+89,24.8,Burlington,VT,Vermont,2,<10
+85,26.1,Winooski,VT,Vermont,1,<10
+87,21,Norfolk,VA,Virginia,7,<10
+83.2,25.5,Richmond,VA,Virginia,4,<10
+80.4,21.1,Pulaski,VA,Virginia,2,<10
+83.6,18.2,Portsmouth,VA,Virginia,2,<10
+91.1,9.7,Chesapeake,VA,Virginia,2,<10
+93.5,9,Arlington,VA,Virginia,2,<10
+84.2,16,Winchester,VA,Virginia,1,<10
+87.5,11.5,Suffolk,VA,Virginia,1,<10
+84.4,21.2,Roanoke,VA,Virginia,1,<10
+93,0,Powhatan,VA,Virginia,1,<10
+86.9,7.8,Pearisburg,VA,Virginia,1,<10
+80.9,19,Hopewell,VA,Virginia,1,<10
+84.3,7.8,Herndon,VA,Virginia,1,<10
+84.1,32.5,Harrisonburg,VA,Virginia,1,<10
+81.3,12.9,Grundy,VA,Virginia,1,<10
+91,16.5,Fredericksburg,VA,Virginia,1,<10
+74.7,34.9,Emporia,VA,Virginia,1,<10
+82.1,13.6,Culpeper,VA,Virginia,1,<10
+71.3,1.9,Concord,VA,Virginia,1,<10
+91.5,8.3,Alexandria,VA,Virginia,1,<10
+93.4,13.5,Seattle,WA,Washington,6,<10
+89.7,14.8,Vancouver,WA,Washington,4,<10
+87.6,18,Tacoma,WA,Washington,4,<10
+91.6,19.9,Spokane,WA,Washington,4,<10
+88.1,20.7,Lakewood,WA,Washington,2,<10
+85.4,15.5,Kent,WA,Washington,2,<10
+83,30.6,Kelso,WA,Washington,2,<10
+83.3,18.2,Burien,WA,Washington,2,<10
+87.6,15.9,Auburn,WA,Washington,2,<10
+73.3,23,Yakima,WA,Washington,1,<10
+82,19.4,Woodland,WA,Washington,1,<10
+81.4,14,Wenatchee,WA,Washington,1,<10
+44.4,36.6,Wapato,WA,Washington,1,<10
+82.7,23.7,Tukwila,WA,Washington,1,<10
+80.5,8,Sumas,WA,Washington,1,<10
+87.7,12.8,Spanaway,WA,Washington,1,<10
+92.2,12.7,Snohomish,WA,Washington,1,<10
+80.1,28.6,Shelton,WA,Washington,1,<10
+96.5,7.9,Ridgefield,WA,Washington,1,<10
+95.4,10.6,Richland,WA,Washington,1,<10
+71.9,18.8,Pasco,WA,Washington,1,<10
+93.3,17.7,Olympia,WA,Washington,1,<10
+88.3,16,Lynnwood,WA,Washington,1,<10
+93.6,9.9,Lacey,WA,Washington,1,<10
+96.3,6.3,Kirkland,WA,Washington,1,<10
+86.5,18.1,Kennewick,WA,Washington,1,<10
+90.1,25.5,Grapeview,WA,Washington,1,<10
+94.5,5.1,Graham,WA,Washington,1,<10
+88.8,14.8,Fife,WA,Washington,1,<10
+88.1,17.6,Everett,WA,Washington,1,<10
+92.7,23,Bellingham,WA,Washington,1,<10
+93.7,34.1,Morgantown,WV,West Virginia,3,<10
+76.6,31.6,Princeton,WV,West Virginia,2,<10
+89.8,17.2,Weirton,WV,West Virginia,1,<10
+75.1,30.8,Spencer,WV,West Virginia,1,<10
+90.6,12.9,Nitro,WV,West Virginia,1,<10
+71.8,48.5,Montcalm,WV,West Virginia,1,<10
+86.1,14.9,Hometown,WV,West Virginia,1,<10
+84.8,20.1,Grafton,WV,West Virginia,1,<10
+87.6,18,Follansbee,WV,West Virginia,1,<10
+88.1,24.9,Fairmont,WV,West Virginia,1,<10
+88.8,19.4,Elkins,WV,West Virginia,1,<10
+82.2,12.6,Clendenin,WV,West Virginia,1,<10
+86.7,28.2,Buckhannon,WV,West Virginia,1,<10
+60.9,23.5,Brandywine,WV,West Virginia,1,<10
+85.6,23.4,Bluefield,WV,West Virginia,1,<10
+86.1,21.8,Beckley,WV,West Virginia,1,<10
+82.1,28.7,Milwaukee,WI,Wisconsin,7,<10
+96.6,6.4,Wauwatosa,WI,Wisconsin,2,<10
+94.8,19,Madison,WI,Wisconsin,2,<10
+91.4,15.5,Weston,WI,Wisconsin,1,<10
+89.1,16.6,Wausau,WI,Wisconsin,1,<10
+92.7,11.3,Waukesha,WI,Wisconsin,1,<10
+87.7,14.2,Sheboygan,WI,Wisconsin,1,<10
+100,18.6,Pembine,WI,Wisconsin,1,<10
+89.3,17.9,Oshkosh,WI,Wisconsin,1,<10
+94,10.8,Neenah,WI,Wisconsin,1,<10
+90.5,15.2,Monroe,WI,Wisconsin,1,<10
+82,14.7,Millston,WI,Wisconsin,1,<10
+88.6,19.5,Kenosha,WI,Wisconsin,1,<10
+92.5,6.5,Jackson,WI,Wisconsin,1,<10
+91.4,9.8,Greenfield,WI,Wisconsin,1,<10
+93.8,9.6,Ashwaubenon,WI,Wisconsin,1,<10
+92.3,11.9,Appleton,WI,Wisconsin,1,<10
+88.1,22.1,Antigo,WI,Wisconsin,1,<10
+91.2,9.2,Douglas,WY,Wyoming,2,<10
+91.8,10.5,Casper,WY,Wyoming,2,<10
+88.3,15.7,Rawlins,WY,Wyoming,1,<10
+96.7,30,Laramie,WY,Wyoming,1,<10
+90.4,9,Gillette,WY,Wyoming,1,<10
+93.4,11.2,Cheyenne,WY,Wyoming,1,<10
