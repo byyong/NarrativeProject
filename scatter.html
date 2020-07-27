@@ -91,8 +91,8 @@
                     .range([ "#80aaff", "#c46608"])
 
                 //create color legends
-                svg.append("legendbubble").attr("cx",10).attr("cy",530).attr("r", 6).style("fill", "#80aaff")
-                svg.append("legendbubble").attr("cx",10).attr("cy",560).attr("r", 6).style("fill", "#c46608")
+                svg.append("circle").attr("cx",10).attr("cy",530).attr("r", 6).style("fill", "#80aaff")
+                svg.append("circle").attr("cx",10).attr("cy",560).attr("r", 6).style("fill", "#c46608")
                 svg.append("text").attr("x", 20).attr("y", 530).text("Less than 10 fatal police shootings").style("font-size", "12px").attr("alignment-baseline","middle")
                 svg.append("text").attr("x", 20).attr("y", 560).text("10 or more fatal police shootings").style("font-size", "12px").attr("alignment-baseline","middle")
                     
