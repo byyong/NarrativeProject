@@ -1,21 +1,21 @@
-﻿state,value,group
-Rhode Island,2,Bottom 10
-Vermont,3,Bottom 10
-North Dakota,4,Bottom 10
-New Hampshire,7,Bottom 10
-Delaware,8,Bottom 10
-Wyoming,8,Bottom 10
-Connecticut,9,Bottom 10
-South Dakota,10,Bottom 10
-Dist. of Columbia,11,Bottom 10
-Hawaii,11,Bottom 10
-California,424,Top 10
-Texas,225,Top 10
-Florida,154,Top 10
-Arizona,118,Top 10
-Ohio,79,Top 10
-Oklahoma,78,Top 10
-Colorado,74,Top 10
-Georgia,70,Top 10
-North Carolina,69,Top 10
-Missouri,64,Top 10
+﻿state,value,group,rank,pop rank
+Rhode Island,2,Bottom 10,52,45
+Vermont,3,Bottom 10,51,51
+North Dakota,4,Bottom 10,50,48
+New Hampshire,7,Bottom 10,49,42
+Delaware,8,Bottom 10,47,46
+Wyoming,8,Bottom 10,47,52
+Connecticut,9,Bottom 10,46,29
+South Dakota,10,Bottom 10,45,47
+Montana,11,Bottom 10,43,44
+Hawaii,11,Bottom 10,43,41
+California,424,Top 10,1,1
+Texas,225,Top 10,2,2
+Florida,154,Top 10,3,3
+Arizona,118,Top 10,4,14
+Ohio,79,Top 10,5,7
+Oklahoma,78,Top 10,6,28
+Colorado,74,Top 10,7,21
+Georgia,70,Top 10,8,8
+North Carolina,69,Top 10,9,9
+Missouri,64,Top 10,10,18
