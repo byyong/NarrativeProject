@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<!-- set head -->
+<head>
+
+<meta charset="utf-8">
+
+<!-- Load d3 -->
+<script src="https://d3js.org/d3.v4.js"></script>
+
+<!-- set title -->
+<title>CS498 Data Visualization Narrative Project</title>
+  
+<!-- set style -->
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<style type="text/css">
+  body,td,th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+  }
+</style>
+</head>
+
+<!-- set body -->
+<body>
+
+  <!-- set title -->
+  <div id="header">
+      <h4>Fatal Police Shootings in United States Since 2015</h4>
+  </div>
+
+  <!-- set menu -->
+  <div id="menu">
+      <ul>
+          <li><a href="index.html">1</a></li>
+          <li><a href="topten.html">2</a></li>
+          <li class="current_page_item"><a href="rankdiff.html">3</a></li>      
+          <li><a href="scatter.html">4</a></li>
+    </ul>
+  </div>
+
+  <!-- set page / main content -->
+  <div id="page">       
+    <div id ="content">
+      <div class="post">
+
+        <!-- set title of visualization -->
+        <div id = "centertitle">
+            <a>Top and Bottom 10 States by Ranking Difference</a>
+        </div>
+        <div>
+            <button class="button" onclick="filterSelection('Top 10')">Top 10 States</button>
+            <button class="button" onclick="filterSelection('Bottom 10')">Bottom 10 States</button>
+        
+        </div>
+
+        <div id="myvisualization"></div>
+
+
+        <script>
+
+          filterSelection("Top 10");
+
+          function filterSelection (category){
+
+            d3.selectAll("#myvisualization > *").remove();
+
+            // set the dimensions and margins of the graph
+            var margin = {top: 30, right: 30, bottom: 30, left: 60},
+                width = 780 - margin.left - margin.right,
+                height = 660 - margin.top - margin.bottom;
+
+            //create SVG element
+            var svg = d3.select("#myvisualization").append("svg")
+              .attr("width", width + margin.left + margin.right)
+              .attr("height", height + margin.top + margin.bottom)
+              .append("g")
+              .attr("transform",
+                    "translate(" + margin.left + "," + margin.top + ")");
+
+              
+            //load in csv
+            d3.csv("https://raw.githubusercontent.com/byyong/NarrativeProject/master/staterankdiff.csv", function(data) {
+              
+              //change value to number format
+              data.forEach(function(d) {
+                d.rankdiff = +d.rankdiff;
+              });
+
+              if (category == 'Top 10'){
+
+              
+                // sort data descending
+                data.sort(function(a, b) {
+                  return b.rankdiff - a.rankdiff;
+                });
+
+                //get subset of data for top10
+                var subsetdata = data.filter(function (d){
+                    return d.group == category;
+                });
+
+                //set axis
+                var x = d3.scaleBand()
+                  .domain(subsetdata.map(function(d) {return d.state; }))
+                  .range([0, width ])
+                  .padding(0.2);
+
+                svg.append("g")
+                  .attr("transform", "translate(0," + height + ")")
+                  .call(d3.axisBottom(x));
+
+                // Add Y axis
+                var y = d3.scaleLinear()
+                  .domain([0, d3.max(subsetdata, function(d) {return d.rankdiff; })])
+                  .range([height, 0]);
+
+                svg.append("g")
+                  .call(d3.axisLeft(y));
+
+                svg.append("text")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", 0 - margin.left)
+                    .attr("x",0 - (height / 2))
+                    .attr("dy", "0.75em")
+                    .attr("font-size", "12px")
+                    .style("text-anchor", "middle")
+                    .text("Ranking Diff (Population Rank - Police Shooting Rank)");   
+
+                svg.append("g").selectAll("bar")
+                .data(subsetdata)
+                .enter().append("rect")
+                .style("fill", "#002b80")
+                .attr("x", function(d) { return x(d.state); })
+                .attr("width", x.bandwidth())
+                .attr("y", function(d) { return y(d.rankdiff); })
+                .attr("height", function(d) { return height - y(d.rankdiff); })
+                .append("title")
+                .text(function(d) {
+                    return d.state + "\nPolice Shooting Rank: " + d.rank + "\nPopulation Rank: " + d.poprank + "\nRank Difference: " + d.rankdiff;
+                }); 
+
+              }else{
+
+                // sort data ascending
+                data.sort(function(a, b) {
+                  return a.rankdiff - b.rankdiff;
+                });
+
+                //get subset of data for bottom 10
+                var subsetdata = data.filter(function (d){
+                    return d.group == category;
+                });
+
+                //set axis
+                var x = d3.scaleBand()
+                  .domain(subsetdata.map(function(d) {return d.state; }))
+                  .range([0, width ])
+                  .padding(0.2);
+
+                svg.append("g")
+                  .attr("transform", "translate(0," + 0 + ")")
+                  .call(d3.axisTop(x));
+
+                // Add Y axis
+                var y = d3.scaleLinear()
+                  .domain([d3.min(subsetdata, function(d) {return d.rankdiff; }), 0])
+                  .range([height, 0]);
+
+                svg.append("g")
+                  .call(d3.axisLeft(y));
+      
+                svg.append("text")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", 0 - margin.left)
+                    .attr("x",0 - (height / 2))
+                    .attr("dy", "0.75em")
+                    .attr("font-size", "12px")
+                    .style("text-anchor", "middle")
+                    .text("Ranking Diff (Population Rank - Police Shooting Rank)");   
+
+                svg.append("g").selectAll("bar")
+                .data(subsetdata)
+                .enter().append("rect")
+                .style("fill", "#c46608")
+                .attr("x", function(d) { return x(d.state); })
+                .attr("width", x.bandwidth())
+                .attr("y", function(d) { return 0; })   
+                .attr('height', d => Math.abs(y(d.rankdiff) - y(0)))            
+                .append("title")
+                .text(function(d) {
+                    return d.state + "\nPolice Shooting Rank: " + d.rank + "\nPopulation Rank: " + d.poprank + "\nRank Difference: " + d.rankdiff;
+                });  
+
+              }
+
+            });
+
+          };
+
+          // Add active class to the current button
+          var header = document.getElementById("buttonrow2");
+          var btns = header.getElementsByClassName("button");
+          for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+            });
+          }
+
+        </script>
+
+    </div>
+  </div>
+
+     <!-- set text box for additional details -->
+      <div id = "centertext">
+        <a>Note: </a>
+        <p>(Population Rank - Fatal Police Shooting Rank)</p>
+        <p>lalalala</p>
+        <a>Note: </a>
+        <p>lalaalal i am a place holder</p>
+    
+      </div>
+  
+      <!-- set forward and backward buttons -->
+      <div id ="buttonrow"> 
+  
+        <div class="columnleft ">
+            <p><a href="topten.html"><img src="left.png" alt="" width="100" height="70" /></a></p>
+        </div>
+        <div class="columnright">
+            <p><a href="scatter.html"><img src="right.png" alt="" width="100" height="70" /></a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end main page -->
+
+  <!-- clear style -->
+  <div style="clear: both;"></div>
+
+  <!-- set footer -->
+  <div id="footer">
+    <p>CS498 Data Visualization Narrative Project</p>
+    <p>Website Creator: Bingying Yong</p>
+    <p><a href="https://www.kaggle.com/kwullum/fatal-police-shootings-in-the-us">Data Source</a></p>
+  </div>
+</body>
+</html>

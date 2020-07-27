@@ -1,116 +1,258 @@
-<!-- Code from d3-graph-gallery.com -->
 <!DOCTYPE html>
 <html>
+
+<!-- set head -->
 <head>
+
 <meta charset="utf-8">
 
-<!-- Load d3.js -->
+<!-- Load d3 -->
 <script src="https://d3js.org/d3.v4.js"></script>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.js"></script>
+
+<!-- set title -->
 <title>CS498 Data Visualization Narrative Project</title>
   
-<link href="https://raw.githubusercontent.com/byyong/NarrativeProject/master/style.css" rel="stylesheet" type="text/css" media="screen" />
+<!-- set style -->
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 <style type="text/css">
   body,td,th {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 20px;
-}
-  body {
-	margin-left: 0px;
-}
-  </style>
-  
+  }
+</style>
 </head>
+
+<!-- set body -->
 <body>
 
-    <div id="header">
-        <h4>Fatal Police Shootings in United States Since 2015</h4>
-    </div>
-    <!-- end #header -->
-    
-    <div id="menu">
-        <ul>
-            <li class="current_page_item"><a href="index.html">Home</a></li>
-            <li><a href="aboutus.html">About Us</a></li>
-            <li><a href="program.html">Programs</a></li>
-           
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="rates.html">rates</a></li>
-            <li><a href="media.html">media</a></li>
-            <li><a href="promotions.html">promotions</a></li></ul></div>
-    </div>
-    <div id="page">       
-      <div id ="content">
-        <div class="post">
+  <!-- set title -->
+  <div id="header">
+      <h4>Fatal Police Shootings in United States Since 2015</h4>
+  </div>
 
+  <!-- set menu -->
+  <div id="menu">
+      <ul>
+          <li class="current_page_item"><a href="index.html">1</a></li>
+          <li><a href="topten.html">2</a></li>
+          <li><a href="index.html">3</a></li>         
+          <li><a href="scatter.html">4</a></li>
+    </ul>
+  </div>
 
-        <!-- Create a div where the graph will take place -->
-        <div id="my_dataviz"></div>
+  <!-- set page / main content -->
+  <div id="page">       
+    <div id ="content">
+      <div class="post">
+
+        <!-- set title of visualization -->
+        <div id = "centertitle">
+            <a>Count of Police Shootings Mapped by State, Top 50 Cities</a>  
+        </div>
+      
+        <!-- create buttons to filter map by race -->
+        <div id = "buttonrow2">
+        <div>
+            <button class="button active" onclick="filterSelection('All')">All Races</button>
+            <button class="button" onclick="filterSelection('Asian')">Asian</button>
+            <button class="button" onclick="filterSelection('Black')">Black</button>
+            <button class="button" onclick="filterSelection('Hispanic')">Hispanic</button>
+            <button class="button" onclick="filterSelection('Native American')">Native American</button>
+            <button class="button" onclick="filterSelection('White')">White</button>
+            <button class="button" onclick="filterSelection('Other/Unknown')">Other/Unknown</button>
+        
+        </div>
+
+        <svg></svg>
 
 
         <script>
+          filterSelection("All");
 
-        // set the dimensions and margins of the graph
-        var margin = {top: 10, right: 30, bottom: 30, left: 60},
-            width = 780 - margin.left - margin.right,
-            height = 620 - margin.top - margin.bottom;
+          function filterSelection (category){
 
-        // append the svg object to the body of the page
-        var svg = d3.select("#my_dataviz")
-          .append("svg")
-            .attr("width", width + margin.left + margin.right)
-            .attr("height", height + margin.top + margin.bottom)
-          .append("g")
-            .attr("transform",
-                  "translate(" + margin.left + "," + margin.top + ")");
+            d3.selectAll("svg > *").remove();
 
-        //Read the data
-        d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/2_TwoNum.csv", function(data) {
+            //width and height
+            var w = 780; 
+            var h = 660; 
 
-          // Add X axis
-          var x = d3.scaleLinear()
-            .domain([0, 4000])
-            .range([ 0, width ]);
-          svg.append("g")
-            .attr("transform", "translate(0," + height + ")")
-            .call(d3.axisBottom(x));
+            //create SVG element
+            var svg = d3.select("svg")
+                  .attr("width", w)
+                  .attr("height", h);
+            
+            var projection = d3.geoAlbersUsa()
+                  .translate([w/2, h/2]);
 
-          // Add Y axis
-          var y = d3.scaleLinear()
-            .domain([0, 500000])
-            .range([ height, 0]);
-          svg.append("g")
-            .call(d3.axisLeft(y));
-
-          // Add dots
-          svg.append('g')
-            .selectAll("dot")
-            .data(data)
-            .enter()
-            .append("circle")
-              .attr("cx", function (d) { return x(d.GrLivArea); } )
-              .attr("cy", function (d) { return y(d.SalePrice); } )
-              .attr("r", 1.5)
-              .style("fill", "#69b3a2")
-
-        })
+            //create path
+            var path = d3.geoPath(projection);
+            
+            //set the color scale for the choropleth map
+            var color =  d3.scaleLinear()
+              .domain([0, 10, 25, 50, 100, 400])
+              .range(["#ffffff", "#e6eeff", "#b3ccff", "#4d88ff", "#0055ff", "#003cb3", "#001a4d"]);
+   
+            // Add a scale for bubble size
+            var size = d3.scaleLinear()
+              .domain([1,31])  
+              .range([1, 30])  
 
 
+            //load in GeoJSON data for US at state level
+            d3.json("https://raw.githubusercontent.com/byyong/NarrativeProject/master/us-states.json", function(json) 
+            {
+
+              //load in csv data for # of shootings per state
+              d3.csv("https://raw.githubusercontent.com/byyong/NarrativeProject/master/CountbyState.csv", function(data) 
+              {
+                                      
+                //merge the csv data and GeoJSON
+                for (var i = 0; i < data.length; i++) 
+                {
+                      
+                  //get state name
+                  var mystate = data[i].state;
+                  
+                  //get count. convertto float
+                  var statevalue = parseFloat(data[i].value);
+              
+                  //get the corresponding state inside the GeoJSON
+                  for (var j = 0; j < json.features.length; j++) 
+                  {
+                    //get the state name in GeoJson
+                    var jsonState = json.features[j].properties.name;
+              
+                    //set the count in Json for the state
+                    if (mystate == jsonState) 
+                    {
+                      json.features[j].properties.value = statevalue;
+                      
+                      break;
+                        
+                    }
+                  }		
 
 
+                }        
+
+
+                //add a legend        
+                svg.append("g")
+                .attr("class", "legend")
+                .attr("transform", "translate(20,40)");
+
+                var legend = d3.legendColor()
+                  .shapeHeight(10)
+                  .shapeWidth(100)
+                  .labelFormat(d3.format(".0f"))
+                  .cells([0, 10, 25, 50, 100, 400])
+                  .orient("horizontal")
+                  .labelAlign("start")
+                  .scale(color)
+                  .title("Number of Fatal Police Shootings by State:");
+
+                svg.select(".legend")
+                  .call(legend);
+
+
+                //create one path per GeoJSON feature
+                svg.append("g").selectAll("path")
+                    .data(json.features)
+                    .enter()
+                    .append("path")
+                    .attr("d", path)
+                    .style("fill", function(d) 
+                    {
+                        //Get count value
+                        var value = d.properties.value;
+                        
+                        //get the corresponding color
+                        return color(value);
+                    })
+
+                d3.csv("https://raw.githubusercontent.com/byyong/NarrativeProject/master/CountbyRace.csv", function(d2) {
+
+  
+                  //add circles representing the top 50 cities by killing count
+                  svg.selectAll("circle")
+                    .data(d2)
+                    .enter()
+                    .filter(function(d) {return d.Race == category})
+                    .append("circle")
+                      .attr("cx", function(d){ return projection([parseInt(d.Lon), parseInt(d.Lat)])[0]; })
+                      .attr("cy", function(d){ return projection([parseInt(d.Lon), parseInt(d.Lat)])[1]; })
+                      .attr("r", function(d){ return size(parseInt(d.Count)); })
+                      .style("fill", "#c46608")
+                      .attr("stroke", "#c46608")
+                      .attr("stroke-width", 0.3)
+                      .attr("fill-opacity", 0.7)
+
+                      .append("title")
+                      .text(function(d) {
+                          return d.City + "\nRace: " + d.Race + "\n" + parseInt(d.Count) + " fatal shootings";
+                        });
+
+
+                });
+
+              });
+            });
+          }
+
+          // Add active class to the current button
+          var header = document.getElementById("buttonrow2");
+          var btns = header.getElementsByClassName("button");
+          for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+            });
+          }
 
         </script>
 
-      </div>
     </div>
   </div>
 
+     <!-- set text box for additional details -->
+      <div id = "centertext">
+        <a>Note: </a>
+        <p>helooooooooooooooooooooooooooooooooooooooooooooooooooooooooo</p>
+        <a>Note: </a>
+        <p>lalaalal i am a place holder.</p>
+    
+      </div>
+  
+      <!-- set forward and backward buttons -->
+      <div id ="buttonrow"> 
+  
+        <div class="columnleft ">
+          <p><img src="blank.jpg" alt="" width="100" height="70" /></a></p>
+        </div>
+        <div class="columnright">
+            <p><a href="topten.html"><img src="right.png" alt="" width="100" height="70" /></a></p>
+        </div>
+      </div>
 
-  <div style="clear: both;"></div>
-    <div id="footer">
-      <p>CS498 Data Visualization Narrative Project</p>
-      <p>Website Creator: Bingying Yong</p>
-      <p><a href="https://www.kaggle.com/kwullum/fatal-police-shootings-in-the-us">Data Source</a></p>
+
+      
     </div>
+  </div>
+  <!-- end main page -->
+
+  <!-- clear style -->
+  <div style="clear: both;"></div>
+
+  <!-- set footer -->
+  <div id="footer">
+    <p>CS498 Data Visualization Narrative Project</p>
+    <p>Website Creator: Bingying Yong</p>
+    <p><a href="https://www.kaggle.com/kwullum/fatal-police-shootings-in-the-us">Data Source</a></p>
+  </div>
 </body>
 </html>
