@@ -1,4 +1,4 @@
-﻿state,value,group,rank,poprank
+﻿state,value,group,rank,pop rank
 Rhode Island,2,Bottom 10,52,45
 Vermont,3,Bottom 10,51,51
 North Dakota,4,Bottom 10,50,48
@@ -19,3 +19,23 @@ Colorado,74,Top 10,7,21
 Georgia,70,Top 10,8,8
 North Carolina,69,Top 10,9,9
 Missouri,64,Top 10,10,18
+Rhode Island,1.893652477,Bottom 10 Per Mil,52,
+New York,2.314755279,Bottom 10 Per Mil,51,
+Connecticut,2.525904554,Bottom 10 Per Mil,50,
+Massachusetts,3.153398504,Bottom 10 Per Mil,49,
+Michigan,3.683424589,Bottom 10 Per Mil,48,
+Iowa,3.773762913,Bottom 10 Per Mil,47,
+New Jersey,3.91649145,Bottom 10 Per Mil,46,
+Pennsylvania,3.977879868,Bottom 10 Per Mil,45,
+Vermont,4.776606094,Bottom 10 Per Mil,44,
+Illinois,4.897430429,Bottom 10 Per Mil,43,
+New Mexico,24.3246337,Top 10 Per Mil,1,
+Alaska,20.43591162,Top 10 Per Mil,2,
+Oklahoma,19.72276867,Top 10 Per Mil,3,
+Arizona,15.99243206,Top 10 Per Mil,4,
+District of Columbia,15.26321413,Top 10 Per Mil,5,
+West Virginia,15.18500396,Top 10 Per Mil,6,
+Wyoming,14.10872536,Top 10 Per Mil,7,
+Nevada,13.37724467,Top 10 Per Mil,8,
+Colorado,12.65924561,Top 10 Per Mil,9,
+Louisiana,12.27078391,Top 10 Per Mil,10,

@@ -1,0 +1,197 @@
+race,date,value
+Asian,2015-01,2
+Asian,2015-03,2
+Asian,2015-04,2
+Asian,2015-05,1
+Asian,2015-07,1
+Asian,2015-09,2
+Asian,2015-10,1
+Asian,2015-11,1
+Asian,2015-12,2
+Asian,2016-01,1
+Asian,2016-03,2
+Asian,2016-04,3
+Asian,2016-05,1
+Asian,2016-06,2
+Asian,2016-07,1
+Asian,2016-10,2
+Asian,2016-11,1
+Asian,2016-12,2
+Asian,2017-01,2
+Asian,2017-02,2
+Asian,2017-03,1
+Asian,2017-04,3
+Asian,2017-06,2
+Black,2015-01,17
+Black,2015-02,20
+Black,2015-03,27
+Black,2015-04,25
+Black,2015-05,20
+Black,2015-06,13
+Black,2015-07,25
+Black,2015-08,27
+Black,2015-09,18
+Black,2015-10,25
+Black,2015-11,19
+Black,2015-12,22
+Black,2016-01,16
+Black,2016-02,24
+Black,2016-03,20
+Black,2016-04,21
+Black,2016-05,21
+Black,2016-06,26
+Black,2016-07,23
+Black,2016-08,14
+Black,2016-09,20
+Black,2016-10,16
+Black,2016-11,18
+Black,2016-12,14
+Black,2017-01,21
+Black,2017-02,31
+Black,2017-03,17
+Black,2017-04,16
+Black,2017-05,15
+Black,2017-06,16
+Black,2017-07,11
+Hispanic,2015-01,16
+Hispanic,2015-02,14
+Hispanic,2015-03,13
+Hispanic,2015-04,14
+Hispanic,2015-05,5
+Hispanic,2015-06,17
+Hispanic,2015-07,14
+Hispanic,2015-08,16
+Hispanic,2015-09,16
+Hispanic,2015-10,16
+Hispanic,2015-11,14
+Hispanic,2015-12,17
+Hispanic,2016-01,11
+Hispanic,2016-02,18
+Hispanic,2016-03,18
+Hispanic,2016-04,10
+Hispanic,2016-05,9
+Hispanic,2016-06,16
+Hispanic,2016-07,14
+Hispanic,2016-08,16
+Hispanic,2016-09,13
+Hispanic,2016-10,11
+Hispanic,2016-11,17
+Hispanic,2016-12,7
+Hispanic,2017-01,21
+Hispanic,2017-02,17
+Hispanic,2017-03,13
+Hispanic,2017-04,12
+Hispanic,2017-05,12
+Hispanic,2017-06,11
+Hispanic,2017-07,5
+Native American,2015-01,1
+Native American,2015-03,1
+Native American,2015-04,1
+Native American,2015-06,1
+Native American,2015-07,2
+Native American,2015-09,3
+Native American,2016-01,2
+Native American,2016-02,4
+Native American,2016-03,1
+Native American,2016-05,3
+Native American,2016-06,1
+Native American,2016-07,1
+Native American,2016-09,1
+Native American,2016-10,2
+Native American,2016-12,1
+Native American,2017-01,2
+Native American,2017-02,1
+Native American,2017-03,1
+Native American,2017-04,1
+Native American,2017-06,1
+Other,2015-01,2
+Other,2015-03,1
+Other,2015-04,2
+Other,2015-05,5
+Other,2015-06,2
+Other,2015-07,5
+Other,2015-08,3
+Other,2015-09,4
+Other,2015-10,8
+Other,2015-11,1
+Other,2015-12,10
+Other,2016-01,1
+Other,2016-02,4
+Other,2016-03,2
+Other,2016-05,6
+Other,2016-06,10
+Other,2016-07,2
+Other,2016-08,6
+Other,2016-09,6
+Other,2016-10,6
+Other,2016-11,11
+Other,2016-12,20
+Other,2017-01,3
+Other,2017-02,5
+Other,2017-03,2
+Other,2017-04,8
+Other,2017-05,11
+Other,2017-06,20
+Other,2017-07,57
+White,2015-01,38
+White,2015-02,43
+White,2015-03,48
+White,2015-04,40
+White,2015-05,40
+White,2015-06,32
+White,2015-07,57
+White,2015-08,48
+White,2015-09,39
+White,2015-10,31
+White,2015-11,41
+White,2015-12,38
+White,2016-01,50
+White,2016-02,36
+White,2016-03,49
+White,2016-04,39
+White,2016-05,34
+White,2016-06,37
+White,2016-07,31
+White,2016-08,46
+White,2016-09,38
+White,2016-10,40
+White,2016-11,31
+White,2016-12,34
+White,2017-01,43
+White,2017-02,44
+White,2017-03,42
+White,2017-04,27
+White,2017-05,36
+White,2017-06,34
+White,2017-07,15
+All Races,2015-01,76
+All Races,2015-02,77
+All Races,2015-03,92
+All Races,2015-04,84
+All Races,2015-05,71
+All Races,2015-06,65
+All Races,2015-07,104
+All Races,2015-08,94
+All Races,2015-09,82
+All Races,2015-10,81
+All Races,2015-11,76
+All Races,2015-12,89
+All Races,2016-01,81
+All Races,2016-02,86
+All Races,2016-03,92
+All Races,2016-04,73
+All Races,2016-05,74
+All Races,2016-06,92
+All Races,2016-07,72
+All Races,2016-08,82
+All Races,2016-09,78
+All Races,2016-10,77
+All Races,2016-11,78
+All Races,2016-12,78
+All Races,2017-01,92
+All Races,2017-02,100
+All Races,2017-03,76
+All Races,2017-04,67
+All Races,2017-05,74
+All Races,2017-06,84
+All Races,2017-07,88
