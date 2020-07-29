@@ -1,52 +1,52 @@
-﻿state,value
-Wyoming,8
-West Virginia,27
-Wisconsin,43
-Washington,62
-Vermont,3
-Virginia,47
-Utah,23
-Texas,225
-Tennessee,59
-South Dakota,10
-South Carolina,44
-Rhode Island,2
-Pennsylvania,51
-Oregon,38
-Oklahoma,78
-Ohio,79
-New York,45
-Nevada,42
-New Mexico,51
-New Jersey,35
-New Hampshire,7
-Nebraska,15
-North Dakota,4
-North Carolina,69
-Montana,11
-Mississippi,23
-Missouri,64
-Minnesota,32
-Michigan,37
-Maine,13
-Maryland,38
-Massachusetts,22
-Louisiana,57
-Kentucky,43
-Kansas,24
-Indiana,43
-Illinois,62
-Idaho,17
-Iowa,12
-Hawaii,11
-Georgia,70
-Florida,154
-Delaware,8
-District of Columbia,11
-Connecticut,9
-Colorado,74
-California,424
-Arizona,118
-Arkansas,26
-Alabama,50
-Alaska,15
+﻿state,value,pop,countbymil,Abbrev
+New Mexico,51,2096640,24.3246337,NM
+Alaska,15,734002,20.43591162,AK
+Oklahoma,78,3954820,19.72276867,OK
+Arizona,118,7378490,15.99243206,AZ
+District of Columbia,11,720687,15.26321413,DC
+West Virginia,27,1778070,15.18500396,WV
+Wyoming,8,567025,14.10872536,WY
+Nevada,42,3139660,13.37724467,NV
+Colorado,74,5845530,12.65924561,CO
+Louisiana,57,4645180,12.27078391,LA
+South Dakota,10,903027,11.07386601,SD
+California,424,39937500,10.61658842,CA
+Missouri,64,6169270,10.37399887,MO
+Alabama,50,4908620,10.1861623,AL
+Montana,11,1086760,10.12183003,MT
+Maine,13,1345790,9.659753751,ME
+Kentucky,43,4499690,9.556213873,KY
+Idaho,17,1826160,9.309151443,ID
+Oregon,38,4301090,8.83496974,OR
+Arkansas,26,3039000,8.55544587,AR
+Tennessee,59,6897580,8.55372464,TN
+South Carolina,44,5210100,8.44513541,SC
+Kansas,24,2910360,8.246402507,KS
+Delaware,8,982895,8.139221382,DE
+Washington,62,7797100,7.95167434,WA
+Hawaii,11,1412690,7.786563223,HI
+Mississippi,23,2989260,7.694211945,MS
+Nebraska,15,1952570,7.682182969,NE
+Texas,225,29472300,7.63428711,TX
+Wisconsin,43,5851750,7.348229162,WI
+Utah,23,3282120,7.007665777,UT
+Florida,154,21993000,7.002227982,FL
+Ohio,79,11747700,6.724720584,OH
+Georgia,70,10736100,6.520058494,GA
+North Carolina,69,10611900,6.502134396,NC
+Indiana,43,6745350,6.374761873,IN
+Maryland,38,6083120,6.246794408,MD
+Minnesota,32,5700670,5.61337527,MN
+Virginia,47,8626210,5.448510992,VA
+North Dakota,4,761723,5.251252752,ND
+New Hampshire,7,1371250,5.104831358,NH
+Illinois,62,12659700,4.897430429,IL
+Vermont,3,628061,4.776606094,VT
+Pennsylvania,51,12820900,3.977879868,PA
+New Jersey,35,8936570,3.91649145,NJ
+Iowa,12,3179850,3.773762913,IA
+Michigan,37,10045000,3.683424589,MI
+Massachusetts,22,6976600,3.153398504,MA
+Connecticut,9,3563080,2.525904554,CT
+New York,45,19440500,2.314755279,NY
+Rhode Island,2,1056160,1.893652477,RI
