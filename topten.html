@@ -140,7 +140,7 @@
                 .attr("height", function(d) { return height - y(d.value); })
                 .append("title")
                       .text(function(d) {
-                          return d.state + "\nState Rank: " + d.rank;
+                          return d.state + "\nState Rank: " + d.rank + "\n# of Shootings: " + Math.round(d.value);
                         });    
 
               }else{
@@ -192,7 +192,7 @@
                 .attr("height", function(d) { return height - y(d.value); })                
                 .append("title")
                       .text(function(d) {
-                          return d.state + "\nState Rank: ";
+                          return d.state + "\nState Rank: " + d.rank + "\n# of Shootings: " + Math.round(d.value);
                         });  
 
               }

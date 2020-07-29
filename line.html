@@ -201,7 +201,11 @@
                       .attr("y2", y(avgcount))
                       .attr("stroke", "grey")
                       .attr("stroke-dasharray", "4")
-
+                  svg.append("text")
+                      .attr("x", 600)
+                      .attr("y", y(avgcount)+12)
+                    .style("font-size", "12px")
+                    .text("Monthly Average")
      
                 //add annotation box
                 svg.append("rect")
