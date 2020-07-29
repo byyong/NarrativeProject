@@ -9,9 +9,6 @@
 <!-- Load d3 -->
 <script src="https://d3js.org/d3.v4.js"></script>
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.js"></script>
-
 <!-- set title -->
 <title>CS498 Data Visualization Narrative Project</title>
   
@@ -30,7 +27,7 @@
 
   <!-- set title -->
   <div id="header">
-      <h4>Fatal Police Shootings in United States Since 2015</h4>
+      <h4>Fatal Police Shootings in United States From 2015 - 2017</h4>
   </div>
 
   <!-- set menu -->
@@ -38,7 +35,7 @@
       <ul>
           <li class="current_page_item"><a href="index.html">1</a></li>
           <li><a href="topten.html">2</a></li>
-          <li><a href="index.html">3</a></li>         
+          <li><a href="line.html">3</a></li>         
           <li><a href="scatter.html">4</a></li>
     </ul>
   </div>
@@ -56,13 +53,12 @@
         <!-- create buttons to filter map by race -->
         <div id = "buttonrow2">
         <div>
-            <button class="button active" onclick="filterSelection('All')">All Races</button>
+            <button class="button" onclick="filterSelection('All')">All Races</button>
             <button class="button" onclick="filterSelection('Asian')">Asian</button>
             <button class="button" onclick="filterSelection('Black')">Black</button>
             <button class="button" onclick="filterSelection('Hispanic')">Hispanic</button>
             <button class="button" onclick="filterSelection('Native American')">Native American</button>
             <button class="button" onclick="filterSelection('White')">White</button>
-            <button class="button" onclick="filterSelection('Other/Unknown')">Other/Unknown</button>
         
         </div>
 
@@ -76,17 +72,23 @@
 
             d3.selectAll("svg > *").remove();
 
-            //width and height
-            var w = 780; 
-            var h = 660; 
+            // set the dimensions and margins of the graph
+            var margin = {top: 20, right: 0, bottom: 0, left: 0},
+                width = 780 - margin.left - margin.right,
+                height = 660 - margin.top - margin.bottom;
 
             //create SVG element
             var svg = d3.select("svg")
-                  .attr("width", w)
-                  .attr("height", h);
+              .attr("width", width + margin.left + margin.right)
+              .attr("height", height + margin.top + margin.bottom)
+              .append("g")
+              .attr("transform",
+                    "translate(" + margin.left + "," + margin.top + ")");
+
+
             
             var projection = d3.geoAlbersUsa()
-                  .translate([w/2, h/2]);
+                  .translate([width/2, height/2]);
 
             //create path
             var path = d3.geoPath(projection);
@@ -94,7 +96,7 @@
             //set the color scale for the choropleth map
             var color =  d3.scaleLinear()
               .domain([0, 10, 25, 50, 100, 400])
-              .range(["#ffffff", "#e6eeff", "#b3ccff", "#4d88ff", "#0055ff", "#003cb3", "#001a4d"]);
+              .range(["#e6eeff", "#b3ccff", "#4d88ff", "#0055ff", "#003cb3", "#001a4d"]);
    
             // Add a scale for bubble size
             var size = d3.scaleLinear()
@@ -117,8 +119,11 @@
                   //get state name
                   var mystate = data[i].state;
                   
-                  //get count. convertto float
+                  //get count. convert to float
                   var statevalue = parseFloat(data[i].value);
+
+                  //get state abbrev
+                  var stateabbrev = data[i].Abbrev;
               
                   //get the corresponding state inside the GeoJSON
                   for (var j = 0; j < json.features.length; j++) 
@@ -130,33 +135,69 @@
                     if (mystate == jsonState) 
                     {
                       json.features[j].properties.value = statevalue;
+                      json.features[j].properties.abbrev = stateabbrev;
                       
                       break;
                         
                     }
                   }		
-
-
                 }        
 
 
-                //add a legend        
-                svg.append("g")
-                .attr("class", "legend")
-                .attr("transform", "translate(20,40)");
+                //define a linear gradient legend
+                var linearGradient = svg.append('linearGradient')
+                    .attr('id', 'linear-gradient')
+                      .attr("x1", "0%")
+                      .attr("y1", "0%")
+                      .attr("x2", "100%")
+                      .attr("y2", "0%");
 
-                var legend = d3.legendColor()
-                  .shapeHeight(10)
-                  .shapeWidth(100)
-                  .labelFormat(d3.format(".0f"))
-                  .cells([0, 10, 25, 50, 100, 400])
-                  .orient("horizontal")
-                  .labelAlign("start")
-                  .scale(color)
-                  .title("Number of Fatal Police Shootings by State:");
+                //add the color definitions corresponding to the data points in percentage format
+                linearGradient.selectAll("stop")
+                  .data([
+                    {offset: "0%", color: "#e6eeff"},
+                    {offset: "2.5%", color: "#b3ccff"},
+                    {offset: "6.25%", color: "#4d88ff"},
+                    {offset: "12.5%", color: "#0055ff"},
+                    {offset: "25%", color: "#003cb3"},
+                    {offset: "100%", color: "#001a4d"}
+                  ])
+                  .enter().append("stop")
+                  .attr("offset", function(d) { 
+                    return d.offset; 
+                  })
+                  .attr("stop-color", function(d) { 
+                    return d.color; 
+                  });
 
-                svg.select(".legend")
-                  .call(legend);
+                //add a title to the legend
+                svg.append("text")
+                  .attr("class", "legendTitle")
+                  .attr("x", 0)
+                  .attr("y", 20)
+                  .style("text-anchor", "left")
+                  .style("font-size", "12px")
+                  .text("# of Fatal Police Shootings");
+
+                //fill in a rectangle with the gradient
+                svg.append("rect")
+                  .attr("x", 0)
+                  .attr("y", 30)
+                  .attr("width", 500)
+                  .attr("height", 15)
+                  .style("fill", "url(#linear-gradient)");
+
+                //create an axis for the legend and apply
+                var legendaxis = d3.scaleLinear()
+                  .domain([0, 400])
+                  .range([0, 500]);
+
+                svg
+                  .attr("class", "axis")
+                  .append("g")
+                  .attr("transform", "translate(0, 40)")
+                  .call(d3.axisBottom(legendaxis));
+
 
 
                 //create one path per GeoJSON feature
@@ -173,6 +214,15 @@
                         //get the corresponding color
                         return color(value);
                     })
+
+                //add state label
+                svg.append("g").selectAll("statelabel")
+                    .data(json.features)
+                    .enter()
+                    .append("text")
+                    .attr("transform", function(d) {return "translate(" + path.centroid(d) + ")";})
+                    .text(function(d) {return d.properties.abbrev})
+                    .style("font-size", "12px")
 
                 d3.csv("https://raw.githubusercontent.com/byyong/NarrativeProject/master/CountbyRace.csv", function(d2) {
 
@@ -196,7 +246,6 @@
                           return d.City + "\nRace: " + d.Race + "\n" + parseInt(d.Count) + " fatal shootings";
                         });
 
-
                 });
 
               });
@@ -205,12 +254,14 @@
 
           // Add active class to the current button
           var header = document.getElementById("buttonrow2");
-          var btns = header.getElementsByClassName("button");
-          for (var i = 0; i < btns.length; i++) {
-            btns[i].addEventListener("click", function() {
-            var current = document.getElementsByClassName("active");
-            current[0].className = current[0].className.replace(" active", "");
-            this.className += " active";
+          var buttons = header.getElementsByClassName("button");
+          for (var i = 0; i < buttons.length; i++) 
+          {
+            buttons[i].addEventListener("click", function() 
+            {
+              var current = document.getElementsByClassName("active");
+              current[0].className = current[0].className.replace(" active", "");
+              this.className += " active";
             });
           }
 

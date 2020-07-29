@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<!-- set head -->
+<head>
+
+<meta charset="utf-8">
+
+<!-- Load d3 -->
+<script src="https://d3js.org/d3.v4.js"></script>
+
+<!-- set title -->
+<title>CS498 Data Visualization Narrative Project</title>
+  
+<!-- set style -->
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<style type="text/css">
+  body,td,th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+  }
+</style>
+</head>
+
+<!-- set body -->
+<body>
+
+  <!-- set title -->
+  <div id="header">
+      <h4>Fatal Police Shootings in United States From 2015 - 2017</h4>
+  </div>
+
+  <!-- set menu -->
+  <div id="menu">
+      <ul>
+          <li><a href="index.html">1</a></li>
+          <li ><a href="topten.html">2</a></li>
+          <li class="current_page_item"><a href="line.html">3</a></li>
+          <li><a href="scatter.html">4</a></li>
+    </ul>
+  </div>
+
+  <!-- set page / main content -->
+  <div id="page">       
+    <div id ="content">
+      <div class="post">
+
+        <!-- set title of visualization -->
+        <div id = "centertitle">
+            <a>Number of Police Shootings By Month</a>  
+        </div>
+        <div>
+            <button class="button" onclick="filterSelection('All Races')">All Races</button>
+            <button class="button" onclick="filterSelection('Asian')">Asian</button>
+            <button class="button" onclick="filterSelection('Black')">Black</button>
+            <button class="button" onclick="filterSelection('Hispanic')">Hispanic</button>
+            <button class="button" onclick="filterSelection('Native American')">Native American</button>
+            <button class="button" onclick="filterSelection('White')">White</button>
+          
+        </div>
+
+        <div id="myvisualization"></div>
+
+
+        <script>
+
+          filterSelection("All Races");
+
+          function filterSelection (category){
+
+            d3.selectAll("#myvisualization > *").remove();
+
+            // set the dimensions and margins of the graph
+            var margin = {top: 10, right: 30, bottom: 50, left: 50},
+                width = 780 - margin.left - margin.right,
+                height = 660 - margin.top - margin.bottom;
+
+            //create SVG element
+            var svg = d3.select("#myvisualization").append("svg")
+              .attr("width", width + margin.left + margin.right)
+              .attr("height", height + margin.top + margin.bottom)
+              .append("g")
+              .attr("transform",
+                    "translate(" + margin.left + "," + margin.top + ")");
+
+              
+            //load in csv
+            d3.csv("https://raw.githubusercontent.com/byyong/NarrativeProject/master/timeseries.csv", function(data) {
+              
+                //change value to number format
+                data.forEach(function(d) {
+                    d.value = +d.value;
+                });
+
+                
+                // sort data by date ascending
+                data.sort(function(a, b) {
+                    return a.date - b.date;
+                });
+
+                //get subset of data for top10
+                var subsetdata = data.filter(function (d){
+                    return d.race == category;
+                });
+
+                //get average, max, and min monthly shooting
+                var avgcount = d3.mean(subsetdata, function(d) { return +d.value;} );
+                var max = d3.max(subsetdata, function(d) { return +d.value;} );
+                var min = d3.min(subsetdata, function(d) { return +d.value;} );
+
+                //set axis
+                var x = d3.scaleBand()
+                    .domain(subsetdata.map(function(d) {return d.date; }))
+                    .range([0, width ])
+                    .padding(0.2);
+
+                svg.append("g")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(d3.axisBottom(x))
+                    .selectAll("text")
+                    .style("text-anchor", "end")
+                    .attr("y", 0)
+                    .attr("x", -10)
+                    .attr("transform", "rotate(-60)");
+
+                var y = d3.scaleLinear()
+                    .domain([0, d3.max(subsetdata, function(d) {return d.value; })])
+                    .range([height, 0]);
+
+                svg.append("g")
+                    .call(d3.axisLeft(y)
+                    .tickFormat(function(d){
+                          if ( d % 1 === 0 ) {
+                            return d3.format('.0f')(d);
+                          }else {return '';}
+                      }));
+
+
+                svg.append("text")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", 0 - margin.left)
+                    .attr("x", 0 - (height / 2))
+                    .attr("dy", "0.75em")
+                    .attr("font-size", "12px")
+                    .style("text-anchor", "middle")
+                    .text("# of Fatal Police Shootings");     
+
+                //add the line
+                svg.append("path")
+                .datum(subsetdata)
+                .attr("fill", "none")
+                .attr("stroke", "#002b80")
+                .attr("stroke-width", 1.5)
+                .attr("d", d3.line()
+                    .x(function(d) { return x(d.date) })
+                    .y(function(d) { return y(d.value) })
+                    )
+
+                //add the points
+                svg
+                .append("g")
+                .selectAll("circle")
+                .data(subsetdata)
+                .enter()
+                .append("circle")
+                    .attr("cx", function(d) { return x(d.date) } )
+                    .attr("cy", function(d) { return y(d.value) } )
+                    .attr("r", 5)
+                    .attr("fill", "#002b80")
+                .append("title")
+                .text(function(d) {
+                    return d.date + ": " + d.value + " Police Shootings";
+                    });   
+
+                  //highlight max and min
+                  svg
+                .append("g")
+                .selectAll("circle")
+                .data(subsetdata)
+                .enter()
+                .filter(function(d) { return (d.value == max || d.value == min); })
+                .append("circle")
+                    .attr("cx", function(d) { return x(d.date) } )
+                    .attr("cy", function(d) { return y(d.value) } )
+                    .attr("r", 5)
+                    .attr("fill", "#c46608")
+                .append("title")
+                .text(function(d) {
+                    return d.date + ": " + d.value + " Police Shootings";
+                    });   
+
+
+
+                  //add a horizontal line to represent the avg monthly count
+                  svg
+                    .append("line")
+                      .data(subsetdata)
+                      .attr("x1", 0)
+                      .attr("x2", 780 - margin.left - margin.right)
+                      .attr("y1", y(avgcount))
+                      .attr("y2", y(avgcount))
+                      .attr("stroke", "grey")
+                      .attr("stroke-dasharray", "4")
+
+     
+                //add annotation box
+                svg.append("rect")
+                    .attr("x", 10).attr("y", 500)
+                    .attr("width", 500)
+                    .attr("height", 90)
+                    .attr("stroke", "#c46608")
+                    .style("fill", "#ffffff")
+                 svg.append("text")
+                    .attr("x", 25).attr("y", 530)
+                    .style("font-size", "12px")
+                    .text(
+                      "Average # of fatal police shootings per month: " + Math.round(avgcount) + " (dash line)" )
+                  svg.append("text")
+                    .attr("x", 25).attr("y", 550)
+                    .style("font-size", "12px")
+                    .text("Maximum # of fatal police shootings per month: " + max  + " (highlighted in orange)" ) 
+                  svg.append("text")
+                    .attr("x", 25).attr("y", 570)
+                    .style("font-size", "12px")
+                    .text("Minimum # of fatal police shootings per month: " + min  + " (highlighted in orange)" ) 
+
+            });
+
+
+          };
+
+          // Add active class to the current button
+          var header = document.getElementById("buttonrow2");
+          var buttons = header.getElementsByClassName("button");
+          for (var i = 0; i < buttons.length; i++) 
+          {
+            buttons[i].addEventListener("click", function() 
+            {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+            });
+          }
+
+        </script>
+
+    </div>
+  </div>
+
+     <!-- set text box for additional details -->
+      <div id = "centertext">
+        <a>Note: </a>
+        <p>okalahoma, colorada are in top 10 for shooting but is over 20 in ranking for population</p>
+        <p>connectivut is in the 20s in ranking for population byt among the loest state for fatal police shootings</p>
+        <a>Note: </a>
+        <p>lalalal</p>
+    
+      </div>
+  
+      <!-- set forward and backward buttons -->
+      <div id ="buttonrow"> 
+  
+        <div class="columnleft ">
+            <p><a href="topten.html"><img src="left.png" alt="" width="100" height="70" /></a></p>
+        </div>
+        <div class="columnright">
+            <p><a href="scatter.html"><img src="right.png" alt="" width="100" height="70" /></a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end main page -->
+
+  <!-- clear style -->
+  <div style="clear: both;"></div>
+
+  <!-- set footer -->
+  <div id="footer">
+    <p>CS498 Data Visualization Narrative Project</p>
+    <p>Website Creator: Bingying Yong</p>
+    <p><a href="https://www.kaggle.com/kwullum/fatal-police-shootings-in-the-us">Data Source</a></p>
+  </div>
+</body>
+</html>

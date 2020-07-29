@@ -27,7 +27,7 @@
 
   <!-- set title -->
   <div id="header">
-      <h4>Fatal Police Shootings in United States Since 2015</h4>
+      <h4>Fatal Police Shootings in United States From 2015 - 2017</h4>
   </div>
 
   <!-- set menu -->
@@ -35,7 +35,7 @@
       <ul>
           <li><a href="index.html">1</a></li>
           <li><a href="topten.html">2</a></li>
-          <li><a href="rankdiff.html">3</a></li>
+          <li><a href="line.html">3</a></li>
           <li class="current_page_item"><a href="scatter.html">4</a></li>
     </ul>
   </div>
@@ -91,10 +91,26 @@
                     .range([ "#80aaff", "#c46608"])
 
                 //create color legends
-                svg.append("circle").attr("cx",10).attr("cy",530).attr("r", 6).style("fill", "#80aaff")
-                svg.append("circle").attr("cx",10).attr("cy",560).attr("r", 6).style("fill", "#c46608")
-                svg.append("text").attr("x", 20).attr("y", 530).text("Less than 10 fatal police shootings").style("font-size", "12px").attr("alignment-baseline","middle")
-                svg.append("text").attr("x", 20).attr("y", 560).text("10 or more fatal police shootings").style("font-size", "12px").attr("alignment-baseline","middle")
+                svg.append("rect")
+                    .attr("x", 10).attr("y", 523)
+                    .attr("width", 10)
+                    .attr("height", 10)
+                    .style("fill", "#80aaff")
+                svg.append("rect")
+                .attr("x", 10).attr("y", 553)
+                    .attr("width", 10)
+                    .attr("height", 10)
+                    .style("fill", "#c46608")
+                svg.append("text")
+                    .attr("x", 25).attr("y", 530)
+                    .text("Less than 10 fatal police shootings")
+                    .style("font-size", "12px")
+                    .attr("alignment-baseline","middle")
+                svg.append("text")
+                    .attr("x", 25).attr("y", 560)
+                    .text("10 or more fatal police shootings")
+                    .style("font-size", "12px")
+                    .attr("alignment-baseline","middle")
                     
                 // add the options to the button
                 d3.select("#selectButton")
@@ -104,7 +120,6 @@
                 .append('option')
                 .text(function (d) { return d; })
                 .attr("value", function (d) { return d; }) 
-
 
                 //add X axis
                 var x = d3.scaleLinear()
@@ -210,7 +225,7 @@
       <div id ="buttonrow"> 
   
         <div class="columnleft ">
-            <p><a href="rankdiff.html"><img src="left.png" alt="" width="100" height="70" /></a></p>
+            <p><a href="line.html"><img src="left.png" alt="" width="100" height="70" /></a></p>
         </div>
         <div class="columnright">
             <p><a href="index.html"><img src="restart.png" alt="" width="100" height="70" /></a></p>
