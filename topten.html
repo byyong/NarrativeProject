@@ -47,13 +47,13 @@
 
         <!-- set title of visualization -->
         <div id = "centertitle">
-            <a>Top and Bottom 10 States by # of Police Shootings (Raw Count & Per Million)</a>  
+            <a>Top and Bottom 10 States by Raw Shootings Count & Per Million People</a>  
         </div>
         <div>
-            <button class="button" onclick="filterSelection('Top 10')">Top 10 Raw Count</button>
-            <button class="button" onclick="filterSelection('Bottom 10')">Bottom 10 Raw Count</button>
-            <button class="button" onclick="filterSelection('Top 10 Per Mil')">Top 10 Count Per Mil People</button>
-            <button class="button" onclick="filterSelection('Bottom 10 Per Mil')">Bottom 10 Count Per Mil People</button>
+            <button class="button" onclick="filterSelection('Top 10')">Top 10: Raw Count</button>
+            <button class="button" onclick="filterSelection('Bottom 10')">Bottom 10: Raw Count</button>
+            <button class="button" onclick="filterSelection('Top 10 Per Mil')">Top 10: Count Per Million</button>
+            <button class="button" onclick="filterSelection('Bottom 10 Per Mil')">Bottom 10: Count Per Million</button>
           
         </div>
 
@@ -141,7 +141,30 @@
                 .append("title")
                       .text(function(d) {
                           return d.state + "\nState Rank: " + d.rank + "\n# of Shootings: " + Math.round(d.value);
-                        });    
+                        });   
+
+
+                //append annotation on max bar
+                var max = d3.max(subsetdata, function(d) { return +d.value;} );
+                svg
+                    .append("line")
+                      .attr("x1", 40)
+                      .attr("x2", 100)
+                      .attr("y1", y(max)+20)
+                      .attr("y2", y(max)+20)
+                      .attr("stroke", "grey")
+                      .attr("stroke-dasharray", "4")
+                  svg.append("text")
+                      .attr("x", 108)
+                      .attr("y", y(max)+23)
+                    .style("font-size", "12px")
+                    .text("Max State: " + Math.round(max) + " Shootings") 
+                  svg.append("rect")
+                    .attr("x", 100).attr("y", y(max)-5)
+                    .attr("width", 180)
+                    .attr("height", 40)
+                    .attr("stroke", "#c46608")
+                  	.attr("fill-opacity","0")
 
               }else{
 
@@ -195,6 +218,28 @@
                           return d.state + "\nState Rank: " + d.rank + "\n# of Shootings: " + Math.round(d.value);
                         });  
 
+
+               //append annotation on max bar
+               var min = d3.min(subsetdata, function(d) { return +d.value;} );
+                svg.append("line")
+                      .attr("x1", 40)
+                      .attr("x2", 40)
+                      .attr("y1", y(min)+10)
+                      .attr("y2", y(min)-60)
+                      .attr("stroke", "grey")
+                      .attr("stroke-dasharray", "4")
+                  svg.append("text")
+                      .attr("x", 4)
+                      .attr("y", y(min)-70)
+                    .style("font-size", "12px")
+                    .text("Min State: " + Math.round(min) + " Shootings") 
+                  svg.append("rect")
+                    .attr("x", 2).attr("y", y(min)-98)
+                    .attr("width", 145)
+                    .attr("height", 40)
+                    .attr("stroke", "#002b80")
+                  	.attr("fill-opacity","0")
+
               }
 
 
@@ -228,11 +273,11 @@
 
      <!-- set text box for additional details -->
       <div id = "centertext">
-        <a>Note: </a>
-        <p>okalahoma, colorada are in top 10 for shooting but is over 20 in ranking for population</p>
-        <p>connectivut is in the 20s in ranking for population byt among the loest state for fatal police shootings</p>
-        <a>Note: </a>
-        <p>lalalal</p>
+        <a>Scene Description: </a>
+        <p>In this scene, we are looking to explore the top 10 and bottom 10 states in terms of total fatal police shootings. The state rankings are determined using both raw counts and counts per million people. Mousing-over the bars in the graphs provide further details in a tooltip popup. </p>
+        <a>Observations: </a>
+        <p>The state with the highest number of fatal police shootings is California. Texas and Florida also make up the top three states. However, when we look at the counts against the actual population in a given state, the highest ranked state based on the normalized data is actually New Mexico, with Alaska and Oklahoma not far behind. </p>
+        <p>The state with the lowest number of fatal police shootings is Rhode Island. Vermont and North Dakota also had fairly low numbers. Yet, when we look at the counts against the actual state population, the lowest ranked states are all concentrated on the east coast (Rhode Island, New York, Connecticut, Massachusetts). </p>
     
       </div>
   

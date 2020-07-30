@@ -203,7 +203,7 @@
                       .attr("stroke-dasharray", "4")
                   svg.append("text")
                       .attr("x", 600)
-                      .attr("y", y(avgcount)+12)
+                      .attr("y", y(avgcount)-2)
                     .style("font-size", "12px")
                     .text("Monthly Average")
      
@@ -253,11 +253,11 @@
 
      <!-- set text box for additional details -->
       <div id = "centertext">
-        <a>Note: </a>
-        <p>okalahoma, colorada are in top 10 for shooting but is over 20 in ranking for population</p>
-        <p>connectivut is in the 20s in ranking for population byt among the loest state for fatal police shootings</p>
-        <a>Note: </a>
-        <p>lalalal</p>
+        <a>Scene Description: </a>
+        <p>In this scene, we explore the number of shootings over time, aggregated on a monthly basis. We can further explore the time series by filtering the victims on their race. The monthly average is plotted using a dash line. The highest and lowest months are highlighted in orange. Mousing-over the data points provides the detailed counts in a tooltip popup. </p>
+        <a>Observation: </a>
+        <p>Overall, we can see that despite some fluctuations, the fatal police shooting numbers appear fairly consistent over time. There does not appear to be an obvious downwards or upwards trend. This is also the case when looking at race specific data.</p>
+        <p>According to the 2016 census, three largest racial groups in United States have the following population breakdown: White – 61%, Hispanic – 18%, and Black – 13.4%. Looking at our fatal police shooting data, we can observe a monthly average count of 82, with the following racial breakdown: White – 48.8% (40), Hispanic – 17% (14), and Black – 13.4% (20). It appears that the proportion of Hispanic victims is relatively on par with the general population. However, there is a disproportionately lower number of white victims and a disproportionately higher number of black victims.</p>
     
       </div>
   

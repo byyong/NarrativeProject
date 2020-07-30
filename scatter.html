@@ -103,12 +103,12 @@
                     .style("fill", "#c46608")
                 svg.append("text")
                     .attr("x", 25).attr("y", 530)
-                    .text("Less than 10 fatal police shootings")
+                    .text("Cities With Less than 10 fatal police shootings")
                     .style("font-size", "12px")
                     .attr("alignment-baseline","middle")
                 svg.append("text")
                     .attr("x", 25).attr("y", 560)
-                    .text("10 or more fatal police shootings")
+                    .text("Cities With 10 or more fatal police shootings")
                     .style("font-size", "12px")
                     .attr("alignment-baseline","middle")
                     
@@ -171,6 +171,36 @@
                     return d.City + ", " + d.Abbrev + "\nPoverty Rate: " + d.poverty_rate + "%\nPerc Completed HS: " + d.percent_completed_hs+ "%\n# of Police Shootings: " + d.Count;
                     });   
 
+                //add annotation line at 90% for hs completion
+                svg
+                    .append("line")
+                      .attr("x1", 0)
+                      .attr("x2", 780 - margin.left - margin.right)
+                      .attr("y1", y(90))
+                      .attr("y2", y(90))
+                      .attr("stroke", "grey")
+                      .attr("stroke-dasharray", "4")
+                  svg.append("text")
+                      .attr("x", 550)
+                      .attr("y", y(90)+12)
+                    .style("font-size", "12px")
+                    .text("2017 National Average")
+
+                //add annotation line at 12.3% for overty
+                svg
+                    .append("line")
+                      .attr("x1", x(12.3))
+                      .attr("x2", x(12.3))
+                      .attr("y1", 0)
+                      .attr("y2", 570)
+                      .attr("stroke", "grey")
+                      .attr("stroke-dasharray", "4")
+                  svg.append("text")
+                      .attr("x", x(12.3))
+                      .attr("y", 450)
+                    .style("font-size", "12px")
+                    .text("2017 National Average")
+                
 
                 //function that update the chart
                 function update(filterselection) {
@@ -213,11 +243,10 @@
 
      <!-- set text box for additional details -->
       <div id = "centertext">
-        <a>Note: </a>
-        <p>okalahoma, colorada are in top 10 for shooting but is over 20 in ranking for population</p>
-        <p>connectivut is in the 20s in ranking for population byt among the loest state for fatal police shootings</p>
-        <a>Note: </a>
-        <p>lalaalal i am a place holder</p>
+        <a>Scene Description: </a>
+        <p>Some studies have argued that in the United States, areas of poverty and lower education rate have been positively correlated with police violence. In this scene, we graph all cities with fatal police shootings on a scatterplot, with poverty rate on the x axis and high school completion rate for people over 25 on the y axis. The 2017 national averages for these two measures are also graphed with dashed lines. Additional city level information can be displayed by mousing-over the data points. Cities with 10 or more fatal police shootings are highlighted in orange. And we can filter the data to only view cities within a certain state.</p>
+        <a>Observations: </a>
+        <p>We can observe that when poverty rate increases in a city, the high school completion rate of its population tends to decrease. In general, the cities with fatal police shootings are pretty widely dispersed through the ranges. However, it appears that the cities with the highest number of shootings (in orange) are more concentrated. They are all cities with a poverty rate greater than 15% and high school completion rate lower than 90%. Both numbers are at or below the national average according to the US census. </p>
     
       </div>
   

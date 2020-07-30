@@ -47,7 +47,7 @@
 
         <!-- set title of visualization -->
         <div id = "centertitle">
-            <a>Count of Police Shootings Mapped by State, Top 50 Cities</a>  
+            <a>Counts of Fatal Police Shootings Mapped by State With Top 50 Cities</a>  
         </div>
       
         <!-- create buttons to filter map by race -->
@@ -95,7 +95,7 @@
             
             //set the color scale for the choropleth map
             var color =  d3.scaleLinear()
-              .domain([0, 10, 25, 50, 100, 400])
+              .domain([0, 10, 25, 50, 100, 450])
               .range(["#e6eeff", "#b3ccff", "#4d88ff", "#0055ff", "#003cb3", "#001a4d"]);
    
             // Add a scale for bubble size
@@ -111,7 +111,10 @@
               //load in csv data for # of shootings per state
               d3.csv("https://raw.githubusercontent.com/byyong/NarrativeProject/master/CountbyState.csv", function(data) 
               {
-                                      
+
+                var max = d3.max(data, function(d) { return +d.value;} );
+                var min = d3.min(data, function(d) { return +d.value;} );
+
                 //merge the csv data and GeoJSON
                 for (var i = 0; i < data.length; i++) 
                 {
@@ -189,7 +192,7 @@
 
                 //create an axis for the legend and apply
                 var legendaxis = d3.scaleLinear()
-                  .domain([0, 400])
+                  .domain([0, 450])
                   .range([0, 500]);
 
                 svg
@@ -223,6 +226,57 @@
                     .attr("transform", function(d) {return "translate(" + path.centroid(d) + ")";})
                     .text(function(d) {return d.properties.abbrev})
                     .style("font-size", "12px")
+
+                  //add annotations for max and min states 
+                                  //add annotation box
+                svg.append("rect")
+                    .attr("x", 0).attr("y", 400)
+                    .attr("width", 140)
+                    .attr("height", 50)
+                    .attr("stroke", "#c46608")
+                  	.attr("fill-opacity","0")
+                  svg.append("line")
+                      .attr("x1", 40)
+                      .attr("x2", 40)
+                      .attr("y1", 350)
+                      .attr("y2", 400)
+                      .attr("stroke", "grey")
+                      .attr("stroke-dasharray", "4")
+                  svg.append("text")
+                      .attr("x", 1)
+                      .attr("y", 420)
+                      .style("font-size", "12px")
+                      .text("Max State: California")
+                    svg.append("text")
+                      .attr("x", 1)
+                      .attr("y", 440)
+                      .style("font-size", "12px")
+                      .text(max + " Shootings")
+
+                  svg.append("rect")
+                    .attr("x", 598).attr("y", 90)
+                    .attr("width", 155)
+                    .attr("height", 50)
+                    .attr("stroke", "#c46608")
+                  	.attr("fill-opacity","0")
+                  svg.append("line")
+                      .attr("x1", 680)
+                      .attr("x2", 740)
+                      .attr("y1", 140)
+                      .attr("y2", 210)
+                      .attr("stroke", "grey")
+                      .attr("stroke-dasharray", "4")
+                  svg.append("text")
+                      .attr("x", 600)
+                      .attr("y", 110)
+                      .style("font-size", "12px")
+                      .text("Min State: Rhode Island")
+                    svg.append("text")
+                      .attr("x", 620)
+                      .attr("y", 130)
+                      .style("font-size", "12px")
+                      .text(min + " Shootings")
+
 
                 d3.csv("https://raw.githubusercontent.com/byyong/NarrativeProject/master/CountbyRace.csv", function(d2) {
 
@@ -272,10 +326,10 @@
 
      <!-- set text box for additional details -->
       <div id = "centertext">
-        <a>Note: </a>
-        <p>helooooooooooooooooooooooooooooooooooooooooooooooooooooooooo</p>
-        <a>Note: </a>
-        <p>lalaalal i am a place holder.</p>
+        <a>Scene Description: </a>
+        <p>In this project, we are looking to explore data on fatal shootings in the United States by a police officer in the line of duty, between January 2015 and June 2017. In this scene, the number of shootings by state over this time period is mapped on a choropleth map. The top 50 cities with the highest number of shootings are also mapped using bubbles. The sizes of the bubbles correspond to the shootings count in the city. We can further explore these 50 cities by filtering the victims on their race. Mousing-over these city bubbles provides further details in a tooltip popup. </p>
+        <a>Observations: </a>
+        <p>The state with the highest number of fatal police shootings is California. And the state with the lowest number of fatal police shootings is Rhode Island. Very few shooting victims are of Asian or Native American decent. For black and Hispanic victims, the shootings appear more heavily concentrated in certain states and regions. However, for white victims, the shootings seem more eventually distributed throughout the states.  </p>
     
       </div>
   
@@ -303,7 +357,7 @@
   <div id="footer">
     <p>CS498 Data Visualization Narrative Project</p>
     <p>Website Creator: Bingying Yong</p>
-    <p><a href="https://www.kaggle.com/kwullum/fatal-police-shootings-in-the-us">Data Source</a></p>
+    <p><a href="https://www.kaggle.com/kwullum/fatal-police-shootings-in-the-us">Data Source: Kaggle</a></p>
   </div>
 </body>
 </html>
