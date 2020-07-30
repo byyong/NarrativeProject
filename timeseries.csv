@@ -1,19 +1,25 @@
 race,date,value
 Asian,2015-01,2
+Asian,2015-02,0
 Asian,2015-03,2
 Asian,2015-04,2
 Asian,2015-05,1
+Asian,2015-06,1
 Asian,2015-07,1
+Asian,2015-08,1
 Asian,2015-09,2
 Asian,2015-10,1
 Asian,2015-11,1
 Asian,2015-12,2
 Asian,2016-01,1
+Asian,2016-02,0
 Asian,2016-03,2
 Asian,2016-04,3
 Asian,2016-05,1
 Asian,2016-06,2
 Asian,2016-07,1
+Asian,2016-08,0
+Asian,2016-09,0
 Asian,2016-10,2
 Asian,2016-11,1
 Asian,2016-12,2
@@ -21,6 +27,7 @@ Asian,2017-01,2
 Asian,2017-02,2
 Asian,2017-03,1
 Asian,2017-04,3
+Asian,2017-05,0
 Asian,2017-06,2
 Black,2015-01,17
 Black,2015-02,20
@@ -83,24 +90,34 @@ Hispanic,2017-04,12
 Hispanic,2017-05,12
 Hispanic,2017-06,11
 Native American,2015-01,1
+Native American,2015-02,0
 Native American,2015-03,1
 Native American,2015-04,1
+Native American,2015-05,0
 Native American,2015-06,1
 Native American,2015-07,2
+Native American,2015-08,0
 Native American,2015-09,3
+Native American,2015-10,0
+Native American,2015-11,0
+Native American,2015-12,0
 Native American,2016-01,2
 Native American,2016-02,4
 Native American,2016-03,1
+Native American,2016-04,0
 Native American,2016-05,3
 Native American,2016-06,1
 Native American,2016-07,1
+Native American,2016-08,0
 Native American,2016-09,1
 Native American,2016-10,2
+Native American,2016-11,0
 Native American,2016-12,1
 Native American,2017-01,2
 Native American,2017-02,1
 Native American,2017-03,1
 Native American,2017-04,1
+Native American,2017-05,0
 Native American,2017-06,1
 Other,2015-01,2
 Other,2015-03,1
